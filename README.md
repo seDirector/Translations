@@ -34,8 +34,8 @@ If you can read & write in any of these languages, we'd love your help translati
  5. Come back to this repo and make a new pull request
  6. One of us will check out the translation and approve it once we confirm the translation with another party
  7. If approved, your username will be mentioned in seDirector as a contributor!
-
-## Language Not Listed?
+ 
+ ## Language Not Listed?
 If you would like to help translate seDirector but do not see your language above, please:
 
  1. Sign into GitHub if you aren't already signed in
@@ -43,7 +43,7 @@ If you would like to help translate seDirector but do not see your language abov
  3. Create a copy of **TEMPLATE.lng** and name it **LanguageName.lng** (i.e. **Klingon.lng**)
  4. See steps 3-7 above
 
-## Have A Question or Concern?
+## Have A Question, Concern, or Need More Info About the Context of a Phrase?
 
 Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
 
