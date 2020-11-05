@@ -1,9 +1,9 @@
-# NOTE: We aren't quite ready just yet! Check back in a few days
-# NOTE: We aren't quite ready just yet! Check back in a few days
-# NOTE: We aren't quite ready just yet! Check back in a few days
-# NOTE: We aren't quite ready just yet! Check back in a few days
-# NOTE: We aren't quite ready just yet! Check back in a few days
-# NOTE: We aren't quite ready just yet! Check back in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
+# NOTE: We aren't quite ready just yet! Check in a few days
 
 ![seDirector logo](https://github.com/seDirector/Translations/blob/main/seDirector.png?raw=true)
 
@@ -26,7 +26,6 @@ If you can read & write in any of these languages, we'd love your help translati
  - Tagalog
 
 ## Get Started Translating
-
  1. Sign into GitHub if you aren't already signed in
  2. Fork this repo
  3. Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
@@ -44,7 +43,6 @@ If you would like to help translate seDirector but do not see your language abov
  4. See steps 3-7 above
 
 ## Have A Question, Concern, or Need More Info About the Context of a Phrase?
-
 Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
 
 ## seDirector Support
