@@ -42,7 +42,7 @@ If you would like to help translate seDirector but do not see your language abov
  3. Create a copy of **TEMPLATE.lng** and name it **LanguageName.lng** (i.e. **Klingon.lng**)
  4. See steps 3-7 above
 
-## Have A Question, Concern, or Need More Info About the Context of a Phrase?
+## Have A Question, Concern, or Need More Info About the Usage of a Word/Phrase?
 Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
 
 ## seDirector Support
