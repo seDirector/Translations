@@ -5,7 +5,7 @@
 # NOTE: We aren't quite ready just yet! Check back in a few days
 # NOTE: We aren't quite ready just yet! Check back in a few days
 
-![seDirector logo](https://github.com/asheroto/seDirector-Translations/blob/main/seDirector.png?raw=true)
+![seDirector logo](https://github.com/seDirector/Translations/blob/main/seDirector.png?raw=true)
 
 # seDirector Translations
 seDirector is a game server administration program for the Steam Source Engine.
@@ -14,7 +14,6 @@ See seDirector.net for more information.
 ## Languages Needing Translation
 If you can read & write in any of these languages, we'd love your help translating seDirector.
 
- - Chinese
  - Chinese
  - French
  - German
