@@ -45,7 +45,7 @@ If you would like to help translate seDirector but do not see your language abov
 
 ## Have A Question or Concern?
 
-Open an [Issue](https://github.com/asheroto/seDirector-Translations/issues) and someone will address it.
+Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
 
 ## seDirector Support
 Please join our [Discord channel](https://sedirector.net/discord) or e-mail us via our website at seDirector.net.
