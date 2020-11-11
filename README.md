@@ -32,6 +32,7 @@ If you can read & write in any of these languages, we'd love your help translati
  - Russian
  - Spanish
  - Tagalog
+ - Portuguese
 
 ## Getting Started
  1. Sign into GitHub if you aren't already signed in
