@@ -29,6 +29,7 @@ If you can read & write in any of these languages, we'd love your help translati
  6. Come back to this repo and make a new pull request
  7. One of us will check out the translation and approve it once we confirm the translation with another party
  8. If approved, your username will be mentioned in seDirector as a contributor!
+ 9. Make sure to change the comments section at the top of the language file
 
 ### Rules to Follow
 
