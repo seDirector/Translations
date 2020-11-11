@@ -1,3 +1,4 @@
+
 ![seDirector logo](https://github.com/seDirector/Translations/blob/main/seDirector.png?raw=true)
 
 # seDirector Translations
@@ -22,31 +23,22 @@ If you can read & write in any of these languages, we'd love your help translati
 ## Getting Started
  1. Sign into GitHub if you aren't already signed in
  2. Fork this repo
- 3. Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
- 4. Alternatively, you can create a clone of the fork locally through GitHub desktop then push your changes back to the origin when finished
- 5. Come back to this repo and make a new pull request
- 6. One of us will check out the translation and approve it once we confirm the translation with another party
- 7. If approved, your username will be mentioned in seDirector as a contributor!
+ 3. Create a copy of **English.vb** and name it **LanguageName.vb** (i.e. **Klingon.vb**)
+ 4. Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
+ 5. Alternatively, you can create a clone of the fork locally through GitHub desktop then push your changes back to the origin when finished
+ 6. Come back to this repo and make a new pull request
+ 7. One of us will check out the translation and approve it once we confirm the translation with another party
+ 8. If approved, your username will be mentioned in seDirector as a contributor!
 
 ### Rules to Follow
 
- 1. Refer to English.vb file!
- 2. Do not translate if you don't read and write the language
- 3. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
- 4. Keep the case the same - if it's captialized, capitalize the translation; if there is a period, use a period in the translation, use commas, etc.
- 5. Use single-quotes in-place of double-quotes, ' instead of "
- 6. There will be duplicate translations - keep them
- 7. When you see a number in braces, that is a tag that means a variable will go there.  Keep the {0} or {1} tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
- 8. If you are unsure of a translation, have a friend help you out before you create a pull request
-
- 
-## Language Not Listed?
-If you would like to help translate seDirector but do not see your language above, please:
-
- 1. Sign into GitHub if you aren't already signed in
- 2. Fork this repo if you haven't already
- 3. Create a copy of **English.lng** and name it **LanguageName.lng** (i.e. **Klingon.lng**)
- 4. See steps 3-7 above
+ 1. Do not translate if you don't read and write the language
+ 2. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
+ 3. Keep the case the same - if it's capitalized, capitalize the translation; if there is a period, use a period in the translation, if it has a comma, use commas, etc.
+ 4. Use single-quotes in-place of double-quotes, ' instead of "
+ 5. There will be duplicate translations - keep them
+ 6. When you see a number in braces, that is a tag that means a variable will go there.  Keep the **{0**} or **{1}** tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
+ 7. If you are unsure of a translation, have a friend help you out before you create a pull request
 
 ## Have A Question or Concern
 Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
