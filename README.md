@@ -30,13 +30,14 @@ If you can read & write in any of these languages, we'd love your help translati
 
 ### Rules to Follow
 
- 1. Do not translate if you don't read and write the language
- 2. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
- 3. Keep the case the same - if it's captialized, capitalize the translation; if there is a period, use a period in the translation, use commas, etc.
- 4. Use single-quotes in-place of double-quotes, ' instead of "
- 5. There will be duplicate translations - keep them
- 6. When you see a number in braces, that is a tag that means a variable will go there.  Keep the {0} or {1} tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
- 7. If you are unsure of a translation, have a friend help you out before you create a pull request
+ 1. Refer to English.vb file!
+ 2. Do not translate if you don't read and write the language
+ 3. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
+ 4. Keep the case the same - if it's captialized, capitalize the translation; if there is a period, use a period in the translation, use commas, etc.
+ 5. Use single-quotes in-place of double-quotes, ' instead of "
+ 6. There will be duplicate translations - keep them
+ 7. When you see a number in braces, that is a tag that means a variable will go there.  Keep the {0} or {1} tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
+ 8. If you are unsure of a translation, have a friend help you out before you create a pull request
 
  
 ## Language Not Listed?
