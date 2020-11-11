@@ -614,18 +614,18 @@ Public Class Lang
     Public Class Paths
 
         Public Class Names
-            Public Shared ServerLogsFolder = "Server Logs" 'Server Logs folder name
-            Public Shared seDirectorLogPath = "seDirector_error.log" 'seDirector File Name
+            Public Shared ServerLogsFolder = "Server Logs"
+            Public Shared seDirectorLogPath = "seDirector_error.log"
             Public Shared HLDSUpdateToolName = "HldsUpdateTool.exe"
             Public Shared SteamCMDName = "steamcmd.exe"
         End Class
 
         Public Class Formats
-            Public Shared ServerLogsPath = "{0}\{1}" 'App.StartPath\Server Logs
-            Public Shared ServerLogsHostPath = "{0}\{1}\{2}" 'App.StartPath\Server Logs\Host
-            Public Shared ServerLogsHostServerPath = "{0}\{1}\{2}\{3}.log" 'App.StartPath\Server Logs\Host\Server.log
+            Public Shared ServerLogsPath = "{0}\{1}"
+            Public Shared ServerLogsHostPath = "{0}\{1}\{2}"
+            Public Shared ServerLogsHostServerPath = "{0}\{1}\{2}\{3}.log"
 
-            Public Shared seDirectorLogPath = "{0}\{1}" 'C:\seDirector\seDirector.log
+            Public Shared seDirectorLogPath = "{0}\{1}"
         End Class
 
         Public Class InternalNames
