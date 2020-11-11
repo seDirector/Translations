@@ -47,8 +47,9 @@ If you can read & write in any of these languages, we'd love your help translati
 
  1. Do not translate if you don't read and write the language
  2. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
- 3. When you see a number in braces, that is a tag that means a variable will go there.  Keep the {0} or {1} tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
- 4. If you are unsure of a translation, have a friend help you out before you create a pull request
+ 3. Keep the case the same - if it's captialized, capitalize the translation
+ 4. When you see a number in braces, that is a tag that means a variable will go there.  Keep the {0} or {1} tags in the translation.  As long as it makes the same sense as the English version, you can move them as needed.
+ 5. If you are unsure of a translation, have a friend help you out before you create a pull request
 
  
 ## Language Not Listed?
