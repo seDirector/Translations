@@ -6,7 +6,7 @@ seDirector is a game server administration program for the Steam Source Engine.
 See seDirector.net for more information.
 
 ## Languages Needing Translation
-If you can read & write in any of these ages, we'd love your help translating seDirector.
+If you can read & write in any of these Languages, we'd love your help translating seDirector.
 
  - Chinese
  - French
@@ -24,16 +24,16 @@ If you can read & write in any of these ages, we'd love your help translating se
  1. Sign into GitHub if you aren't already signed in
  2. Fork this repo
  3. Create a copy of **English.vb** and name it **LanguageName.vb** (i.e. **Klingon.vb**)
- 4. Edit the age file that corresponds with your age by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
+ 4. Edit the Language file that corresponds with your age by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
  5. Alternatively, you can create a clone of the fork locally through GitHub desktop then push your changes back to the origin when finished
  6. Come back to this repo and make a new pull request
  7. One of us will check out the translation and approve it once we confirm the translation with another party
  8. If approved, your username will be mentioned in seDirector as a contributor!
- 9. Make sure to change the comments section at the top of the age file
+ 9. Make sure to change the comments section at the top of the Language file
 
 ### Rules to Follow
 
- 1. Do not translate if you don't read and write the age
+ 1. Do not translate if you don't read and write the Language
  2. If you see HTML tags in the English version, do NOT change/remove the HTML tags, just replace words/phrases as needed
  3. Keep the case the same - if it's capitalized, capitalize the translation; if there is a period, use a period in the translation, if it has a comma, use commas, etc.
  4. Use single-quotes in-place of double-quotes, ' instead of "
