@@ -23,7 +23,7 @@ If you can read & write in any of these ages, we'd love your help translating se
 ## Getting Started
  1. Sign into GitHub if you aren't already signed in
  2. Fork this repo
- 3. Create a copy of **English.vb** and name it **ageName.vb** (i.e. **Klingon.vb**)
+ 3. Create a copy of **English.vb** and name it **LanguageName.vb** (i.e. **Klingon.vb**)
  4. Edit the age file that corresponds with your age by going to your forked copy and then clicking the little pen icon at the bottom right of the page)
  5. Alternatively, you can create a clone of the fork locally through GitHub desktop then push your changes back to the origin when finished
  6. Come back to this repo and make a new pull request
