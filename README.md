@@ -1,7 +1,7 @@
 
-![seDirector logo](https://github.com/seDirector/Translations/blob/main/seDirector.png?raw=true)
+![seDirector logo](https://sedirector.net/assets/images/logo.jpg)
 
-# seDirector Translations
+# Translations
 seDirector is a game server administration program for the Steam Source Engine.
 See seDirector.net for more information.
 
