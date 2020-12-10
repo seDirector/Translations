@@ -1,7 +1,7 @@
 'Language file for seDirector
 '------------------------------
 'Language: English
-'Last Updated: 2020-11-11
+'Last Updated: 2020-12-09
 'Author: asheroto
 '------------------------------
 
@@ -414,22 +414,22 @@ Public Class Lang
     End Class
 
     Public Class URLs
-        Friend Const UpdateUrl = "https//api.sedirector.net/update"
-        Friend Const ReleaseNotesUrl = "https//api.sedirector.net/release-notes/"
+        Friend Const UpdateUrl = "https://api.sedirector.net/update"
+        Friend Const ReleaseNotesUrl = "https://api.sedirector.net/release-notes/"
 
-        Friend Const AutomaticUpdateMoreInfoUrl = "https//sedirector.net"
-        Friend Const seDirectorURL = "https//sedirector.net"
+        Friend Const AutomaticUpdateMoreInfoUrl = "https://sedirector.net"
+        Friend Const seDirectorURL = "https://sedirector.net"
 
-        Friend Const SteamTools = "http//forums.alliedmods.net/showthread.php?t=129763"
-        Friend Const SourceMod = "http//www.sourcemod.net"
+        Friend Const SteamTools = "http://forums.alliedmods.net/showthread.php?t=129763"
+        Friend Const SourceMod = "http://www.sourcemod.net"
 
-        Friend Const seDirector_Support = "https//sedirector.net"
+        Friend Const seDirector_Support = "https://sedirector.net"
 
-        Friend Const SteamCMD_URL = "http//media.steampowered.com/installer/steamcmd.zip"
+        Friend Const SteamCMD_URL = "http://media.steampowered.com/installer/steamcmd.zip"
 
-        Friend Const AddonListUrl = "https//api.sedirector.net/addons/"
+        Friend Const AddonListUrl = "https://api.sedirector.net/addons/"
 
-        Friend Const HTTPFastDownload_URL = "https//support.steampowered.com/kb_article.php?ref=9717-HMAP-7066"
+        Friend Const HTTPFastDownload_URL = "https://support.steampowered.com/kb_article.php?ref=9717-HMAP-7066"
     End Class
 
     Public Class Notifications
@@ -483,6 +483,7 @@ Public Class Lang
         Friend Const ShuttingDownProper = "Shutting Down"
         Friend Const ShuttingDown = "Shutting down"
         Friend Const AddonUpdateFailure = "Error 1011: Error when trying to download the addon lists. Check your Internet connection or contact seDirector support if this issue continue."
+        Friend Const AddonBackupFailure = "Error 2017: Error when backing up the existing addon. Please try again."
     End Class
 
     Public Class Backups
@@ -518,7 +519,7 @@ Public Class Lang
 
         Friend Const MetamodSource = "Metamod:Source is a C++ plugin environment for Half-Life 2. It acts as a 'metamod' which sits in between the Game and the Engine, and allows plugins to intercept calls that flow between. It provides a mechanism called SourceHook, a very powerful library for intercepting, overridding, and superseding virtual function calls."
         Friend Const SourceMod = "SourceMod is server modification for any game that runs on the Half-Life 2 engine. It is a powerful, highly optimized platform for scripting plugins and handling server administration. The default package comes with a base set of plugins, but there are over 2,500 plugins in the community."
-        Friend Const VersionListEmpty = "The {0} version list is empty. Do you want to update the list of versions for all addons?"
+        Friend Const VersionListEmpty = "The {0} version list is empty. To fix this, simply restart seDirector, wait 5 seconds, then open the server's properties again. Would you like to restart seDirector? Running servers will remain running.?"
         Friend Const ErrorInstallingAddon = "Error installing addon. Check your Internet connection and try again."
 
         Friend Const TaskConfirm = "Are you sure you want to remove task {0}?"
