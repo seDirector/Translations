@@ -1,7 +1,7 @@
 'Language file for seDirector
 '------------------------------
 'Language: English
-'Last Updated: 2020-12-17
+'Last Updated: 2020-12-18
 'Author: asheroto
 '------------------------------
 
@@ -520,7 +520,7 @@ Public Class Lang
 
         Friend Const MetamodSource = "Metamod:Source is a C++ plugin environment for Half-Life 2. It acts as a 'metamod' which sits in between the Game and the Engine, and allows plugins to intercept calls that flow between. It provides a mechanism called SourceHook, a very powerful library for intercepting, overridding, and superseding virtual function calls."
         Friend Const SourceMod = "SourceMod is server modification for any game that runs on the Half-Life 2 engine. It is a powerful, highly optimized platform for scripting plugins and handling server administration. The default package comes with a base set of plugins, but there are over 2,500 plugins in the community."
-        Friend Const VersionListEmpty = "The {0} version list is empty. To fix this, simply restart seDirector, wait 5 seconds, then open the server's properties again. Would you like to restart seDirector? Running servers will remain running.?"
+        Friend Const VersionListEmpty = "The {0} version list is empty. To fix this, simply restart seDirector, wait 5 seconds, then open the server's properties again. Would you like to restart seDirector? Running servers will remain running."
         Friend Const ErrorInstallingAddon = "Error installing addon. Check your Internet connection and try again."
 
         Friend Const TaskConfirm = "Are you sure you want to remove task {0}?"
