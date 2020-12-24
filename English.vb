@@ -1,7 +1,7 @@
-'Language file for seDirector
+﻿'Language file for seDirector
 '------------------------------
 'Language: English
-'Last Updated: 2020-12-18
+'Last Updated: 2020-12-23
 'Author: asheroto
 '------------------------------
 
@@ -414,7 +414,7 @@ Public Class Lang
     End Class
 
     Public Class URLs
-        Friend Const UpdateUrl = "https://api.sedirector.net/update"
+        Friend Const UpdateUrl = "https://api.sedirector.net/update/"
         Friend Const ReleaseNotesUrl = "https://api.sedirector.net/release-notes/"
 
         Friend Const AutomaticUpdateMoreInfoUrl = "https://sedirector.net"
@@ -439,7 +439,8 @@ Public Class Lang
         Friend Const ForceUpdateSedirector = "Force update seDirector?"
         Friend Const DesktopShortcutCreated = "Desktop shortcut created."
         Friend Const StartMenuShortcutCreated = "Start Menu shortcut created."
-        Friend Const ShortcutError = "There was an error creating the shortcut. Please make sure you have access to the desktop. Check the log file for more information."
+        Friend Const ShortcutError = "There was an error creating the shortcut. Please make sure you have access to the desktop."
+        Friend Const ShortcutErrorSM = "There was an error creating the shortcut. Please make sure you have access to the start menu."
         Friend Const SteamUsernamePasswordChanged = "The Steam username Or password has changed. Please enter the Steam Guard code (sent to your e-mail) on the following window if asked. Do Not close out of the next window, let it close automatically. If you mess up, just press backspace to correct." + vbCrLf + vbCrLf + "If you need the code to be sent again, press Ctrl-C one time And let it close automatically, set your username to something else, Save, then change it back to the correct value, Save."
         Friend Const CannotUseRootDirectoryOfDrive = "You cannot use the root directory of a drive."
         Friend Const PleaseSelectSrcdsInGameDirectory = "Please select srcds.exe in the game's directory."
@@ -526,7 +527,7 @@ Public Class Lang
         Friend Const TaskConfirm = "Are you sure you want to remove task {0}?"
 
         Friend Const RemovingMetamodAffectSourcemod = "Removing Metamod will stop SourceMod from working. You must remove SourceMod first."
-        Friend Const RemovingUlibAffectUlx = "Removing ulib will stop ulx from working. You must remove ulx first."
+        Friend Const RemovingULibAffectULX = "Removing ULib will stop ULX from working. You must remove ULX first."
         Friend Const RemoveXFromServer = "Remove {0} from this server?"
         Friend Const WarningAllDataDeleted = "WARNING: All add-on data will be deleted."
         Friend Const AddonCouldNotBeDetected = "Addon could not be detected. Make sure you have permission to write to {0} and rerun the Install/Change process."
@@ -559,7 +560,7 @@ Public Class Lang
 
         Friend Const CSGO_Plugin_Info = "<p>With CSGO, the server hibernates before the seDirector plugin has a chance to turn that off. You must set <strong>sv_hibernate_when_empty</strong> to <strong>0</strong> in your cfg file that starts the server, otherwise the seDirector plugin will NOT work.</p> <p> <strong>If you don't set this cvar to 0:</strong><br> (1) Updates will not occur until a player joins<br> (2) After players are notified in-game of a server update, if all leave before the countdown reaches 0, your server will never update<br> (3) Because of 1+2, this causes an endless loop of in-game updates and thus an outdated server </p> <p>You <i>cannot</i> simply turn off hibernation later, it must be done in the cfg file that launches when your server runs.</p> <p><strong>Add this line to your cfg file and make sure it's not anywhere else:</strong><br> sv_hibernate_when_empty 0 </p>"
         Friend Const AddonInfo = "Addon Info"
-        Friend Const AddonInfoInfo = "<style> body { margin: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; } </style> <h3>Most Games: Metamod:Source | SourceMod</h3> <p> seDirector supports installing, upgrading, downgrading, reinstalling, and removing addons. seDirector is smart when changing the addons; it will only install the files necessary to change the versions - it will not remove your cfg files or extensions.<br><br> If an addon is upgraded, downgraded, or reinstalled, a backup will be made prior to taking any action. Look under the addons\[Backups] directory for the backups created by seDirector.<br><br> <b>MAKE SURE to test your server</b> after making addon changes. Type 'meta version' in console to make sure <b>Metamod:Source</b> is working. Type 'sm version' in console to make sure <b>SourceMod</b> is working. If you receive an error message after an update has been installed/changed, make sure you're using the latest version. Older versions may not work properly and cause your server to crash or plugins to malfunction.<br><br> <b>SourceMod</b> depends on <b>Metamod:Source</b> to work. Make sure to use a version of <b>SourceMod</b> compatible with your version of <b>Metamod:Source</b>. After installing <b>Metamod:Source</b>, the metamod.vdf file is automatically generated specific to your game server. </p> <h3>Garry's Mod: ulib | ulx | wiremod</h3> <p> seDirector supports installing and removing ulib, ulx, and wiremod. Upgrading/downgrading is not supported. Most of the update-related features are handled by the scripts themselves, so there probably won't be much of a need to upgrade or downgrade anyway.<br><br> <b>MAKE SURE to test your server</b> after making addon changes.<br><br> If you already have ulib, ulx, or wiremod installed and you want seDirector to detect it, rename game\addons\ulib-oldname to game\addons\ulib, game\addons\ulx-oldname to game\addons\ulx, game\addons\wiremod-oldname to game\addons\wiremod. </p>"
+        Friend Const AddonInfoInfo = "<style> body { margin: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; } </style> <h3>Most Games: Metamod:Source | SourceMod</h3> <p> seDirector supports installing, upgrading, downgrading, reinstalling, and removing addons. seDirector is smart when changing the addons; it will only install the files necessary to change the versions - it will not remove your cfg files or extensions.<br /><br /> If an addon is upgraded, downgraded, or reinstalled, a backup will be made prior to taking any action. Look under the addons\[Backups] directory for the backups created by seDirector.<br /><br /> <b>MAKE SURE to test your server</b> after making addon changes. Type 'meta version' in console to make sure <b>Metamod:Source</b> is working. Type 'sm version' in console to make sure <b>SourceMod</b> is working. If you receive an error message after an update has been installed/changed, make sure you're using the latest version. Older versions may not work properly and cause your server to crash or plugins to malfunction.<br /><br /> <b>SourceMod</b> depends on <b>Metamod:Source</b> to work. Make sure to use a version of <b>SourceMod</b> compatible with your version of <b>Metamod:Source</b>. After installing <b>Metamod:Source</b>, the metamod.vdf file is automatically generated specific to your game server. </p> <h3>Garry's Mod: ULib | ULX | Wiremod</h3> <p> seDirector supports installing and removing ULib, ULX, and Wiremod. Upgrading/downgrading is not supported. Most of the update-related features are handled by the scripts themselves, so there probably won't be much of a need to upgrade or downgrade anyway.<br /><br /> You can install a released version or choose ""master"" for the latest code (the master branch archive).<br /><br /> <b>MAKE SURE to test your server</b> after making addon changes.<br /><br /> If you already have ULib, ULX, or Wiremod installed and you want seDirector to detect it, rename game\addons\ULib-oldname to game\addons\ULib, game\addons\ULX-oldname to game\addons\ULX, game\addons\Wiremod-oldname to game\addons\Wiremod.<br /><br /> <b>ULX</b> depends on <b>ULib</b> to work. Make sure to use a version of <b>ULX</b> compatible with your version of <b>ULib</b>. </p>"
 
         Friend Const YouHaveSelectedActionSedirectorPlugin = "You've selected an action that can only be used if the seDirector plugin is installed. Please make sure to install this before you save the task, otherwise you will run into issues."
 
@@ -688,28 +689,22 @@ Public Class Lang
             Friend Const seDirectorLogPath = "seDirectorLogPath"
 
             Friend Const SteamCMD = "SteamCMD"
-            Friend Const HLDSUpdateTool = "HLDSUpdateTool"
         End Class
 
     End Class
 
     Public Class Addons
-        Public Class AddonNames
-            Friend Const SourceMod = "SourceMod"
-            Friend Const MetamodSource = "Metamod:Source"
-        End Class
-
         Public Class Errors
             Friend Const MustInstallMetamodBeforeSourcemod = "Please install Metamod:Source before installing SourceMod."
-            Friend Const MustInstallUlibBeforeUlx = "Please install ulib before installing ulx."
+            Friend Const MustInstallULibBeforeULX = "Please install ULib before installing ULX."
             Friend Const ErrorInstaller = "Error 1009: An error occurred while attempting to {0} the addon."
             Friend Const ErrorInstallingUpdatingAddon = "Error while installing/updating addon."
             Friend Const ErrorChangingAddon = "There was an error while changing the addon. You may need to uninstall and reinstall the addon, or if having problems, restore from the backup file in addons\[Backups]."
             Friend Const ErrorChangingAddon2 = "Error while changing addon."
             Friend Const ErrorRemovingMetaMod = "Error while removing Metamod:Source:"
-            Friend Const ErrorRemovingUlx = "Error while removing ulx"
-            Friend Const ErrorRemovingUlib = "Error while removing ulib"
-            Friend Const ErrorRemovingWiremod = "Error while removing wiremod"
+            Friend Const ErrorRemovingULX = "Error while removing ULX"
+            Friend Const ErrorRemovingULib = "Error while removing ULib"
+            Friend Const ErrorRemovingWiremod = "Error while removing Wiremod"
         End Class
 
         Public Class Notifications
