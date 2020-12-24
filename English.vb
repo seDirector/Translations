@@ -689,7 +689,6 @@ Public Class Lang
             Friend Const seDirectorLogPath = "seDirectorLogPath"
 
             Friend Const SteamCMD = "SteamCMD"
-            Friend Const HLDSUpdateTool = "HLDSUpdateTool"
         End Class
 
     End Class
