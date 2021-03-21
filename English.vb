@@ -1,7 +1,7 @@
-﻿'Language file for seDirector
+'Language file for seDirector
 '------------------------------
 'Language: English
-'Last Updated: 2020-12-23
+'Last Updated: 2021-03-20
 'Author: asheroto
 '------------------------------
 
@@ -107,7 +107,7 @@ Public Class Lang
             Friend Const Properties_Browse = "Browse"
             Friend Const Properties_Create = "Create"
             Friend Const Properties_CustomGameMod = "Custom Game / Mod"
-            Friend Const Properties_UsePrivateIPUnlessOnDMZ = "Use private IP unless on DMZ"
+            Friend Const Properties_UsePrivateIPUnlessOnDMZ = "Use public IP unless on DMZ"
             Friend Const Properties_NextAvailable = "Next Available"
             Friend Const Properties_CreateServerCFG = "Create server.cfg"
             Friend Const Properties_LocalMap = "Local Map"
@@ -211,7 +211,7 @@ Public Class Lang
 
             Friend Const ExampleNotification = "Example Notification"
             Friend Const ExampleNotification_Subject = "Subject"
-            Friend Const ExampleNotification_SubjectData = "seDirector Alert: Server <ServerName>"
+            Friend Const ExampleNotification_SubjectData = "seDirector Alert! Computer: <ComputerName> Server: <ServerName>"
             Friend Const ExampleNotification_Body = "Body"
             Friend Const ExampleNotification_BodyData = "Server <ServerName> has crashed and seDirector is unable to recover it automatically."
             Friend Const EmailTextSMS = "E-mail/Text/SMS Notifications"
@@ -394,8 +394,10 @@ Public Class Lang
         Friend Const ServerLocalDirSyncCanceled = "Server local directory sync cancelled"
         Friend Const ServerFTPCanceled = "Server FTP/SFTP sync cancelled"
         Friend Const SedirectorAlert = "seDirector Alert"
+        Friend Const Computer = "Computer"
         Friend Const Server = "Server"
-        Friend Const ServerCrashedUnableToRecoverAuto = "Server {0} has crashed and seDirector is unable to recover it automatically."
+        Friend Const ServerCrashedUnableToRecoverAuto = "[b]Computer:[/b] {COMPUTER_NAME}[br][b]Server[/b]: {SERVER_NAME}[br][br]A server has crashed and seDirector is unable to recover it automatically."
+        Friend Const ServerCrashedUnableToRecoverAutoGeneral = "A server has crashed and seDirector is unable to recover it automatically."
         Friend Const ErrorSendingTestEmailContact = "Error sending test e-mail. Contact seDirector support."
         Friend Const DiscordNotificationSent = "Discord notification sent."
         Friend Const ErrorSendingDiscordNotification = "Error sending Discord notification. Confirm that your webhook URL Is correct And try again. If the problem persists, contact seDirector support."
@@ -411,6 +413,8 @@ Public Class Lang
         Friend Const ErrorDuringServerDup = "Error during server duplication"
         Friend Const RecommendedFolderStruc = "Recommended Folder Structure"
         Friend Const DonateToSedirector = "Donate to seDirector"
+
+        Friend Const AllServersMustBeOfflineToRunThisTest = "All servers must be stopped (in the Offline state) to run this test."
     End Class
 
     Public Class URLs
