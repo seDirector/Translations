@@ -200,14 +200,14 @@ Public Class Lang
             Friend Const TargetDirectory = "Target Directory"
             Friend Const FTPSFTPSync = "FTP/SFTP Synchronization for HTTP Fast Download"
             Friend Const EnableFTPSFTP = "Enable FTP/SFTP Synchronization"
-            Friend Const Server = "Server"
-            Friend Const Username = "Username"
-            Friend Const Password = "Password"
-            Friend Const ConnectionType = "Connection Type"
-            Friend Const Port = "Port"
+            Friend Const Server = "伺服器"
+            Friend Const Username = "帳號名稱"
+            Friend Const Password = "密碼"
+            Friend Const ConnectionType = "連線類型"
+            Friend Const Port = "通訊阜"
             Friend Const RemoteDir = "Remote Directory"
             Friend Const SFTPRecommended = "SFTP is recommended because it encrypts your credentials"
-            Friend Const TestCon = "Test Connection"
+            Friend Const TestCon = "測試連線"
 
             Friend Const ExampleNotification = "Example Notification"
             Friend Const ExampleNotification_Subject = "Subject"
@@ -291,7 +291,7 @@ Public Class Lang
     End Class
 
     Public Class GameCommon
-        Friend Const UpdatedPlugin = "Updated plugin"
+        Friend Const UpdatedPlugin = "更新外掛程式"
     End Class
 
     Public Class Networking
@@ -349,7 +349,7 @@ Public Class Lang
         Friend Const ErrorStarting = "Error Starting"
         Friend Const ErrorStopping = "Error Stopping"
         Friend Const UpdateStarting = "Update Starting"
-        Friend Const Updating = "Updating"
+        Friend Const Updating = "更新中"
         Friend Const UpdateError = "更新錯誤"
         Friend Const PendingRestart = "Pending Restart"
         Friend Const PendingUpdate = "Pending Update"
@@ -412,7 +412,7 @@ Public Class Lang
         Friend Const Calculating = "Calculating"
         Friend Const ErrorDuringServerDup = "Error during server duplication"
         Friend Const RecommendedFolderStruc = "Recommended Folder Structure"
-        Friend Const DonateToSedirector = "Donate to seDirector"
+        Friend Const DonateToSedirector = "捐款給 seDirector"
 
         Friend Const AllServersMustBeOfflineToRunThisTest = "All servers must be stopped (in the Offline state) to run this test."
     End Class
@@ -462,7 +462,7 @@ Public Class Lang
         Friend Const DetectedRestartRequest = "Detected restart request"
         Friend Const ServerStoppedForUpdating = "Server stopped for updating"
         Friend Const ServerStoppedForPendingRestart = "Server stopped for pending restart"
-        Friend Const UpdateComplete = "Update complete"
+        Friend Const UpdateComplete = "更新完成"
         Friend Const AreYouSureTerminate = "Are you sure you want to terminate all instances of {0}.exe?"
         Friend Const AllInstancesOf = "All instances of {0}.exe have been terminated if they existed."
         Friend Const QuitConfirm = "There are servers running or updating.  If you exit, all servers will be stopped. Are you sure you want to exit?"
@@ -647,7 +647,7 @@ Public Class Lang
         Friend Const UpdateServerErrorExited = "Updating server error (exited)"
         Friend Const UpdateServerError = "Updating server error"
 
-        Friend Const ShowHideError = "Show/Hide error"
+        Friend Const ShowHideError = "顯示/隱藏 錯誤"
 
         Friend Const CannotStartServerMissingDirectory = "Cannot start: Server directory missing"
     End Class
