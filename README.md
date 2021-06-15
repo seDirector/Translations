@@ -1,4 +1,5 @@
 
+
 ![seDirector logo](https://sedirector.net/assets/images/logo.jpg)
 
 # Translations
@@ -9,6 +10,7 @@ See seDirector.net for more information.
 If you can read & write in any of these languages, we'd love your help translating seDirector.
 
  - Chinese
+ - ~~Traditional Chinese (Taiwan)~~
  - French
  - German
  - Hindi
