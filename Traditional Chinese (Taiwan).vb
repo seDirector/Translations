@@ -151,7 +151,7 @@ Public Class Lang
             Friend Const NotSet = "not set"
             Friend Const MoreInfo = "More Info"
             Friend Const Name = "Name"
-            Friend Const YourVersion = "Your Version"
+            Friend Const YourVersion = "你的版本"
             Friend Const LatestVersion = "最新版本"
             Friend Const Path = "Path"
             Friend Const SaveAndReopenToChange = "Save and reopen to change these settings"
