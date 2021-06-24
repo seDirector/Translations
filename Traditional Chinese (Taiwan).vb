@@ -1,7 +1,7 @@
 'Language file for seDirector
 '------------------------------
 'Language: Traditional Chinese (Taiwan)
-'Last Updated: 2021-06-16
+'Last Updated: 2021-06-24
 'Author: in2002
 '------------------------------
 
@@ -115,7 +115,7 @@ Public Class Lang
             Friend Const Properties_UseAdditionalParametersToAdjust = "(使用額外參數進行調整)"
             Friend Const Properties_NormalRecommendedRealtimeNotRecommended = "建議選擇標準、不建議選擇即時"
 
-            Friend Const Properties_ServerPropertiesCannotBeChangedWhileRunning = "Server Properties cannot be changed while running"
+            Friend Const Properties_ServerPropertiesCannotBeChangedWhileRunning = "運作時無法更改伺服器屬性"
             Friend Const Properties_PleaseFillRequiredFields = "Please fill required fields"
             Friend Const Properties_SaveSettings = "儲存設定"
 
@@ -126,15 +126,15 @@ Public Class Lang
             Friend Const UpdateOptions = "更新選項"
             Friend Const ValidateUpdate = "每次更新都需驗證 (將 -validate 參數新增到 SteamCMD)"
             Friend Const ValidateUpdateUse = "Use this if your servers aren't updating or working properly."
-            Friend Const UpdateAutoCurMapCurPlayers = "Update Automatically, Current Map, Current Players"
+            Friend Const UpdateAutoCurMapCurPlayers = "自動更新, 目前地圖, 目前玩家"
             Friend Const SaveAndReopen = "Save and reopen to change these settings"
             Friend Const PluginDescription = "seDirector can update your server automatically when Steam's content servers change. For these features to work, you must have SourceMod installed prior to installing this plugin (except if game server is Garry's Mod)."
             Friend Const PluginDescription2 = "The seDirector plugin also updates the 'Current Map' and 'Players' columns on the server list."
             Friend Const UpdateAuto = "自動更新"
             Friend Const SpecialCSGO = "Special Instructions for CSGO Servers"
             Friend Const PluginStatus = "Plugin Status"
-            Friend Const Installed = "Installed"
-            Friend Const NotInstalled = "Not Installed"
+            Friend Const Installed = "已安裝"
+            Friend Const NotInstalled = "未安裝"
             Friend Const Install = "Install"
             Friend Const Uninstall = "Uninstall"
             Friend Const Directory = "Directory"
