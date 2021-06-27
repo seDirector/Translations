@@ -34,6 +34,8 @@ If you can read & write in any of these languages, we'd love your help translati
 8.  If approved, your username will be mentioned in seDirector as a contributor!
 9.  Make sure to change the comments section at the top of the language file
 
+A good JSON editor to use is http://jsoneditoronline.org.
+
 ### 1.2.1. Rules to Follow
 
 1.  Do not translate if you don't read and write the language
