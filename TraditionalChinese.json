@@ -607,7 +607,7 @@
         }
       },
       "Donate": {
-        "AutoClosingWindow": "test Automatically closing this window in {0} seconds"
+        "AutoClosingWindow": "Automatically closing this window in {0} seconds"
       },
       "PortChecker": {
         "PortRequirements": "Port number must be an integer between 1-65535.",
