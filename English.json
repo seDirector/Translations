@@ -573,12 +573,6 @@
                 "HLDSUpdateToolName": "HldsUpdateTool.exe",
                 "SteamCMDName": "steamcmd.exe"
             },
-            "Formats": {
-                "ServerLogsPath": "{0}\\{1}",
-                "ServerLogsHostPath": "{0}\\{1}\\{2}",
-                "ServerLogsHostServerPath": "{0}\\{1}\\{2}\\{3}.log",
-                "seDirectorLogPath": "{0}\\{1}"
-            },
             "InternalNames": {
                 "ServerLogsPath": "ServerLogsPath",
                 "ServerLogsHostPath": "ServerLogsHostPath",
