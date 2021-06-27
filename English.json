@@ -374,18 +374,6 @@
             "DonateToSedirector": "Donate to seDirector",
             "AllServersMustBeOfflineToRunThisTest": "All servers must be stopped (in the Offline state) to run this test."
         },
-        "URLs": {
-            "UpdateUrl": "https://api.sedirector.net/update/",
-            "ReleaseNotesUrl": "https://api.sedirector.net/release-notes/",
-            "AutomaticUpdateMoreInfoUrl": "https://sedirector.net",
-            "seDirectorURL": "https://sedirector.net",
-            "SteamTools": "http://forums.alliedmods.net/showthread.php?t=129763",
-            "SourceMod": "http://www.sourcemod.net",
-            "seDirector_Support": "https://sedirector.net",
-            "SteamCMD_URL": "http://media.steampowered.com/installer/steamcmd.zip",
-            "AddonListUrl": "https://api.sedirector.net/addons/",
-            "HTTPFastDownload_URL": "https://support.steampowered.com/kb_article.php?ref=9717-HMAP-7066"
-        },
         "Notifications": {
             "DebugModeEnabled": "Debug mode Is enabled!",
             "RunningNotAttached": "{0} Is running And Is Not attached to seDirector. Click OK to terminate the process Or cancel to exit seDirector.",
