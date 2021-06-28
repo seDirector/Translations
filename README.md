@@ -11,16 +11,15 @@ If you can read & write in any of these languages, we'd love your help translati
 
 -   Chinese
 -   ~~Traditional Chinese~~ thank you [in2002-tw](https://github.com/in2002-tw)
--   French
 -   German
--   Hindi
+-   French
 -   Italian
 -   Japanese
--   Korean
 -   Russian
 -   Spanish
--   Tagalog
 -   Portuguese
+-   Korean
+-   Tagalog
 
 ## 1.2. Getting Started
 
