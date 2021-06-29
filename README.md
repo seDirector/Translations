@@ -35,10 +35,10 @@ A good JSON editor to use is http://jsoneditoronline.org.
 ### 1.2.1. Rules to Follow
 
 1.  Do not translate if you don't read and write the language.
-2.  If you see HTML tags, do NOT change/remove the HTML tags, just replace words/phrases as needed.
-3.  Keep the case the same - if it's capitalized, capitalize the translation; if there is a period, use a period in the translation, if it has a comma, use commas, etc.
-4.  There may be duplicate lines - please keep them.
-5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as it makes the same sense as the English version, you can move them as needed.
+2.  If you see HTML tags, please do not change/remove the HTML tags, just replace words/phrases as needed.
+3.  Keep the case the same - if it's capitalized, capitalize the translation, if there is a period, use a period in the translation, if it has a comma, use commas, etc.
+4.  There may be duplicate translations - please keep them.
+5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as the meaning is the same, you can move them as needed.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 7.  If you are unsure of a translation, have a friend help you out before you create a pull request.
 
