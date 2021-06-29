@@ -32,7 +32,7 @@ If you can read & write in any of these languages OR if you have another languag
 5.  Once a translation file has enough of the main translations done, it will be merged into seDirector. Updates to language files on the repo will continue to be updated in seDirector in future versions.
 6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
 
-A good JSON editor to use is http://jsoneditoronline.org.
+A good JSON editor to use is [JSONFormatter.org](https://jsonformatter.org).
 
 ### Rules to Follow
 
