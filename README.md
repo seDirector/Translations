@@ -1,15 +1,18 @@
 ![seDirector logo](https://sedirector.net/assets/images/logo.jpg)
 
-# 1. Translations
+# Translations
 
 seDirector is a game server administration program for the Steam Source Engine.
 See seDirector.net for more information.
 
-## 1.1. Languages Needing Translation
+## Languages Needing Translation
 
 If you can read & write in any of these languages, we'd love your help translating seDirector.
 
--   ~~Traditional Chinese~~ thank you [in2002-tw](https://github.com/in2002-tw)
+-   Traditional Chinese:
+    - Active contributors: [in2002-tw](https://github.com/in2002-tw)
+-   Portuguese
+    - Active contributors: [crashzk](https://github.com/crashzk)
 -   Chinese
 -   German
 -   French
@@ -17,11 +20,10 @@ If you can read & write in any of these languages, we'd love your help translati
 -   Japanese
 -   Russian
 -   Spanish
--   Portuguese
 -   Korean
 -   Tagalog
 
-## 1.2. Getting Started
+## Getting Started
 
 1.  Fork this repo.
 2.  Create a copy of `English.json` and name it `LanguageName.json` (i.e. `Klingon.json`).
@@ -32,7 +34,7 @@ If you can read & write in any of these languages, we'd love your help translati
 
 A good JSON editor to use is http://jsoneditoronline.org.
 
-### 1.2.1. Rules to Follow
+### Rules to Follow
 
 1.  Do not translate if you don't read and write the language.
 2.  If you see HTML tags, please do not change/remove the HTML tags, just replace words/phrases as needed.
@@ -42,10 +44,10 @@ A good JSON editor to use is http://jsoneditoronline.org.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 7.  If you are unsure of a translation, have a friend help you out before you create a pull request.
 
-## 1.3. Have A Question or Concern
+## Have A Question or Concern
 
 Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
 
-## 1.4. seDirector Support
+## seDirector Support
 
 Please join our [Discord channel](https://sedirector.net/discord) or e-mail us via our website at seDirector.net.
