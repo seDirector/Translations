@@ -9,10 +9,10 @@ See seDirector.net for more information.
 
 If you can read & write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
-|Language|Locale|Merged into seDirector|Active Contributors|
-|--|--|--|--|
-|Traditional Chinese|Taiwan|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|Portuguese|Brazil||[crashzk](https://github.com/crashzk)|
+|Language|Locale|Status|Merged into seDirector|Active Contributors|
+|--|--|--|--|--|
+|Traditional Chinese|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
+|Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
 |Chinese|||
 |German|||
 |French|||
