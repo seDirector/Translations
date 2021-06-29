@@ -7,7 +7,7 @@ See seDirector.net for more information.
 
 ## Languages Needing Translation
 
-If you can read & write in any of these languages, we'd love your help translating seDirector.
+If you can read & write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
 |Language|Locale|Merged into seDirector|Active Contributors|
 |--|--|--|--|
