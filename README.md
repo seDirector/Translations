@@ -2,8 +2,7 @@
 
 # Translations
 
-seDirector is a game server administration program for the Steam Source Engine.
-See seDirector.net for more information.
+seDirector is a game server administration program for the Steam Source Engine. See [seDirector.net](https://sedirector.net) for more information.
 
 ## Languages Needing Translation
 
