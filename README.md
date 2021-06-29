@@ -28,8 +28,8 @@ If you can read & write in any of these languages OR if you have another languag
 2.  Create a copy of `English.json` and name it `LanguageName.json` (i.e. `Klingon.json`).
 3.  Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page.
 4.  Make as many commits (updates) as you need to, then once you've made a handful of changes and are ready to submit your translation file or changes, come back to this repo and make a new pull request. A pull request means you're requesting your translation file to be merged into seDirector. You don't need to have everything translated to create a pull request, but a respectable amount.
-5.  Once a translation file has enough of the main translations done, it will be merged into seDirector. Updates to language files on the repo will continue to be updated in seDirector in future versions.
-6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
+5.  Once a translation file has enough of the main translations done, it will be merged into seDirector. Updates to language files on the repo will continue to be updated in seDirector in future versions.U
+6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
 
 A good JSON editor to use is [JSONFormatter.org](https://jsonformatter.org).
 
