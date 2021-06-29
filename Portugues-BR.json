@@ -2,13 +2,13 @@
 	"Lang": {
 		"UI": {
 			"MainWindow": {
-				"Menu_Start": "Start",
-				"Menu_Stop": "Stop",
-				"Menu_Restart": "Restart",
-				"Menu_Update": "Update",
+				"Menu_Start": "Iniciar",
+				"Menu_Stop": "Parar",
+				"Menu_Restart": "Reiniciar",
+				"Menu_Update": "Ataulizar",
 				"Menu_Show_Hide": "Show/Hide",
-				"Menu_Add_Server": "Add Server",
-				"Menu_Delete_Server": "Delete Server",
+				"Menu_Add_Server": "Adicionar Servidor",
+				"Menu_Delete_Server": "Deletar Servidor",
 				"Menu_Open_Game_Directory": "Open Game Directory",
 				"Menu_Open_Maps_Directory": "Open Maps Directory",
 				"Server_Name": "Server Name",
