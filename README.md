@@ -9,19 +9,19 @@ See seDirector.net for more information.
 
 If you can read & write in any of these languages, we'd love your help translating seDirector.
 
--   Traditional Chinese:
-    - Active contributors: [in2002-tw](https://github.com/in2002-tw)
--   Portuguese
-    - Active contributors: [crashzk](https://github.com/crashzk)
--   Chinese
--   German
--   French
--   Italian
--   Japanese
--   Russian
--   Spanish
--   Korean
--   Tagalog
+|Language|Locale|Merged into seDirector|Active Contributors|
+|--|--|--|--|
+|Traditional Chinese|Taiwan|Yes|[in2002-tw](https://github.com/in2002-tw)|
+|Portuguese|Brazil||[crashzk](https://github.com/crashzk)|
+|Chinese|||
+|German|||
+|French|||
+|Italian|||
+|Japanese|||
+|Russian|||
+|Spanish|||
+|Korean|||
+|Tagalog|||
 
 ## Getting Started
 
