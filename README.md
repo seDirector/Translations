@@ -26,8 +26,8 @@ If you can read & write in any of these languages, we'd love your help translati
 1.  Fork this repo.
 2.  Create a copy of `English.json` and name it `LanguageName.json` (i.e. `Klingon.json`).
 3.  Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page.
-4.  Come back to this repo and make a new pull request.
-5.  Once approved, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
+4.  Once you've made significant changes, come back to this repo and make a new pull request.
+5.  If you've translated the majority of the language file, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
 
 A good JSON editor to use is http://jsoneditoronline.org.
 
