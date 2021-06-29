@@ -26,8 +26,9 @@ If you can read & write in any of these languages, we'd love your help translati
 1.  Fork this repo.
 2.  Create a copy of `English.json` and name it `LanguageName.json` (i.e. `Klingon.json`).
 3.  Edit the language file that corresponds with your language by going to your forked copy and then clicking the little pen icon at the bottom right of the page.
-4.  Make as many commits (saves) as you need to, then once you've made significant changes, come back to this repo and make a new pull request. A pull request means you're requesting your translation file to be merged into seDirector. You don't need to have everything translated to create a pull request, but a significant amount.
-5.  If you've translated the majority of the language file, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
+4.  Make as many commits (updates) as you need to, then once you've made a handful of changes and are ready to submit your translation file or changes, come back to this repo and make a new pull request. A pull request means you're requesting your translation file to be merged into seDirector. You don't need to have everything translated to create a pull request, but a respectable amount.
+5.  Once a translation file has enough of the main translations done, it will be merged into seDirector. Updates to language files on the repo will continue to be updated in seDirector in future versions.
+6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free donor license.
 
 A good JSON editor to use is http://jsoneditoronline.org.
 
@@ -36,7 +37,7 @@ A good JSON editor to use is http://jsoneditoronline.org.
 1.  Do not translate if you don't read and write the language.
 2.  If you see HTML tags, do NOT change/remove the HTML tags, just replace words/phrases as needed.
 3.  Keep the case the same - if it's capitalized, capitalize the translation; if there is a period, use a period in the translation, if it has a comma, use commas, etc.
-4.  There may be duplicate lines - keep them.
+4.  There may be duplicate lines - please keep them.
 5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as it makes the same sense as the English version, you can move them as needed.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 7.  If you are unsure of a translation, have a friend help you out before you create a pull request.
