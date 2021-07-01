@@ -244,10 +244,10 @@
 				"CreateServer": "建立伺服器"
 			},
 			"PortChecker": {
-				"Intro": "Check if a port is accessible over the Internet.",
-				"IPAddress": "IP Address",
-				"Port": "Port",
-				"Check": "Check"
+				"Intro": "檢查通訊阜可否透過網路網路連結",
+				"IPAddress": "IP 位置",
+				"Port": "通訊阜",
+				"Check": "檢查"
 			}
 		},
 		"Controller": {
