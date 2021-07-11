@@ -610,12 +610,12 @@
 			}
 		},
 		"Donate": {
-			"AutoClosingWindow": "Automatically closing this window in {0} seconds"
+			"AutoClosingWindow": "{0} 秒後自動關閉此視窗"
 		},
 		"PortChecker": {
-			"PortRequirements": "Port number must be an integer between 1-65535.",
-			"PortIsOpen": "Port is open",
-			"PortIsClosed": "Port is closed"
+			"PortRequirements": "通訊阜必須介於 1-65535 之間。",
+			"PortIsOpen": "通訊阜是開放的",
+			"PortIsClosed": "通訊阜是關閉的"
 		}
 	}
 }
