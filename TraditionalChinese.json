@@ -162,6 +162,7 @@
 				"OnAnEvent": "On an Event",
 				"Hour": "Hour",
 				"Minute": "Minute",
+				"Info": "Info",
 				"Crashes": "Crashes",
 				"UpdateComplete": "Update Complete",
 				"SaveTask": "Save Task",
