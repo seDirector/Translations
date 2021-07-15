@@ -29,7 +29,7 @@ Leetspeak Note:
 
 ## Getting Started
 
-1.  seDirector is now on POEditor! [Get to it through this link](https://poeditor.com/join/project?hash=FfzMM1XQaU).
+1.  seDirector is now on POEditor! [Get to it through this link](https://sedirector.net/translations/poeditor).
 2.  Once a translation file has enough of the main translations done, it will be merged into seDirector.
 3.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
 4.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
