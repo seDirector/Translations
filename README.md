@@ -21,7 +21,7 @@ If you can read & write in any of these languages OR if you have another languag
 |Russian|||
 |Spanish|||
 |Korean|||
-|Tagalog|||
+|Leetspeak [1337.me](https://1337.me)|||
 
 ## Getting Started
 
