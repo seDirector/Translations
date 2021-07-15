@@ -37,7 +37,7 @@ If you can read & write in any of these languages OR if you have another languag
 3.  Keep the case the same - if it's capitalized, capitalize the translation, if there is a period, use a period in the translation, if it has a comma, use commas, etc.
 4.  There may be duplicate translations - please keep them.
 5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as the meaning is the same, you can move them as needed.
-6.  `{LB}` means line break - please keep existing line breaks and double line breaks.Gc
+6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 
 ## Questions / Social
 
