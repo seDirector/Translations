@@ -2,7 +2,7 @@
 
 # Translations
 
-seDirector is a game server administration program for the Steam Source Engine. See [seDirector.net](https://sedirector.net) for more information.
+seDirector is a game server administration program for the Steam Source Engine.
 
 ## Languages Needing Translation
 
@@ -40,10 +40,6 @@ If you can read & write in any of these languages OR if you have another languag
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 7.  If you are unsure of a translation, have a friend help you out before you create a pull request.
 
-## Have A Question or Concern
+## Questions / Social
 
-Open an [Issue](https://github.com/seDirector/Translations/issues) and someone will address it.
-
-## seDirector Support
-
-Please join our [Discord channel](https://sedirector.net/discord) or e-mail us via our website at seDirector.net.
+Please join the special [#translations channel on our Discord](https://discord.gg/vU2qxnRp) by using this invite.
