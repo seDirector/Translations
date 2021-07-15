@@ -4,7 +4,7 @@
 
 seDirector is a game server administration program for the Steam Source Engine.
 
-## Languages Needing Translation
+## Languages
 
 If you can read & write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
@@ -14,6 +14,7 @@ If you can read & write in any of these languages OR if you have another languag
 |Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
 |Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress||Pascal|
+|Leetspeak (see note below)|||
 |Chinese|||
 |French|||
 |Italian|||
@@ -21,7 +22,10 @@ If you can read & write in any of these languages OR if you have another languag
 |Russian|||
 |Spanish|||
 |Korean|||
-|Leetspeak [1337.me](https://1337.me)|||
+
+Leetspeak Note:
+- w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
+- Please use the format that this generator uses: [1337.me](https://1337.me) uncheck pro-mode 😎
 
 ## Getting Started
 
