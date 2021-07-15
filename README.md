@@ -45,4 +45,4 @@ Leetspeak Note:
 
 ## Questions / Social
 
-Please join the special [#translations channel on our Discord](https://sedirector.net/discord/translate). Let us know your username and you'll be added to the list above.
+Please join the special [#translations channel on our Discord](https://sedirector.net/discord/translations). Let us know your username and you'll be added to the list above.
