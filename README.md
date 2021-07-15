@@ -12,7 +12,7 @@ If you can read & write in any of these languages OR if you have another languag
 |--|--|--|--|--|
 |Traditional Chinese|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
-|Turkish|Turkey|In Progress||LastPlayer|
+|Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |Chinese|||
 |German|||
 |French|||
