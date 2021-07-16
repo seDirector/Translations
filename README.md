@@ -14,15 +14,15 @@ If you can read/write in any of these languages OR if you have another language 
 |Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
 |Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress||Pascal|
-|Chinese|China|Needing Proofread (see note 1)|||
-|French|France|Needing Proofread (see note 1)|||
-|Italian|Italy|Needing Proofread (see note 1)|||
-|Japanese|Japan|Needing Proofread (see note 1)|||
-|Russian|Russia|Needing Proofread (see note 1)|||
-|Spanish|*|Needing Proofread (see note 1)|||
-|Korean|South Korea|Needing Translation|||
-|Vietnamese|Vietnam|Needing Translation|||
-|Leetspeak (see note 2)|*|Needing Translation|||
+|Chinese|China|Need Proofread (note 1)|||
+|French|France|Need Proofread (note 1)|||
+|Italian|Italy|Need Proofread (note 1)|||
+|Japanese|Japan|Need Proofread (note 1)|||
+|Russian|Russia|Need Proofread (note 1)|||
+|Spanish|*|Need Proofread (note 1)|||
+|Korean|South Korea|Need Translation|||
+|Vietnamese|Vietnam|Need Translation|||
+|Leetspeak (note 2)|*|Need Translation|||
 
 Notes:
 1. Translation was performed using a computer. We need someone to proofread and correct any mistranslations.
