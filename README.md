@@ -35,7 +35,7 @@ If you can read/write in any of these languages OR if you have another language 
     - That way we can **add you as a proofreader** so the green checkmark shows up so you can check each one off as you go along like this:
 
         ![checkmark](https://i.imgur.com/NO6kLAS.png)
-
+    - Or fix the translation
 2. Leetspeak Note:
    - w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
    - Please use the format that this generator uses: [1337.me](https://1337.me) uncheck pro-mode 😎
