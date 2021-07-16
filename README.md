@@ -27,7 +27,7 @@ If you can read/write in any of these languages OR if you have another language 
 |Romanian|Romania|Need Proofread (note 1)|||
 |Leetspeak (note 2)|*|Need Translation|||
 
-Notes:
+**Notes:**
 1. Proofread Note:
     - Translation was performed using a computer.
     - We need someone to proofread and correct any mistranslations.
