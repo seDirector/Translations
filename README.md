@@ -22,6 +22,7 @@ If you can read & write in any of these languages OR if you have another languag
 |Russian|||
 |Spanish|||
 |Korean|||
+|Vietnamese|||
 
 Leetspeak Note:
 - w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
