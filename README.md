@@ -4,7 +4,7 @@
 
 seDirector is a game server management application.
 
-## Languages
+## Language Status
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
@@ -14,19 +14,21 @@ If you can read/write in any of these languages OR if you have another language 
 |Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
 |Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress||Pascal|
-|Leetspeak (see note below)|||
-|Chinese|||
-|French|||
-|Italian|||
-|Japanese|||
-|Russian|||
-|Spanish|||
-|Korean|||
-|Vietnamese|||
+|Chinese|China|Needing Proofread (see note 1)|||
+|French|France|Needing Proofread (see note 1)|||
+|Italian|Italy|Needing Proofread (see note 1)|||
+|Japanese|Japan|Needing Proofread (see note 1)|||
+|Russian|Russia|Needing Proofread (see note 1)|||
+|Spanish|*|Needing Proofread (see note 1)|||
+|Korean|South Korea|Needing Translation|||
+|Vietnamese|Vietnam|Needing Translation|||
+|Leetspeak (see note 2)|*|Needing Translation|||
 
-Leetspeak Note:
-- w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
-- Please use the format that this generator uses: [1337.me](https://1337.me) uncheck pro-mode 😎
+Notes:
+1. Translation was performed using a computer. We need someone to proofread and correct any mistranslations.
+2. Leetspeak Note:
+   - w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
+   - Please use the format that this generator uses: [1337.me](https://1337.me) uncheck pro-mode 😎
 
 ## Getting Started
 
