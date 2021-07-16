@@ -22,6 +22,9 @@ If you can read/write in any of these languages OR if you have another language 
 |Spanish|*|Need Proofread (note 1)|||
 |Korean|South Korea|Need Translation|||
 |Vietnamese|Vietnam|Need Translation|||
+|Danish|Denmark|Need Proofread (note 1)|||
+|Swedish|Sweden|Need Proofread (note 1)|||
+|Romanian|Romania|Need Proofread (note 1)|||
 |Leetspeak (note 2)|*|Need Translation|||
 
 Notes:
