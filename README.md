@@ -31,8 +31,8 @@ If you can read/write in any of these languages OR if you have another language 
 1. Proofread Note:
     - Translation was performed using a computer.
     - We need someone to proofread and correct any mistranslations.
-    - Once you sign up as a contributor, please **send a message** in the #translation channel on Discord to let us know you want to proofread/revise a language.
-    - That way we can add you as a proofreader so the green checkmark shows up so you can check each one off as you go along like this:
+    - After you sign up as a contributor on the language you've chosen, please **send a message** in the **#translation** channel on Discord to let us know you want to proofread the language.
+    - That way we can **add you as a proofreader** so the green checkmark shows up so you can check each one off as you go along like this:
 
         ![checkmark](https://i.imgur.com/NO6kLAS.png)
 
