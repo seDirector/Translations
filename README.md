@@ -28,7 +28,14 @@ If you can read/write in any of these languages OR if you have another language 
 |Leetspeak (note 2)|*|Need Translation|||
 
 Notes:
-1. Translation was performed using a computer. We need someone to proofread and correct any mistranslations.
+1. Proofread Note:
+    - Translation was performed using a computer.
+    - We need someone to proofread and correct any mistranslations.
+    - Once you sign up as a contributor, please **send a message** in the #translation channel on Discord to let us know you want to proofread/revise a language.
+    - That way we can add you as a proofreader so the green checkmark shows up so you can check each one off as you go along like this:
+
+        ![checkmark](https://i.imgur.com/NO6kLAS.png)
+
 2. Leetspeak Note:
    - w4nT T0 tR4N5L4T3 53D1R3cT0r 1n 1337?
    - Please use the format that this generator uses: [1337.me](https://1337.me) uncheck pro-mode 😎
