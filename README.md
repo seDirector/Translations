@@ -14,14 +14,14 @@ If you can read/write in any of these languages OR if you have another language 
 |Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
 |Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress||Pascal|
+|Korean|South Korea|Need Translation|||
+|Vietnamese|Vietnam|Need Translation|||
 |Chinese|China|Need Proofread (note 1)|||
 |French|France|Need Proofread (note 1)|||
 |Italian|Italy|Need Proofread (note 1)|||
 |Japanese|Japan|Need Proofread (note 1)|||
 |Russian|Russia|Need Proofread (note 1)|||
 |Spanish|*|Need Proofread (note 1)|||
-|Korean|South Korea|Need Translation|||
-|Vietnamese|Vietnam|Need Translation|||
 |Danish|Denmark|Need Proofread (note 1)|||
 |Swedish|Sweden|Need Proofread (note 1)|||
 |Romanian|Romania|Need Proofread (note 1)|||
