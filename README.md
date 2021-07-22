@@ -11,12 +11,12 @@ If you can read/write in any of these languages OR if you have another language 
 |Language|Locale|Status|Merged into seDirector|Active Contributors|
 |--|--|--|--|--|
 |Traditional Chinese|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk), Contato|
-|Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
-|German|Germany|In Progress||Pascal|
+|Chinese|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
+|Portuguese|Brazil|In Progress (Proofread)||[crashzk](https://github.com/crashzk), Contato|
+|Turkish|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
+|German|Germany|In Progress (Proofread)||Pascal|
 |Korean|South Korea|Need Translation|||
 |Vietnamese|Vietnam|Need Translation|||
-|Chinese|China|Need Proofread (note 1)|||
 |French|France|Need Proofread (note 1)|||
 |Italian|Italy|Need Proofread (note 1)|||
 |Japanese|Japan|Need Proofread (note 1)|||
