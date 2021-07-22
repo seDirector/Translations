@@ -1,4 +1,4 @@
-![seDirector logo](https://sedirector.net/assets/images/logo.jpg)
+![seDirector logo](https://sedirector.net/images/logo.png)
 
 # Translations
 
@@ -11,7 +11,7 @@ If you can read/write in any of these languages OR if you have another language 
 |Language|Locale|Status|Merged into seDirector|Active Contributors|
 |--|--|--|--|--|
 |Traditional Chinese|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk)|
+|Portuguese|Brazil|In Progress||[crashzk](https://github.com/crashzk), Contato|
 |Turkish|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress||Pascal|
 |Korean|South Korea|Need Translation|||
