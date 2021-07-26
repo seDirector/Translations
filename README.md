@@ -19,7 +19,7 @@ If you can read/write in any of these languages OR if you have another language 
 |German|Germany|In Progress (Proofread)||Pascal|
 |Swedish|Sweden|Need Proofread (note 1)||Joahkim Ehrendahl|
 
-### Check Back September 1, 2021 to Translate These Languages
+### Languages on Hold (check back September 1, 2021)
 
 |Language|Locale|Status|Merged into seDirector|Active Contributors|
 |--|--|--|--|--|
