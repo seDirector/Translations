@@ -8,24 +8,31 @@ seDirector is a game server management application.
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
+### Current Languages Being Translated
+
 |Language|Locale|Status|Merged into seDirector|Active Contributors|
 |--|--|--|--|--|
 |Traditional Chinese|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |Chinese|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
-|Portuguese|Brazil|In Progress (Proofread)||[crashzk](https://github.com/crashzk), Contato|
+|Portuguese|Brazil|In Progress (Proofread)||Contato|
 |Turkish|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
 |German|Germany|In Progress (Proofread)||Pascal|
+|Swedish|Sweden|Need Proofread (note 1)||Joahkim Ehrendahl|
+
+### Check Back September 1, 2021 to Translate These Languages
+
+|Language|Locale|Status|Merged into seDirector|Active Contributors|
+|--|--|--|--|--|
 |Korean|South Korea|Need Translation|||
 |Vietnamese|Vietnam|Need Translation|||
+|Leetspeak (note 2)|*|Need Translation|||
 |French|France|Need Proofread (note 1)|||
 |Italian|Italy|Need Proofread (note 1)|||
 |Japanese|Japan|Need Proofread (note 1)|||
 |Russian|Russia|Need Proofread (note 1)|||
 |Spanish|*|Need Proofread (note 1)|||
 |Danish|Denmark|Need Proofread (note 1)|||
-|Swedish|Sweden|Need Proofread (note 1)|||
 |Romanian|Romania|Need Proofread (note 1)|||
-|Leetspeak (note 2)|*|Need Translation|||
 
 **Notes:**
 1. Proofread Note:
