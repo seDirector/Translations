@@ -16,7 +16,7 @@ If you can read/write in any of these languages OR if you have another language 
 |[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
 |[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|In Progress (Proofread)||Contato|
 |[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
-|[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress (Proofread)||Pascal|
+|[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress (Proofread)||[Geheim123](https://github.com/Geheim123)|
 |[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Translation||Joahkim Ehrendahl|
 |[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Need Translation|||
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Translation|||
