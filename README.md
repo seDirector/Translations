@@ -1,4 +1,4 @@
-[![gitlocalized ](https://gitlocalize.com/repo/6339/whole_project/badge.svg)](https://gitlocalize.com/repo/6339/whole_project?utm_source=badge)
+[![gitlocalized ](https://gitlocalize.com/repo/6339/whole_project/badge.svg)](https://gitlocalize.com/repo/6339)
 
 ![seDirector logo](https://sedirector.net/images/logo.png)
 
