@@ -14,10 +14,11 @@ If you can read/write in any of these languages OR if you have another language 
 |--|--|--|--|--|
 |[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
-|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|In Progress (Proofread)||Contato|
 |[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
 |[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress (Proofread)||[Geheim123](https://github.com/Geheim123)|
-|[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Translation||Joahkim Ehrendahl|
+|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Need Proofread||Contato|
+|[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
+|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Need Proofread|||
 |[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Need Translation|||
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Translation|||
 |[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Translation|||
@@ -25,7 +26,6 @@ If you can read/write in any of these languages OR if you have another language 
 |[Japanese](https://gitlocalize.com/repo/6339/ja/en.json)|Japan|Need Translation|||
 |[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Need Translation|||
 |[Spanish](https://gitlocalize.com/repo/6339/es/en.json)|*|Need Translation|||
-|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Need Translation|||
 |[Romanian](https://gitlocalize.com/repo/6339/ro/en.json)|Romania|Need Translation|||
 
 # Getting Started
