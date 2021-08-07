@@ -8,7 +8,7 @@
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
-|Language|Locale|Status|Merged into seDirector|Active Contributors|
+|Language|Locale|Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|
 |[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
