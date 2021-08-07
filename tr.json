@@ -616,6 +616,5 @@
             "PortIsOpen": "Port is open",
             "PortIsClosed": "Port is closed"
         }
-    },
-    "DateFormat": "Date Format"
+    }
 }
