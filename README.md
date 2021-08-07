@@ -30,9 +30,12 @@ If you can read/write in any of these languages OR if you have another language 
 
 **Note**: the GitLocalize page may show "Translated 100%" but that is because of the automatic machine translation. The table above reflects the current status of language translation.
 
-1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6339) or click any of the languages above. If you don't see your language above click "Add Language" on GitLocalize.
-2.  Type the translation on the right side of the page and click "Submit".
-3.  When you are ready to submit the translation for review, click "Create Review Request" at the top. Type a comment (optional) and click "Submit". Then click "Send Pull Request", give it a title, and click "Submit Pull Request".
+1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6339) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
+2.  Type the translation on the right side of the page and click **Submit**.
+3.  When you are ready to submit the translation for review:
+    1. Click **Create Review Request** at the top.
+    2. Type a comment (optional) and click **Submit**.
+    3. Click **Send Pull Request**, give it a title, and click **Submit Pull Request**.
 4.  Once a translation file has enough of the main translations done, it will be merged into seDirector.
 5.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
 6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
