@@ -30,6 +30,8 @@ If you can read/write in any of these languages OR if you have another language 
 
 # Getting Started
 
+Note: the GitLocalize page may show "Translated 100%" but that is because of the machine automatic translation. The table above reflects the current status of language translation.
+
 1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6339) or click any of the languages above. If you don't see your language above click "Add Language" on GitLocalize.
 2.  Type the translation on the right side of the page and click "Submit".
 3.  When you are ready to submit the translation for review, click "Create Review Request" at the top. Type a comment (optional) and click "Submit". Then click "Send Pull Request", give it a title, and click "Submit Pull Request".
