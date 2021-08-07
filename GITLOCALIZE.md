@@ -1,5 +1,9 @@
 # Translation Info
 
+GitHub page: https://github.com/seDirector/Translations
+
+Note: this page may show "Translated 100%" but that is because of the machine auto translation. The current language status is listed on the GitHub page.
+
 1.  Click any of the languages. If you don't see your language above click "Add Language" on GitLocalize.
 2.  Type the translation on the right side of the page and click "Submit".
 3.  When you are ready to submit the translation for review, click "Create Review Request" at the top. Type a comment (optional) and click "Submit". Then click "Send Pull Request", give it a title, and click "Submit Pull Request".
