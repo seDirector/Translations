@@ -1,6 +1,6 @@
 # Translation Info
 
-GitHub page: https://github.com/seDirector/Translations
+GitHub page: [https://github.com/seDirector/Translations](https://github.com/seDirector/Translations)
 
 Note: this page may show "Translated 100%" but that is because of the machine auto translation. The current language status is listed on the GitHub page.
 
@@ -19,7 +19,3 @@ Note: this page may show "Translated 100%" but that is because of the machine au
 4.  There may be duplicate translations - please keep them.
 5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as the meaning is the same, you can move them as needed.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
-
-# Questions / Social
-
-Please join the special [#translations channel on our Discord](https://sedirector.net/discord/translations). Let us know your username and you'll be added to the list above.
