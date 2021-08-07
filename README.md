@@ -2,9 +2,9 @@
 
 ![seDirector logo](https://sedirector.net/images/logo.png)
 
-# Translations
+# seDirector Translations
 
-seDirector is a game server management application.
+[seDirector](https://sedirector.net) is a game server management application.
 
 # Language Status
 
