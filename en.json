@@ -551,12 +551,15 @@
 			"RestartServerBegin": "Restarting server",
 			"RestartServerFinished": "Restarted",
 			"RestartServerError": "Restarting server error",
+			"StoppingUpdate": "Stopping update",
+			"TryUpdatingManually": "Try updating manually",
 			"UpdateServerBegin": "Started update process",
 			"UpdateServerStartSuccess": "Updating server",
 			"UpdateServerErrorExited": "Updating server error (exited)",
 			"UpdateServerError": "Updating server error",
 			"ShowHideError": "Show/Hide error",
-			"CannotStartServerMissingDirectory": "Cannot start: Server directory missing"
+			"CannotStartServerMissingDirectory": "Cannot start: Server directory missing",
+			"TaskRequestedServerUpdate": "Task requested server update."
 		},
 		"FileProperties": {
 			"Logs_FileProperties": {
@@ -617,6 +620,21 @@
 			"PortRequirements": "Port number must be an integer between 1-65535.",
 			"PortIsOpen": "Port is open",
 			"PortIsClosed": "Port is closed"
+		},
+		"Troubleshooting": {
+			"ServerStartsNormally": "This server appears to start normally.{LB}{LB}Continue troubleshooting?",
+			"TestPassedWithoutAdditionalParameters": "Test passed. Server started successfully without the Additional Parameters. Something in your Additional Parameters is causing a problem when starting the server.",
+			"TestFailedWithoutAdditionalParameters": "Test failed. Server did not start successfully, even with Additional Parameters disabled.",
+			"CouldNotDisableAddons": "Error 3600. Could not disable addons. Please restart your computer and try again.",
+			"CouldNotEnableAddons": "Error 3601. Could not enable addons. You will need to manually rename 'addons_testing_renamed' to 'addons' to re-enable your addons.",
+			"ConfirmingServerStartIssue": "Troubleshoot: confirming server start issue",
+			"RunningServerWithoutAdditionalParameters": "Troubleshoot: running server without additional parameters",
+			"RunningServerWithoutACAP": "Troubleshoot: running server without addons, cfg file, additional parameters",
+			"TestPassedWithoutACAP": "Test passed. Server started successfully without addons, cfg, and Additional Parameters. Something in addons, cfg, and/or Additional Parameters is causing a problem starting the server.{LB}{LB}Note: this test does not test SourceMod cfg files, please check those as well if you have SourceMod.",
+			"TestFailedWithoutACAP": "Test failed. Server did not start successfully, even with addons, cfg, and Additional Parameters disabled.{LB}{LB}Note: this test does not test SourceMod cfg files, please check those as well if you have SourceMod.",
+			"RunningServerWithoutAddons": "Troubleshoot: running server without addons",
+			"TestPassedWithoutAddons": "Test passed. Server started successfully without the addons folder. Something inside the addons folder is causing a problem when starting the server. This problem could be caused by a cfg file related to an addon so check the cfg folder as well.",
+			"TestFailedWithoutAddons": "Test failed. Server did not start successfully, even with addons disabled."
 		}
 	}
 }
