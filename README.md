@@ -19,11 +19,11 @@ If you can read/write in any of these languages OR if you have another language 
 |[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Need Proofread|||
 |[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Need Translation|||
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Translation|||
-|[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Translation|||
+|[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need ProofreadU|||
 |[Italian](https://gitlocalize.com/repo/6339/it/en.json)|Italy|Need Translation|||
 |[Japanese](https://gitlocalize.com/repo/6339/ja/en.json)|Japan|Need Translation|||
 |[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Need Translation|||
-|[Spanish](https://gitlocalize.com/repo/6339/es/en.json)|*|Need Translation|||
+|[Spanish](https://gitlocalize.com/repo/6339/es/en.json)|*|Need Proofread|||
 |[Romanian](https://gitlocalize.com/repo/6339/ro/en.json)|Romania|Need Translation|||
 
 # Getting Started
