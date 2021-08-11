@@ -114,6 +114,7 @@
 				"Properties_ServerPropertiesCannotBeChangedWhileRunning": "Server Properties cannot be changed while running",
 				"Properties_PleaseFillRequiredFields": "Please fill required fields",
 				"Properties_SaveSettings": "Save Settings",
+				"CreateServerCFGInfo": "Since server.cfg executes automatically, it will not appear in the Execute CFG drop-down.",
 				"StartOptions": "Start Options",
 				"StartThisServerWhenSedirectorStarts": "Start this server when seDirector starts",
 				"HideServerWindow": "Hide server window",
@@ -561,6 +562,7 @@
 			"Logs_FileProperties": {
 				"Title": "seDirector Log File",
 				"Description": "Server log in chronological order.",
+				"Format": "YYYY-MM-DD HH:MM:SS AP | Event",
 				"DescriptionFormat": "{0}: {1}",
 				"DescriptionLabel": "Description",
 				"ServerName": "Server Name",
