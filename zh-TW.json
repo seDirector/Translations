@@ -106,7 +106,6 @@
 				"Properties_Browse": "瀏覽",
 				"Properties_Create": "Create",
 				"Properties_CustomGameMod": "自定義 遊戲 / 模組",
-				"Properties_UsePublicIPUnlessOnDMZ": "除非在DMZ後面，不然則使用公共IP",
 				"Properties_NextAvailable": "選擇下一個",
 				"Properties_CreateServerCFG": "新增 server.cfg",
 				"Properties_LocalMap": "本機地圖",

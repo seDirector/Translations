@@ -106,7 +106,6 @@
 				"Properties_Browse": "Browse",
 				"Properties_Create": "Create",
 				"Properties_CustomGameMod": "Custom Game / Mod",
-				"Properties_UsePublicIPUnlessOnDMZ": "Use public IP unless on DMZ",
 				"Properties_NextAvailable": "Next Available",
 				"Properties_CreateServerCFG": "Create server.cfg",
 				"Properties_LocalMap": "Local Map",
