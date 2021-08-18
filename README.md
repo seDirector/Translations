@@ -10,6 +10,7 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|
+|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Complete|Next Release|[Tsukasa](https://github.com/Tsukasa-Nefren)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|In Progress|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
 |[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
@@ -17,7 +18,6 @@ If you can read/write in any of these languages OR if you have another language 
 |[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Need Proofread||Contato|
 |[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
 |[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Need Proofread|||
-|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Need Proofread|||
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Proofread|||
 |[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Proofread|||
 |[Italian](https://gitlocalize.com/repo/6339/it/en.json)|Italy|Need Proofread|||
