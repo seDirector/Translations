@@ -3,6 +3,7 @@
     "UI": {
       "MainWindow": {
         "Menu_Start": "시작",
+        "Menu_Stop": "정지",
         "Menu_Restart": "재시작",
         "Menu_Update": "업데이트",
         "Menu_Show_Hide": "표시/숨기기",
@@ -29,6 +30,7 @@
         "Updated": "업데이트됨",
         "Properties": "속성",
         "Start": "시작",
+        "Stop": "정지",
         "Restart": "재시작",
         "ShowHide": "표시/숨기기",
         "Update": "업데이트",
@@ -54,13 +56,17 @@
         "GameDirectory": "게임 디렉토리",
         "CMDDir": "디렉토리의 CMD",
         "ConfigFiles": "구성 파일",
+        "Maps": "맵",
+        "Sound": "사운드",
         "Addons": "애드온",
         "SourceMod": "소스모드",
+        "Directory": "경로",
         "Scripting": "스크립팅",
         "Plugins": "플러그인",
         "PluginsSearch": "플러그인 검색",
         "Forums": "포럼",
         "MoveToTop": "맨 위로 이동",
+        "MoveUp": "위로 이동",
         "MoveDown": "아래로 이동",
         "MoveToBottom": "맨 아래로 이동",
         "CreateServer": "서버 생성",
@@ -78,22 +84,27 @@
         "DiscordServer": "디스코드 서버",
         "DonateToSed": "seDirector에 기부",
         "RecFold": "권장 폴더 구조",
+        "CFGExamples": "CFG 예시",
         "ReleaseNotes": "릴리즈 노트",
         "CFU": "업데이트 확인",
         "About": "에 대한"
       },
       "ServerProperties": {
         "Properties_ServerName": "서버 이름",
+        "Properties_SRCDSLocation": "SRCDS 경로",
         "Properties_Game": "게임",
         "Properties_IPAddress": "IP 주소(선택 사항)",
         "Properties_PortNumber": "포트 번호",
         "Properties_ExecuteCFG": "CFG 실행",
+        "Properties_Map": "맵",
         "Properties_NumberOfPlayers": "플레이어 수",
+        "Properties_Secure": "보안",
         "Properties_AdditionalParameters": "추가 매개변수",
         "Properties_ProcessorAffinity": "프로세서 선호도",
         "Properties_ProcessPriority": "프로세스 우선 순위",
         "Properties_CommandToRun": "실행 명령",
         "Properties_Browse": "검색",
+        "Properties_Create": "만들다",
         "Properties_CustomGameMod": "커스텀 게임/모드",
         "Properties_NextAvailable": "다음 사용 가능",
         "Properties_CreateServerCFG": "server.cfg 생성",
@@ -101,6 +112,7 @@
         "Properties_WorkshopCustomMap": "워크샵/사용자 지정 지도{LB}(추가 매개변수를 사용하여 조정)",
         "Properties_NormalRecommendedRealtimeNotRecommended": "보통이 권장됩니다. 실시간은 권장하지 않습니다",
         "Properties_ServerPropertiesCannotBeChangedWhileRunning": "실행 중에는 서버 속성을 변경할 수 없습니다.",
+        "Properties_PleaseFillRequiredFields": "필수 항목을 입력하십시오.",
         "Properties_SaveSettings": "설정 저장",
         "CreateServerCFGInfo": "server.cfg는 자동으로 실행되기 때문에 CFG 실행 드롭다운에 나타나지 않습니다.",
         "StartOptions": "시작 옵션",
@@ -119,6 +131,7 @@
         "NotInstalled": "설치되지 않음",
         "Install": "설치",
         "Uninstall": "제거",
+        "Directory": "경로",
         "CrashRecovery": "충돌 복구",
         "RecoverFromServerCrash": "서버 충돌에서 복구",
         "HowCrashRecoveryWorks": "충돌 복구 작동 방식:{LB}seDirector는 서버가 충돌한 횟수를 계산합니다. 서버가 10분 동안 2번 충돌하면 seDirector는 자동으로 서버 업데이트를 시도합니다. 업데이트 후 10분 이내에 서버가 다시 충돌하면 seDirector가 서버를 중지합니다. 서버가 크래시 없이 10분 이상 경과하면 크래시 카운터가 재설정됩니다.{LB}{LB}10분 동안 1번 크래시 = 정상{LB} 10분 동안 2번 크래시 = 업데이트 시도{LB}10분 동안 1번 크래시 업데이트 후 분 = 서버 중지(활성화된 경우 알림 전송){LB}충돌 없이 10분마다 = 카운트 재설정",
@@ -128,20 +141,25 @@
         "Name": "이름",
         "YourVersion": "버전",
         "LatestVersion": "최신 버전",
+        "Path": "경로",
         "SaveAndReopenToChange": "이 설정을 변경하려면 저장하고 다시 여세요.",
         "AddonsNotSupported": "이 게임 서버에서 지원되지 않는 애드온",
+        "Actions": "동작",
         "AddOn": "애드온",
         "VersionToInstall": "설치할 버전",
         "InstallChange": "설치/변경",
         "Publisher": "발행자",
         "Description": "설명",
         "Website": "웹사이트",
+        "Documentation": "문서",
+        "Forum": "포럼",
         "PluginsAddons": "플러그인/애드온",
         "NoAvailableAddonsToInstall": "설치할 수 있는 애드온이 없습니다.",
         "WhenColumn": "언제",
         "Action": "행동",
         "Daily": "일일",
         "Weekly": "주간",
+        "Monthly": "월간",
         "OnAnEvent": "이벤트에서",
         "Hour": "시간",
         "Minute": "분",
@@ -168,6 +186,7 @@
         "TargetDirectory": "대상 디렉토리",
         "FTPSFTPSync": "HTTP 빠른 다운로드를 위한 FTP/SFTP 동기화",
         "EnableFTPSFTP": "FTP/SFTP 동기화 활성화",
+        "Server": "서버",
         "Username": "사용자 이름",
         "Password": "비밀번호",
         "ConnectionType": "연결 타입",
@@ -186,6 +205,7 @@
         "WantToReceive": "문자/SMS를 받고 싶으세요?",
         "CopyFromOtherServer": "다른 서버에서 복사",
         "SendTestEmail": "테스트 이메일 보내기",
+        "DiscordNotifications": "디스코드 알림",
         "DiscordNotifications2": "seDirector는 서버가 충돌하여 자동으로 복구할 수 없거나 서버가 성공적으로 시작되지 않는 경우 Discord를 통해 자동으로 알려줍니다. Discord 알림이 작동하려면 자동화 탭의 '서버 충돌에서 복구' 확인란을 선택해야 합니다.",
         "EnableDiscordNotifications": "Discord 알림 활성화",
         "DiscordWebhook": "디스코드 웹훅",
@@ -216,6 +236,7 @@
         "SteamLoginDesc": "선택 과목. 일부 게임이나 고급 작업을 수행하는 경우에만 필요합니다.",
         "Username": "사용자 이름",
         "Password": "비밀번호",
+        "PleaseFillRequiredFields": "필수 항목을 작성하십시오.",
         "SaveSettings": "설정 저장"
       },
       "CreateServer": {
@@ -242,6 +263,7 @@
     "CreateServer": {
       "SelectEmptyDirectoryForServer": "서버를 설치할 EMPTY 디렉토리를 선택하십시오. 필요한 경우 새 디렉토리를 만드십시오.",
       "CannotUseRootDirectoryDrive": "드라이브의 루트 디렉토리는 사용할 수 없습니다.",
+      "DirectoryNotEmptyOverwrite": "디렉토리가 비어 있지 않습니다. 파일을 덮어쓸 수 있습니다! 진행하시겠습니까?",
       "UserPassReqToUpdate": "이 게임을 업데이트하려면 Steam의 사용자 이름과 비밀번호가 필요합니다. 도구->옵션에서 설정하고 이 창으로 돌아가십시오."
     },
     "FTP": {
@@ -265,15 +287,20 @@
       "Downloading": "다운로드 중",
       "DownloadingX": "{0} 다운로드 중",
       "ErrorWhileDownloadingFile": "파일을 다운로드하는 동안 오류가 발생했습니다.",
+      "Extracting": "압축해제",
+      "ExtractingX": "{0} 압축해제중",
       "SteamCMDNeedsUpdate": "SteamCMD가 다운로드되었으며 처음으로 업데이트해야 합니다. 다음 창은 완료되면 자동으로 닫히므로 수동으로 닫지 마십시오.",
       "ErrorWhileTryingToExtract": "추출하는 동안 오류가 발생했습니다."
     },
     "Options": {
+      "DesktopShortcutSuccess": "바탕 화면 바로 가기 생성 성공",
+      "DesktopShortcutError": "바탕 화면 바로 가기 생성 오류",
       "DefaultDirectory": "기본 디렉토리",
       "SelectEmptyDirForSteamCMD": "SteamCMD를 설치할 빈 디렉터리를 선택하세요. 필요한 경우 새 디렉토리를 만드십시오.",
       "DirNotEmptyOverwrite": "디렉토리가 비어 있지 않습니다. 파일을 덮어쓸 수 있습니다! 진행하다?",
       "ErrorTryingDownload": "{0} 다운로드를 시도하는 동안 오류가 발생했습니다. 인터넷 연결 문제?",
       "SelectDirMostCommonUsed": "seDirector에서 가장 일반적으로 사용하는 디렉토리를 선택하십시오.",
+      "UnsureCreateDir": "불안정한가요? C:\\ 경로에 Steam이라는 디렉터리를 만들고 선택합니다.",
       "DefaultDirToBrowse": "'찾을 기본 디렉터리' 설정은 파일이나 폴더를 검색할 때 자동으로 지정된 디렉터리를 열도록 seDirector에 지시합니다. 그렇게 하면 매번 Computer->C Drive->Steam->etc로 이동할 필요가 없습니다. 그러면 자동으로 설정한 디렉토리가 열립니다."
     },
     "Progress": {
@@ -298,9 +325,12 @@
       "ErrorSendingInformation": "정보를 보내는 중에 오류가 발생했습니다. 인터넷 연결을 확인하고 문제가 지속되면 support@sedirector.net에 문의하십시오."
     },
     "Status": {
+      "Running": "실행중",
       "Offline": "오프라인",
       "Starting": "시작",
+      "Stopping": "정지",
       "ErrorStarting": "시작 중 오류",
+      "ErrorStopping": "오류로 중지",
       "UpdateStarting": "업데이트 시작 중",
       "Updating": "업데이트 중",
       "UpdateError": "업데이트 오류",
@@ -313,10 +343,13 @@
       "Started": "시작됨",
       "LastUpdated": "마지막 업데이트",
       "TheMaxNumberOfServers": "최대 서버 수는 {0}입니다.",
+      "StartingMap": "시작 맵",
+      "CurrentMap": "현재 맵",
       "ServerCrashedEvenAfterUpdating": "업데이트 후에도 서버가 다운됨",
       "SentServerCrashEmail": "서버 충돌 이메일 알림을 보냈습니다.",
       "SentServerCrashDiscord": "서버 충돌 Discord 알림을 보냈습니다.",
       "ZipFiles": "Zip 파일",
+      "Backup": "백업",
       "ErrorCheckingNewerVersionSedirector": "오류 1007: 최신 버전의 seDirector를 확인하는 동안 오류가 발생했습니다. 인터넷 연결을 확인하고 다시 시도하거나 문제가 지속되면 seDirector 지원에 문의하십시오.",
       "TaskRequestedServerRestart": "작업에서 서버 다시 시작을 요청했습니다.",
       "TaskRequestedServerRestartInGame": "작업 요청 서버 재시작(게임 내 알림 포함)",
@@ -324,6 +357,7 @@
       "RestartServerInGame": "게임 내 알림이 있는 서버 다시 시작(플러그인 필요)",
       "Daily": "일일",
       "Weekly": "주간",
+      "Monthly": "월간",
       "UpdateServer": "서버 업데이트",
       "UpdateServerInGame": "게임 내 알림이 있는 업데이트 서버(플러그인 필요)",
       "TaskRequestedUpdateInGame": "작업 요청 서버 업데이트(게임 내 알림 포함)",
@@ -333,6 +367,7 @@
       "ServerFTPCanceled": "서버 FTP/SFTP 동기화 취소됨",
       "SedirectorAlert": "seDirector 경고",
       "Computer": "컴퓨터",
+      "Server": "서버",
       "ServerCrashedUnableToRecoverAuto": "[b]컴퓨터:[/b] {COMPUTER_NAME}[br][b]서버[/b]: {SERVER_NAME}[br][br]서버가 충돌하여 seDirector에서 자동으로 복구할 수 없습니다.",
       "ServerCrashedUnableToRecoverAutoGeneral": "서버가 충돌하여 seDirector가 자동으로 복구할 수 없습니다.",
       "ErrorSendingTestEmailContact": "테스트 이메일을 보내는 동안 오류가 발생했습니다. seDirector 지원에 문의하십시오.",
@@ -355,6 +390,7 @@
     "Notifications": {
       "DebugModeEnabled": "디버그 모드가 활성화되었습니다!",
       "RunningNotAttached": "{0}이(가) 실행 중이며 seDirector에 연결되어 있지 않습니다. 확인을 클릭하여 프로세스를 종료하거나 취소를 클릭하여 seDirector를 종료합니다.",
+      "ForceUpdateSedirector": "seDirector를 강제로 업데이트 하시겠습니까?",
       "DesktopShortcutCreated": "바탕 화면 바로 가기가 생성되었습니다.",
       "StartMenuShortcutCreated": "시작 메뉴 바로 가기가 생성되었습니다.",
       "ShortcutError": "바로가기를 만드는 동안 오류가 발생했습니다. 데스크탑에 대한 액세스 권한이 있는지 확인하십시오.",
@@ -371,6 +407,7 @@
       "CrashedByClosing": "닫기로 인해 다운됨",
       "DetectedNotResponding": "응답하지 않는 것으로 감지, 10초 후에 재시도",
       "CrashByNotResponding": "응답하지 않아 충돌",
+      "ManualInterventionRequired": "수동 수정 필요",
       "DetectedUpdate": "감지된 업데이트 요청",
       "DetectedRestartRequest": "감지된 재시작 요청",
       "ServerStoppedForUpdating": "업데이트를 위해 서버가 중지되었습니다.",
@@ -402,7 +439,8 @@
     },
     "Backups": {
       "CreateBackupAsk": "서버 {0}에 대한 백업을 만드시겠습니까?",
-      "CreatingBackupCaption": "백업 생성"
+      "CreatingBackupCaption": "백업 생성",
+      "BackingUpServer": "{0} 백업중"
     },
     "Compressing": {
       "CompressingToBZ2": "BZ2로 압축",
@@ -485,7 +523,12 @@
       "GameRequiresLoginToUpdate": "이 게임을 업데이트하려면 로그인이 필요합니다. 도구->옵션에서 Steam 로그인을 설정하세요. 그렇지 않으면 업데이트가 실패합니다.",
       "InstallMetamodSourcemodBeforePlugin": "seDirector 플러그인을 설치하기 전에 Metamod + SourceMod를 설치해야 합니다.",
       "ProcessPriority": {
-        "Realtime": "실시간"
+        "Realtime": "실시간",
+        "High": "상",
+        "AboveNormal": "중상",
+        "Normal": "중",
+        "BelowNormal": "중하",
+        "Low": "하"
       },
       "Logs_ServerProperties": {
         "ModifiedServerProperties": "수정된 서버 속성"
@@ -493,12 +536,14 @@
     },
     "UpdateProgress": {
       "StartUpdate": "업데이트 시작",
+      "Working": "작업중",
       "UpdateComplete": "업데이트완료",
       "Manual": "설명서"
     },
     "Logs": {
       "StartServerBegin": "서버 시작",
       "StartServerStartingError": "서버 시작 오류",
+      "StartServerFinished": "실행중",
       "StartServerError": "서버 시작 오류",
       "StopServerBegin": "서버 중지",
       "StopServerFinished": "중지됨",
@@ -532,13 +577,15 @@
     "Paths": {
       "Names": {
         "ServerLogsFolder": "서버 로그",
-        "seDirectorLogPath": "seDirector_error.log"
+        "seDirectorLogPath": "seDirector_error.log",
+        "SteamCMDName": "steamcmd.exe"
       },
       "InternalNames": {
         "ServerLogsPath": "서버로그경로",
         "ServerLogsHostPath": "서버로그호스트경로",
         "ServerLogsHostServerPath": "서버로그호스트서버경로",
-        "seDirectorLogPath": "seDirectorLogPath"
+        "seDirectorLogPath": "seDirectorLogPath",
+        "SteamCMD": "SteamCMD"
       }
     },
     "Addons": {
@@ -571,7 +618,8 @@
     },
     "PortChecker": {
       "PortRequirements": "포트 번호는 1-65535 사이의 정수여야 합니다.",
-      "PortIsOpen": "포트가 열려 있습니다"
+      "PortIsOpen": "포트가 열려 있습니다",
+      "PortIsClosed": "포트가 닫혀 있습니다"
     },
     "Troubleshooting": {
       "ServerStartsNormally": "이 서버는 정상적으로 시작되는 것 같습니다.{LB}{LB}문제 해결을 계속하시겠습니까?",
