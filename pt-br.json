@@ -61,6 +61,7 @@
         "Addons": "Addons",
         "SourceMod": "SourceMod",
         "Directory": "Diretório",
+        "Scripting": "Scripting",
         "Plugins": "Plugins",
         "PluginsSearch": "Busca de Plugins",
         "Forums": "Fóruns",
@@ -77,6 +78,7 @@
         "OpenSeDir": "Abrir Diretório seDiretor",
         "Options": "Opções",
         "SupportRequest": "Solicitação de Suporte",
+        "StatusPage": "Página de status",
         "PremiumSupport": "Suporte Premium",
         "HelpTranslateSed": "Ajude a Traduzir seDiretor",
         "DiscordServer": "Servidor Discord",
@@ -112,6 +114,7 @@
         "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Propriedades do servidor não podem ser alteradas durante a execução",
         "Properties_PleaseFillRequiredFields": "Por favor, preencha os campos obrigatórios",
         "Properties_SaveSettings": "Salvar configurações",
+        "CreateServerCFGInfo": "Como o server.cfg é executado automaticamente, ele não aparecerá na lista suspensa Executar CFG.",
         "StartOptions": "Opções de início",
         "StartThisServerWhenSedirectorStarts": "Inicie este servidor quando o seDirector iniciar",
         "HideServerWindow": "Ocultar a janela do servidor",
@@ -548,17 +551,21 @@
       "RestartServerBegin": "Reinicialização do servidor",
       "RestartServerFinished": "Reiniciado",
       "RestartServerError": "Erro reinicialização do servidor",
+      "StoppingUpdate": "Parando atualização",
+      "TryUpdatingManually": "Tente atualizar manualmente",
       "UpdateServerBegin": "Iniciado o processo de atualização",
       "UpdateServerStartSuccess": "Atualização do servidor",
       "UpdateServerErrorExited": "Erro de atualização do servidor (exitado)",
       "UpdateServerError": "Atualização de erro do servidor",
       "ShowHideError": "Mostrar/Ocultar erro",
-      "CannotStartServerMissingDirectory": "Não pode começar: Falta diretório do servidor"
+      "CannotStartServerMissingDirectory": "Não pode começar: Falta diretório do servidor",
+      "TaskRequestedServerUpdate": "A tarefa solicitou a atualização do servidor."
     },
     "FileProperties": {
       "Logs_FileProperties": {
         "Title": "seDirector Log File",
         "Description": "Log do servidor em ordem cronológica.",
+        "Format": "AAAA-MM-DD HH: MM: SS AP | Evento",
         "DescriptionFormat": "{0}: {1}",
         "DescriptionLabel": "Descrição",
         "ServerName": "Nome do servidor",
@@ -615,7 +622,19 @@
       "PortIsClosed": "Porta está fechada"
     },
     "Troubleshooting": {
-      "TestPassedWithoutAddons": "Teste aprovado. O servidor foi iniciado com sucesso sem a pasta de addons. Algo dentro da pasta de addons está causando um problema ao iniciar o servidor. Esse problema pode ser causado por um arquivo cfg relacionado a um addon, portanto, verifique também a pasta cfg."
+      "ServerStartsNormally": "Este servidor parece iniciar normalmente. {LB} {LB} Continuar com a solução de problemas?",
+      "TestPassedWithoutAdditionalParameters": "Teste aprovado. O servidor foi iniciado com sucesso sem os parâmetros adicionais. Algo em seus parâmetros adicionais está causando um problema ao iniciar o servidor.",
+      "TestFailedWithoutAdditionalParameters": "Teste falhou. O servidor não foi iniciado com êxito, mesmo com os parâmetros adicionais desativados.",
+      "CouldNotDisableAddons": "Erro 3600. Não foi possível desativar complementos. Reinicie o seu computador e tente novamente.",
+      "CouldNotEnableAddons": "Erro 3601. Não foi possível habilitar complementos. Você precisará renomear manualmente 'addons_testing_renamed' para 'addons' para reativar seus addons.",
+      "ConfirmingServerStartIssue": "Solução de problemas: confirmando o problema de inicialização do servidor",
+      "RunningServerWithoutAdditionalParameters": "Solução de problemas: servidor em execução sem parâmetros adicionais",
+      "RunningServerWithoutACAP": "Solução de problemas: servidor em execução sem complementos, arquivo cfg, parâmetros adicionais",
+      "TestPassedWithoutACAP": "Teste aprovado. O servidor foi iniciado com êxito sem complementos, cfg e parâmetros adicionais. Algo em addons, cfg e / ou parâmetros adicionais está causando um problema ao iniciar o servidor. {LB} {LB} Observação: este teste não testa arquivos cfg SourceMod, verifique-os também se você tiver SourceMod.",
+      "TestFailedWithoutACAP": "Teste falhou. O servidor não foi iniciado com sucesso, mesmo com addons, cfg e parâmetros adicionais desativados. {LB} {LB} Nota: este teste não testa arquivos cfg SourceMod, verifique-os também se você tiver SourceMod.",
+      "RunningServerWithoutAddons": "Solução de problemas: servidor em execução sem complementos",
+      "TestPassedWithoutAddons": "Teste aprovado. O servidor foi iniciado com sucesso sem a pasta de addons. Algo dentro da pasta de addons está causando um problema ao iniciar o servidor. Esse problema pode ser causado por um arquivo cfg relacionado a um addon, portanto, verifique também a pasta cfg.",
+      "TestFailedWithoutAddons": "Teste falhou. O servidor não foi iniciado com êxito, mesmo com os complementos desativados."
     }
   }
 }
