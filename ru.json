@@ -1,0 +1,195 @@
+{
+  "Lang": {
+    "UI": {
+      "MainWindow": {
+        "Menu_Start": "Запустить",
+        "Menu_Stop": "Остановить",
+        "Menu_Restart": "Перезапустить",
+        "Menu_Update": "Обновить",
+        "Menu_Show_Hide": "Показать/спрятать",
+        "Menu_Open_Game_Directory": "Открыть директорию игры",
+        "Menu_Open_Maps_Directory": "Открыть папку с картами\n",
+        "Uptime": "Аптайм",
+        "CPU": "ЦП",
+        "Memory": "ОЗУ",
+        "IP_Address": "IP-адрес",
+        "Created": "Созданн",
+        "Logs": "Логи",
+        "Started": "Запущен",
+        "Updated": "Обновлен",
+        "Properties": "Свойства",
+        "Start": "Запустить",
+        "Stop": "Останавить",
+        "Restart": "Перезапустить",
+        "ShowHide": "Показать/Спрятать",
+        "Update": "Обновить",
+        "DuplicateServer": "Дублировать сервера",
+        "RunLocal": "Запустите Локальную/ FTP / SFTP-синхронизацию",
+        "RunServerWithoutAddons": "Запустить сервер без аддонов",
+        "RunServerWithoutCfgFile": "Запустить сервер без CFG файла ",
+        "RunServerWithoutAddonsCfgFileAP": "Запустить сервер без аддонов, cfg файла или дополнительных параметров",
+        "OSLF": "Открыть папку логов сервера",
+        "CompressLogs": "Сжать логи",
+        "GameDirectory": "Каталог игры",
+        "CMDDir": "CMD в папке",
+        "Addons": "Аддоны",
+        "Forums": "Форум",
+        "MoveUp": "Вверх",
+        "ReloadSed": "Перезагрузить seDirector (оставить серверы запущенными)",
+        "KillAll": "Убить все процессы",
+        "OpenSL": "Открыть лог seDirector",
+        "Options": "Настройки",
+        "ReleaseNotes": "Изменения"
+      },
+      "ServerProperties": {
+        "Properties_Map": "Карта",
+        "Properties_Secure": "Защищён",
+        "Properties_ProcessorAffinity": "Привязка к процессору",
+        "Properties_CommandToRun": "Команды для запуска",
+        "Properties_Browse": "Обзор",
+        "Properties_Create": "Создать",
+        "Properties_CreateServerCFG": "Создать server.cfg",
+        "Properties_LocalMap": "Локальная карта",
+        "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Нельзя изменить настройки во время работы сервера",
+        "Path": "Путь",
+        "AddonsNotSupported": "Дополнения, не поддерживаемые на этом сервере",
+        "AddOn": "Аддон",
+        "Website": "Сайт",
+        "PluginsAddons": "Плагины/Аддоны",
+        "NoAvailableAddonsToInstall": "Нет доступных аддонов для установки.",
+        "Daily": "Ежедневно",
+        "OnAnEvent": "При событии",
+        "RestartServer": "Перезапустить сервер",
+        "RestartServer2": "Перезапустить сервер с внутриигровым уведомлением  (нужен плагин)",
+        "UpdateServer2": "Обновить сервер с внутриигровым уведомлением (нужен плагин)",
+        "BZ2CompressionExplained": "Сжатие BZ2 позволяет загружать контент на компьютер игрока намного быстрее, чем загрузка традиционных файлов BSP. Он похож на ZIP-файл, но заканчивается на BZ2. Файлы создаются в той же папке, что и контент.",
+        "HTTPFastDownload": "HTTP FastDL",
+        "HTTPFastDownloadExplained2": "Создайте новый каталог на веб-сервере и укажите его расположение ниже.",
+        "DirSyncHTTP": "Синхронизация каталогов HTTP FastDL",
+        "TargetDirectory": "Целевая папка",
+        "SFTPRecommended": "SFTP рекомендуется, так как он шифрует ваши учетные данные",
+        "TestCon": "Проверить соединение",
+        "ExampleNotification": "Тестовое уведомления",
+        "ExampleNotification_Subject": "Тема",
+        "ExampleNotification_Body": "Главная часть",
+        "EmailTextSMS": "Email / текст / SMS-уведомление",
+        "EmailTextSMS2": "seDirector автоматически уведомит вас по электронной почте, если ваш сервер выйдет из строя и не может быть восстановлен автоматически ИЛИ если сервер не запускается. Флажок «Восстановить после сбоя сервера» на вкладке «Автоматизация» ДОЛЖЕН быть установлен, чтобы уведомления по электронной почте работали.",
+        "CopyFromOtherServer": "Скопировать с другого сервера",
+        "SendTestEmail": "Отправить тестовый email",
+        "DiscordNotifications": "Уведомление в Discord",
+        "DiscordNotifications2": "seDirector автоматически уведомит вас через Discord, если ваш сервер выйдет из строя и не может быть восстановлен автоматически ИЛИ если сервер не запускается успешно. Флажок «Восстановить после сбоя сервера» на вкладке «Автоматизация» ДОЛЖЕН быть установлен, чтобы уведомления Discord работали.",
+        "EnableDiscordNotifications": "Включить уведомления в Discord ",
+        "HowDoI": "Как мне получить Webhook?"
+      },
+      "Options": {
+        "MTSTOC": "Свернуть в трей при закрытии",
+        "DNAU": "Не обновлять seDirector автоматически",
+        "CDS": "Создать ярлык seDirector на рабочем столе",
+        "SCL": "Расположение SteamCMD ",
+        "Clear": "Очистить"
+      },
+      "CreateServer": {
+      },
+      "PortChecker": {
+        "IPAddress": "IP-адрес",
+        "Check": "Проверить"
+      }
+    },
+    "Controller": {
+    },
+    "CreateServer": {
+      "UserPassReqToUpdate": "Для обновления этой игры требуется авторизация в Steam. Введите логин и пароль в Инструменты -> Параметры и вернитесь в это окно."
+    },
+    "FTP": {
+    },
+    "GameCommon": {
+    },
+    "Networking": {
+    },
+    "Options": {
+      "DesktopShortcutSuccess": "Ярлык успешно создан на рабочем столе",
+      "DesktopShortcutError": "Ошибка при создании ярлыка",
+      "DefaultDirectory": "Папка по умолчанию",
+      "SelectEmptyDirForSteamCMD": "Выберите пустую папку для установки SteamCMD. При необходимости создайте новую.",
+      "DirNotEmptyOverwrite": "Папка не пуста. Файлы могут быть перезаписаны! Продолжить?",
+      "SelectDirMostCommonUsed": "Выберите папку, которую вы чаще всего используете в seDirector.",
+      "UnsureCreateDir": "Не уверены? Создайте папку в C: \\ под названием Steam и выберите её.",
+      "DefaultDirToBrowse": "Параметр «Папка по умолчанию» указывает seDirector автоматически открывать указанную папку при просмотре файла или папки. Таким образом, вам не нужно каждый раз открывать Компьютер -> Диск C -> Steam и тд, она откроется автоматически."
+    },
+    "Progress": {
+      "CancelFTPSync": "Отменить FTP-синхронизацию? Некоторые файлы могут быть загружены частично, их можно будет дозагрузить при повторной синхронизации.",
+      "CancelLocalSync": "Отменить синхронизацию локального каталога? Некоторые файлы могут быть скопированы частично, их можно будет дозагрузить при повторной синхронизации."
+    },
+    "ServerConfig": {
+      "CouldNotDetectSteamInf": "Не удалось обнаружить steam.inf в каталоге игры. Откройте «Свойства» и снова выберите srcds.exe. Если проблема не исчезнет, включите параметр -validate в параметрах обновления, а затем снова выключите его."
+    },
+    "SupportRequest": {
+      "MessageSent": "Ваше сообщение отправлено. Ответ займёт от 1 до 2 рабочих дней. Спасибо."
+    },
+    "Status": {
+      "Running": "Работает",
+      "ErrorStopping": "Ошибка остановке",
+      "UpdateStarting": "Начинается обновление",
+      "UpdateError": "Ошибка при обновлении",
+      "PendingRestart": "Ожидает перезапуска",
+      "PendingUpdate": "В ожидании обновления"
+    },
+    "MainWindow": {
+      "Uptime": "Аптайм",
+      "Started": "Запущен",
+      "SentServerCrashEmail": "Уведомление о сбое сервера отправлено на e-mail",
+      "SentServerCrashDiscord": "Уведомление о сбое сервера отправлено в Discord",
+      "RestartServer": "Перезапустить сервер",
+      "RestartServerInGame": "Перезапустить сервер с внутриигровым уведомлением (нужен плагин)",
+      "Daily": "Ежедневно",
+      "UpdateServer": "Обновить сервер",
+      "UpdateServerInGame": "Обновить сервер с внутриигровым уведомлением (нужен плагин)",
+      "ServerBZ2CompCanceled": "BZ2 сжатие сервера отменено",
+      "ErrorSendingDiscordNotification": "Ошибка отправки уведомления в Discord. Убедитесь, что URL-адрес вашего Webhook правильный, и повторите попытку. Если проблема не исчезнет, обратитесь в службу поддержки seDirector."
+    },
+    "Notifications": {
+    },
+    "Backups": {
+    },
+    "Compressing": {
+    },
+    "LogsLogs": {
+    },
+    "Errors": {
+    },
+    "ServerProperties": {
+      "ProcessPriority": {
+      },
+      "Logs_ServerProperties": {
+      }
+    },
+    "UpdateProgress": {
+    },
+    "Logs": {
+    },
+    "FileProperties": {
+      "Logs_FileProperties": {
+      }
+    },
+    "Paths": {
+      "Names": {
+      },
+      "InternalNames": {
+      }
+    },
+    "Addons": {
+      "Errors": {
+      },
+      "Notifications": {
+      },
+      "Other": {
+      }
+    },
+    "Donate": {
+    },
+    "PortChecker": {
+    },
+    "Troubleshooting": {
+    }
+  }
+}
