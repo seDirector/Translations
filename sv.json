@@ -166,6 +166,7 @@
                 "Crashes": "Kraschar",
                 "UpdateComplete": "Uppdatering slutförd",
                 "SaveTask": "Spara uppgift",
+                "SaveFile": "Save File",
                 "Cancel": "Avbryt",
                 "RestartServer": "Starta om servern",
                 "RestartServer2": "Starta om servern med meddelande i spelet (plugin krävs)",

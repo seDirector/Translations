@@ -167,6 +167,7 @@
 				"Crashes": "Crashes",
 				"UpdateComplete": "Update Complete",
 				"SaveTask": "Save Task",
+                "SaveFile": "Save File",
 				"Cancel": "Cancel",
 				"RestartServer": "重新啟動伺服器",
 				"RestartServer2": "使用遊戲內通知重新啟動伺服器 (需使用外掛程式)",

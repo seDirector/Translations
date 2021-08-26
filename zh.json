@@ -166,6 +166,7 @@
                 "Crashes": "撞车",
                 "UpdateComplete": "更新完成",
                 "SaveTask": "保存任务",
+                "SaveFile": "Save File",
                 "Cancel": "取消",
                 "RestartServer": "重新启动服务器",
                 "RestartServer2": "重启服务器并在游戏中发出通知（需要插件）。",

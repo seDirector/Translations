@@ -166,6 +166,7 @@
                 "Crashes": "Abstürze",
                 "UpdateComplete": "Update abgeschlossen",
                 "SaveTask": "Aufgabe speichern",
+                "SaveFile": "Save File",
                 "Cancel": "Abbrechen",
                 "RestartServer": "Server neu starten",
                 "RestartServer2": "Neustart des Servers mit In-Game-Benachrichtigung (Plugin erforderlich)",

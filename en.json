@@ -167,6 +167,7 @@
 				"Crashes": "Crashes",
 				"UpdateComplete": "Update Complete",
 				"SaveTask": "Save Task",
+                "SaveFile": "Save File",
 				"Cancel": "Cancel",
 				"RestartServer": "Restart Server",
 				"RestartServer2": "Restart Server w/In-Game Notification (Plugin Required)",
