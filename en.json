@@ -2,6 +2,11 @@
 	"Lang": {
 		"UI": {
 			"MainWindow": {
+                "Menu_Server": "Server",
+                "Menu_AllServers": "All Servers",
+                "Menu_Tools": "Tools",
+                "Menu_Help": "Help",
+                "Menu_Exit": "Exit",
 				"Menu_Start": "Start",
 				"Menu_Stop": "Stop",
 				"Menu_Restart": "Restart",
@@ -11,6 +16,7 @@
 				"Menu_Delete_Server": "Delete Server",
 				"Menu_Open_Game_Directory": "Open Game Directory",
 				"Menu_Open_Maps_Directory": "Open Maps Directory",
+                "ServerAServer": "Select a server",
 				"Server_Name": "Server Name",
 				"Status": "Status",
 				"Uptime": "Uptime",
@@ -232,6 +238,7 @@
 				"CSMS": "Create Start Menu shortcut for seDirector",
 				"HTSWAUC": "How to start seDirector with UAC enabled but without UAC prompt",
 				"ComputerName": "Computer Name",
+                "ComputerNameMoreInfo": "Identifies the computer that seDirector is running on. Currently used in notifications to help determine which computer sent the notification.",
 				"SetToDefaultName": "Set to default name",
 				"RecommendedFolder": "Click here for the Recommended Folder Structure to use with seDirector",
 				"DDTB": "Default Directory to Browse",
