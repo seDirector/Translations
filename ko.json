@@ -96,6 +96,7 @@
 				"Properties_IPAddress": "IP 주소(선택 사항)",
 				"Properties_PortNumber": "포트 번호",
 				"Properties_ExecuteCFG": "CFG 실행",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "맵",
 				"Properties_NumberOfPlayers": "플레이어 수",
 				"Properties_Secure": "보안",

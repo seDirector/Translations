@@ -95,6 +95,7 @@
 				"Properties_IPAddress": "IP Adresi ( Zorunlu değil )",
 				"Properties_PortNumber": "Port",
 				"Properties_ExecuteCFG": "CFG Çalıştır",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "Harita",
 				"Properties_NumberOfPlayers": "Oyuncu Sayısı",
 				"Properties_Secure": "Valve Anti Hile",

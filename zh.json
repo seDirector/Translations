@@ -95,6 +95,7 @@
 				"Properties_IPAddress": "IP地址（可选",
 				"Properties_PortNumber": "端口号",
 				"Properties_ExecuteCFG": "执行CFG",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "地图",
 				"Properties_NumberOfPlayers": "玩家的数量",
 				"Properties_Secure": "安全",

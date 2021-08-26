@@ -95,6 +95,7 @@
 				"Properties_IPAddress": "IP-adress (valfritt)",
 				"Properties_PortNumber": "Hamnnummer",
 				"Properties_ExecuteCFG": "Utför CFG",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "Karta",
 				"Properties_NumberOfPlayers": "Antal spelare",
 				"Properties_Secure": "Säker",

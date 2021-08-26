@@ -96,6 +96,7 @@
 				"Properties_IPAddress": "IP-адрес (необязательно)",
 				"Properties_PortNumber": "Номер порта",
 				"Properties_ExecuteCFG": "Выполнить CFG",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "Карта",
 				"Properties_NumberOfPlayers": "Количество игроков",
 				"Properties_Secure": "Защищён",

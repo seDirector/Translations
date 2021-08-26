@@ -96,6 +96,7 @@
 				"Properties_IPAddress": "IP位置 (可選)",
 				"Properties_PortNumber": "通訊阜",
 				"Properties_ExecuteCFG": "執行 CFG",
+                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "地圖",
 				"Properties_NumberOfPlayers": "玩家人數",
 				"Properties_Secure": "反作弊系統(VAC)",
