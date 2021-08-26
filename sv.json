@@ -120,6 +120,7 @@
 				"HideUpdateWindow": "Dölja uppdateringsfönstret",
 				"UpdateOptions": "Uppdateringsalternativ",
 				"ValidateUpdate": "Validera uppdatering varje gång (lägger till parametern -validate till SteamCMD).{LB}{LB}Använd detta om dina servrar inte uppdateras eller fungerar korrekt.",
+                "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 				"UpdateAutoCurMapCurPlayers": "Uppdatera automatiskt, Aktuell karta, Aktuella spelare",
 				"SaveAndReopen": "Spara och öppna igen för att ändra dessa inställningar",
 				"PluginDescription": "seDirector kan uppdatera din server automatiskt när Steams innehållsservrar ändras. För att dessa funktioner ska fungera måste du ha SourceMod installerat innan du installerar detta insticksprogram (utom om spelservern är Garry's Mod).{LB}{LB}Insticksprogrammet seDirector uppdaterar också kolumnerna \"Current Map\" och \"Players\" i serverlistan.",

@@ -120,6 +120,7 @@
 				"HideUpdateWindow": "Güncelleme konsolunu gizle",
 				"UpdateOptions": "Güncelleme Ayarları",
 				"ValidateUpdate": "Her seferinde güncellemeyi tekrar denetle (SteamCMD'ye -validate parametresini ekler).{LB}{LB}Eğer sunucunuz doğru bir şekilde güncellenmiyorsa bunu kullanın.",
+                "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 				"UpdateAutoCurMapCurPlayers": "Otomatik Güncelleme, Aktif Harita, Oyuncu Sayısı",
 				"SaveAndReopen": "Kaydet ve paneli tekrar aç.",
 				"PluginDescription": "seDirector can update your server automatically when Steam's content servers change. For these features to work, you must have SourceMod installed prior to installing this plugin (except if game server is Garry's Mod).{LB}{LB}The seDirector plugin also updates the 'Current Map' and 'Players' columns on the server list.\n",

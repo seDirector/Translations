@@ -121,6 +121,7 @@
 				"HideUpdateWindow": "Ocultar janela de atualização",
 				"UpdateOptions": "Opções de atualização",
 				"ValidateUpdate": "Validar a atualização toda vez (adiciona o parâmetro -validar ao SteamCMD).{LB}{LB} Use isto se seus servidores não estiverem atualizando ou funcionando corretamente.",
+                "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 				"UpdateAutoCurMapCurPlayers": "Atualização automática, Mapa atual, Jogadores atuais",
 				"SaveAndReopen": "Salvar e reabrir para alterar estas configurações",
 				"PluginDescription": "seDirector pode atualizar seu servidor automaticamente quando os servidores de conteúdo do Steam mudam. Para que estes recursos funcionem, você deve ter o SourceMod instalado antes de instalar este plugin (exceto se o servidor do jogo for o Garry's Mod).{LB}{LB}O plugin do seDirector também atualiza as colunas 'Mapa Atual' e 'Jogadores' na lista de servidores.",
