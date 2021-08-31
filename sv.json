@@ -2,6 +2,11 @@
 	"Lang": {
 		"UI": {
 			"MainWindow": {
+				"Menu_Server": "Server",
+				"Menu_AllServers": "All Servers",
+				"Menu_Tools": "Tools",
+				"Menu_Help": "Help",
+				"Menu_Exit": "Exit",
 				"Menu_Start": "Starta\n",
 				"Menu_Stop": "Stoppa",
 				"Menu_Restart": "Starta om",
@@ -11,6 +16,7 @@
 				"Menu_Delete_Server": "Ta bort server",
 				"Menu_Open_Game_Directory": "Öppen spelkatalog",
 				"Menu_Open_Maps_Directory": "Katalog över öppna kartor",
+				"SelectAServer": "Select a server",
 				"Server_Name": "Serverns namn",
 				"Status": "Status",
 				"Uptime": "Driftstid",
@@ -95,7 +101,7 @@
 				"Properties_IPAddress": "IP-adress (valfritt)",
 				"Properties_PortNumber": "Hamnnummer",
 				"Properties_ExecuteCFG": "Utför CFG",
-                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
+				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "Karta",
 				"Properties_NumberOfPlayers": "Antal spelare",
 				"Properties_Secure": "Säker",
@@ -121,7 +127,7 @@
 				"HideUpdateWindow": "Dölja uppdateringsfönstret",
 				"UpdateOptions": "Uppdateringsalternativ",
 				"ValidateUpdate": "Validera uppdatering varje gång (lägger till parametern -validate till SteamCMD).{LB}{LB}Använd detta om dina servrar inte uppdateras eller fungerar korrekt.",
-                "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
+				"OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 				"UpdateAutoCurMapCurPlayers": "Uppdatera automatiskt, Aktuell karta, Aktuella spelare",
 				"SaveAndReopen": "Spara och öppna igen för att ändra dessa inställningar",
 				"PluginDescription": "seDirector kan uppdatera din server automatiskt när Steams innehållsservrar ändras. För att dessa funktioner ska fungera måste du ha SourceMod installerat innan du installerar detta insticksprogram (utom om spelservern är Garry's Mod).{LB}{LB}Insticksprogrammet seDirector uppdaterar också kolumnerna \"Current Map\" och \"Players\" i serverlistan.",

@@ -2,6 +2,11 @@
 	"Lang": {
 		"UI": {
 			"MainWindow": {
+				"Menu_Server": "Server",
+				"Menu_AllServers": "All Servers",
+				"Menu_Tools": "Tools",
+				"Menu_Help": "Help",
+				"Menu_Exit": "Exit",
 				"Menu_Start": "开始",
 				"Menu_Stop": "停止",
 				"Menu_Restart": "重新启动",
@@ -11,6 +16,7 @@
 				"Menu_Delete_Server": "删除服务器",
 				"Menu_Open_Game_Directory": "开放式游戏目录",
 				"Menu_Open_Maps_Directory": "开放地图目录",
+				"SelectAServer": "Select a server",
 				"Server_Name": "服务器名称",
 				"Status": "状况",
 				"Uptime": "正常运行时间",
@@ -95,7 +101,7 @@
 				"Properties_IPAddress": "IP地址（可选",
 				"Properties_PortNumber": "端口号",
 				"Properties_ExecuteCFG": "执行CFG",
-                "ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
+				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "地图",
 				"Properties_NumberOfPlayers": "玩家的数量",
 				"Properties_Secure": "安全",
@@ -121,7 +127,7 @@
 				"HideUpdateWindow": "隐藏更新窗口",
 				"UpdateOptions": "更新选项",
 				"ValidateUpdate": "每次验证更新（在SteamCMD中添加-validate参数）。{LB}{LB}如果你的服务器没有更新或工作不正常，就用这个。",
-                "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
+				"OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 				"UpdateAutoCurMapCurPlayers": "自动更新, 当前地图, 当前玩家",
 				"SaveAndReopen": "保存并重新打开以改变这些设置",
 				"PluginDescription": "seDirector可以在Steam的内容服务器改变时自动更新你的服务器。为了使这些功能发挥作用，你必须在安装这个插件之前安装SourceMod（如果游戏服务器是Garry's Mod除外）。{LB}{LB}seDirector插件还可以更新服务器列表中的 \"当前地图 \"和 \"玩家 \"列。",

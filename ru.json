@@ -16,7 +16,7 @@
         "Menu_Delete_Server": "Удалить",
         "Menu_Open_Game_Directory": "Открыть папку с игрой",
         "Menu_Open_Maps_Directory": "Открыть папку с картами\n",
-        "ServerAServer": "Выбрать сервер",
+        "SelectAServer": "Выбрать сервер",
         "Server_Name": "Имя сервера",
         "Status": "Статус",
         "Uptime": "Аптайм",

@@ -2,6 +2,11 @@
 	"Lang": {
 		"UI": {
 			"MainWindow": {
+                "Menu_Server": "Server",
+                "Menu_AllServers": "All Servers",
+                "Menu_Tools": "Tools",
+                "Menu_Help": "Help",
+                "Menu_Exit": "Exit",
 				"Menu_Start": "Iniciar",
 				"Menu_Stop": "Parar",
 				"Menu_Restart": "Reiniciar",
@@ -11,6 +16,7 @@
 				"Menu_Delete_Server": "Excluir Servidor",
 				"Menu_Open_Game_Directory": "Diretório de jogos aberto",
 				"Menu_Open_Maps_Directory": "Diretório de Mapas Abertos",
+                "SelectAServer": "Select a server",
 				"Server_Name": "Nome do Servidor",
 				"Status": "Status",
 				"Uptime": "Tempo de Atividade",
