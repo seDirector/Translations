@@ -540,6 +540,7 @@
       "ProcessPriority": {
         "Realtime": "실시간",
         "High": "상",
+        "AboveNormal": "중상",
         "Normal": "보통",
         "BelowNormal": "중하",
         "Low": "하"
