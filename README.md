@@ -10,15 +10,15 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|
+|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Complete|Next Release|[MikkelDK](https://github.com/MikkelDK)|
+|[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Complete|Next Release|NeverEnough|
+|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Complete|Next Release|[Tsukasa](https://github.com/Tsukasa-Nefren)|
+|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Complete|Next Release|[crashzk](https://github.com/crashzk)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|Mostly Complete|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Mostly Complete|Next Release|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Mostly Complete|Next Release|[crashzk](https://github.com/crashzk)|
-|[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Mostly Complete|Next Release|NeverEnough|
+|[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|Mostly Complete||[LastPlayer](https://github.com/LastPlayerTR)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
-|[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress (Proofread)||[LastPlayer](https://github.com/LastPlayerTR)|
 |[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress (Proofread)||[Geheim123](https://github.com/Geheim123)|
 |[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
-|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Need Proofread|||
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Proofread|||
 |[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Proofread|||
 |[Italian](https://gitlocalize.com/repo/6339/it/en.json)|Italy|Need Proofread|||
