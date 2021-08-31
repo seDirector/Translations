@@ -237,6 +237,7 @@
 				"CSMS": "为seDirector创建开始菜单快捷方式",
 				"HTSWAUC": "如何在启用UAC的情况下启动seDirector，但没有UAC提示",
 				"ComputerName": "计算机名称",
+                "ComputerNameMoreInfo": "Identifies the computer that seDirector is running on. Currently used in notifications to help determine which computer sent the notification.",
 				"SetToDefaultName": "设置为默认名称",
 				"RecommendedFolder": "点击这里查看与seDirector一起使用的推荐文件夹结构。",
 				"DDTB": "浏览的默认目录",
