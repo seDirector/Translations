@@ -93,7 +93,12 @@
 				"CFGExamples": "CFG Examples",
 				"ReleaseNotes": "Release Notes",
 				"CFU": "Check for Updates",
-				"About": "About"
+				"About": "About",
+				"SignIn": "Sign in",
+				"SignOut": "Sign out",
+				"Register": "Register",
+				"EmailAddress": "E-mail Address",
+				"Password": "Password"
 			},
 			"ServerProperties": {
 				"Tab_Properties": "Properties",
@@ -109,7 +114,7 @@
 				"Properties_IPAddress": "IP Address (optional)",
 				"Properties_PortNumber": "Port Number",
 				"Properties_ExecuteCFG": "Execute CFG",
-				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)",
+				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
 				"Properties_Map": "Map",
 				"Properties_NumberOfPlayers": "Number of Players",
 				"Properties_Secure": "Secure",
@@ -482,7 +487,7 @@
 			"Addons": "Addons",
 			"CopyOf": "Copy of",
 			"MetamodSource": "Metamod:Source is a C++ plugin environment for Half-Life 2. It acts as a 'metamod' which sits in between the Game and the Engine, and allows plugins to intercept calls that flow between. It provides a mechanism called SourceHook, a very powerful library for intercepting, overridding, and superseding virtual function calls.",
-			"SourceMod": "SourceMod is server modification for any game that runs on the Half-Life 2 engine. It is a powerful, highly optimized platform for scripting plugins and handling server administration. The default package comes with a base set of plugins, but there are over 2,500 plugins in the community.",
+			"SourceMod": "SourceMod is server modification for any game that runs on the Half-Life 2 engine. It is a powerful, highly optimized platform for scripting plugins and handling server administration. The default package comes with a base set of plugins, but there are thousands of plugins in the community.",
 			"VersionListEmpty": "The {0} version list is empty. To fix this, simply restart seDirector, wait 5 seconds, then open the server's properties again. Would you like to restart seDirector? Running servers will remain running.",
 			"ErrorInstallingAddon": "Error installing addon. Check your Internet connection and try again.",
 			"TaskConfirm": "Are you sure you want to remove task {0}?",
