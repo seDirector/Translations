@@ -98,7 +98,8 @@
 				"SignOut": "Sign out",
 				"Register": "Register",
 				"EmailAddress": "E-mail Address",
-				"Password": "Password"
+				"Password": "Password",
+				"ForgotPassword": "Forgot Password"
 			},
 			"ServerProperties": {
 				"Tab_Properties": "Properties",
@@ -114,7 +115,7 @@
 				"Properties_IPAddress": "IP Address (optional)",
 				"Properties_PortNumber": "Port Number",
 				"Properties_ExecuteCFG": "Execute CFG",
-				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)(optional, server.cfg executes automatically)",
+				"ExecuteCFGOServerCFGOptional": "(optional, server.cfg executes automatically)",
 				"Properties_Map": "Map",
 				"Properties_NumberOfPlayers": "Number of Players",
 				"Properties_Secure": "Secure",
