@@ -92,7 +92,13 @@
 				"CFGExamples": "CFG-Beispiele",
 				"ReleaseNotes": "Versionshinweise",
 				"CFU": "Auf Updates prüfen",
-				"About": "Über"
+				"About": "Über",
+				"SignIn": "Sign in",
+				"SignOut": "Sign out",
+				"Register": "Register",
+				"EmailAddress": "E-mail Address",
+				"Password": "Password",
+				"ForgotPassword": "Forgot Password"
 			},
 			"ServerProperties": {
 				"Properties_ServerName": "Server Name",
