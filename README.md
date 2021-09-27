@@ -2,6 +2,18 @@
 
 # seDirector Translations
 
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
+
 [seDirector](https://sedirector.net) is a game server management application.
 
 # Language Status
@@ -10,27 +22,27 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|
-|[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|Mostly Complete|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress||[in2002-tw](https://github.com/in2002-tw)|
-|[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Complete|Yes|NeverEnough|
-|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Complete|Yes|[crashzk](https://github.com/crashzk)|
-|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Complete|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Complete|Yes|[MikkelDK](https://github.com/MikkelDK)|
-|[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
-|[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress||[Geheim123](https://github.com/Geheim123)|
-|[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
-|[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Proofread|||
-|[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Proofread|||
-|[Italian](https://gitlocalize.com/repo/6339/it/en.json)|Italy|Need Proofread|||
-|[Japanese](https://gitlocalize.com/repo/6339/ja/en.json)|Japan|Need Proofread|||
-|[Spanish](https://gitlocalize.com/repo/6339/es/en.json)|*|Need Proofread|||
-|[Romanian](https://gitlocalize.com/repo/6339/ro/en.json)|Romania|Need Proofread|||
+|[Chinese](https://gitlocalize.com/repo/6510/zh-TW/en.json)|Taiwan|Mostly Complete|Yes|[in2002-tw](https://github.com/in2002-tw)|
+|[Chinese](https://gitlocalize.com/repo/6510/zh/en.json)|China|In Progress||[in2002-tw](https://github.com/in2002-tw)|
+|[Russian](https://gitlocalize.com/repo/6510/ru/en.json)|Russia|Complete|Yes|NeverEnough|
+|[Portuguese](https://gitlocalize.com/repo/6510/pt-br/en.json)|Brazil|Complete|Yes|[crashzk](https://github.com/crashzk)|
+|[Korean](https://gitlocalize.com/repo/6510/ko/en.json)|South Korea|Complete|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
+|[Danish](https://gitlocalize.com/repo/6510/da/en.json)|Denmark|Complete|Yes|[MikkelDK](https://github.com/MikkelDK)|
+|[Turkish](https://gitlocalize.com/repo/6510/tr/en.json)|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
+|[German](https://gitlocalize.com/repo/6510/de/en.json)|Germany|In Progress||[Geheim123](https://github.com/Geheim123)|
+|[Swedish](https://gitlocalize.com/repo/6510/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
+|[Vietnamese](https://gitlocalize.com/repo/6510/vi/en.json)|Vietnam|Need Proofread|||
+|[French](https://gitlocalize.com/repo/6510/fr/en.json)|France|Need Proofread|||
+|[Italian](https://gitlocalize.com/repo/6510/it/en.json)|Italy|Need Proofread|||
+|[Japanese](https://gitlocalize.com/repo/6510/ja/en.json)|Japan|Need Proofread|||
+|[Spanish](https://gitlocalize.com/repo/6510/es/en.json)|*|Need Proofread|||
+|[Romanian](https://gitlocalize.com/repo/6510/ro/en.json)|Romania|Need Proofread|||
 
 # Getting Started
 
 **Note**: the GitLocalize page may show "Translated 100%" but that is because of the automatic machine translation. The table above reflects the current status of language translation.
 
-1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6339) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
+1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6510) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
 2.  Type the translation on the right side of the page and click **Submit**.
 3.  When you are ready to submit the translation for review:
     1. Click **Create Review Request** at the top.

@@ -1,3 +1,3 @@
-**There is a bug with GitLocalize - we have contacted support for a fix**
+**THERE IS A BUG WITH GITLOCALIZE - WE HAVE CONTACTED SUPPORT FOR A FIX**
 
 This page may show "Translated 100%" but that is because of the automatic machine translation. The table on the GitHub page reflects the current status of language translation. Please see the [GitHub page](https://github.com/seDirector/Translations) for more information on translating seDirector.
