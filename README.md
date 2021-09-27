@@ -10,14 +10,14 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|
-|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Complete|Next Release|[MikkelDK](https://github.com/MikkelDK)|
-|[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Complete|Next Release|NeverEnough|
-|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Complete|Next Release|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Complete|Next Release|[crashzk](https://github.com/crashzk)|
 |[Chinese](https://gitlocalize.com/repo/6339/zh-TW/en.json)|Taiwan|Mostly Complete|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|Mostly Complete||[LastPlayer](https://github.com/LastPlayerTR)|
-|[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress (Proofread)||[in2002-tw](https://github.com/in2002-tw)|
-|[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress (Proofread)||[Geheim123](https://github.com/Geheim123)|
+|[Chinese](https://gitlocalize.com/repo/6339/zh/en.json)|China|In Progress||[in2002-tw](https://github.com/in2002-tw)|
+|[Russian](https://gitlocalize.com/repo/6339/ru/en.json)|Russia|Complete|Yes|NeverEnough|
+|[Portuguese](https://gitlocalize.com/repo/6339/pt-br/en.json)|Brazil|Complete|Yes|[crashzk](https://github.com/crashzk)|
+|[Korean](https://gitlocalize.com/repo/6339/ko/en.json)|South Korea|Complete|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
+|[Danish](https://gitlocalize.com/repo/6339/da/en.json)|Denmark|Complete|Yes|[MikkelDK](https://github.com/MikkelDK)|
+|[Turkish](https://gitlocalize.com/repo/6339/tr/en.json)|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
+|[German](https://gitlocalize.com/repo/6339/de/en.json)|Germany|In Progress||[Geheim123](https://github.com/Geheim123)|
 |[Swedish](https://gitlocalize.com/repo/6339/sv/en.json)|Sweden|Need Proofread||Joahkim Ehrendahl|
 |[Vietnamese](https://gitlocalize.com/repo/6339/vi/en.json)|Vietnam|Need Proofread|||
 |[French](https://gitlocalize.com/repo/6339/fr/en.json)|France|Need Proofread|||
