@@ -13,7 +13,7 @@ If you can read/write in any of these languages OR if you have another language 
 |[Chinese](https://gitlocalize.com/repo/6519/zh-TW/en.json)|Taiwan|Mostly Complete|Yes|[in2002-tw](https://github.com/in2002-tw)|
 |[Chinese](https://gitlocalize.com/repo/6519/zh/en.json)|China|In Progress||[in2002-tw](https://github.com/in2002-tw)|
 |[Russian](https://gitlocalize.com/repo/6519/ru/en.json)|Russia|Complete|Yes|NeverEnough|
-|[Portuguese](https://gitlocalize.com/repo/6519/pt-br/en.json)|Brazil|Complete|Yes|[crashzk](https://github.com/crashzk)|
+|[Portuguese](https://gitlocalize.com/repo/6519/pt-BR/en.json)|Brazil|Complete|Yes|[crashzk](https://github.com/crashzk)|
 |[Korean](https://gitlocalize.com/repo/6519/ko/en.json)|South Korea|Complete|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
 |[Danish](https://gitlocalize.com/repo/6519/da/en.json)|Denmark|Complete|Yes|[MikkelDK](https://github.com/MikkelDK)|
 |[Turkish](https://gitlocalize.com/repo/6519/tr/en.json)|Turkey|In Progress||[LastPlayer](https://github.com/LastPlayerTR)|
