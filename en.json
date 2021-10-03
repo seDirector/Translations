@@ -491,7 +491,13 @@
 			"CompressingLogsDescription": "Compressing logs {0}"
 		},
 		"Errors": {
-			"ErrorCreatingServer": "Error 1012: There's a problem with {0}. We've found the most common problem is that the \"Automatically detect settings\" checkbox is unchecked in Internet Options->Connections->LAN Settings. If it is checked, redownload {0}. Launch {0} through a command prompt for more information."
+			"ErrorCreatingServer": "Error 1012: There's a problem with {0}. We've found the most common problem is that the \"Automatically detect settings\" checkbox is unchecked in Internet Options->Connections->LAN Settings. If it is checked, redownload {0}. Launch {0} through a command prompt for more information.",
+			"CouldNotConnectToInteret": "Could not connect to the Internet."
+		},
+		"Login": {
+			"EmailResetPassword": "An email has been sent to {0}. Please click on the link to reset your password.",
+			"PleaseTypeEmailThenReset": "Please type your e-mail address and then click Forgot Password.",
+			"EmailRegister": "A confirmation email has been sent to {0}. Please click on the link to confirm your registration."
 		},
 		"ServerProperties": {
 			"Addons": "Addons",
