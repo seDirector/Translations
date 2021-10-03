@@ -505,7 +505,8 @@
 		"LoginText": "Sign in with your account or enter your e-mail address and password to register",
 		"InvalidLogin": "Invalid e-mail address or password",
 		"CheckEmailVerify": "Check your e-mail to verify your account",
-		"PasswordEightChars": "Please use a password of at least 8 characters."
+		"PasswordEightChars": "Please use a password of at least 8 characters.",
+		"AccountAlreadyRegistered": "Account already registered."
 	  },
 	  "ServerProperties": {
 		"Addons": "Addons",
