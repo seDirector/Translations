@@ -59,7 +59,7 @@
         "OSL": "Abrir Log do seDirector para Servidor",
         "OSLF": "Abrir Pasta de Logs do Servidor",
         "CompressLogs": "Comprimir Logs",
-        "GameDirectory": "Diretório de Jogo",
+        "GameDirectory": "Diretório do Jogo",
         "CMDDir": "Diretório em CMD",
         "ConfigFiles": "Arquivos de Configuração",
         "Maps": "Mapas",
@@ -85,6 +85,10 @@
         "Options": "Opções",
         "SupportRequest": "Solicitação de Suporte",
         "StatusPage": "Página de Status",
+        "ReportABug": "Reportar um Bug",
+        "BugTracker": "Bug Tracker",
+        "FeatureRequest": "Solicitação de Recurso",
+        "Roadmap": "Roadmap",
         "PremiumSupport": "Suporte Premium",
         "HelpTranslateSed": "Ajude a Traduzir seDiretor",
         "DiscordServer": "Servidor Discord",
@@ -92,7 +96,7 @@
         "RecFold": "Estrutura Recomendada da Pasta",
         "CFGExamples": "Exemplos de CFG",
         "ReleaseNotes": "Notas de Lançamento",
-        "CFU": "Verifique se há Atualizações",
+        "CFU": "Verifique se há atualizações",
         "About": "Sobre",
         "SignIn": "Entrar",
         "SignOut": "Sair",
@@ -145,7 +149,7 @@
         "HideUpdateWindow": "Ocultar janela de atualização",
         "UpdateOptions": "Opções de Atualização",
         "ValidateUpdate": "Validar a atualização toda vez (adiciona o parâmetro -validate ao SteamCMD).{LB}{LB} Use isto se seus servidores não estiverem atualizando ou funcionando corretamente.",
-        "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
+        "OnlyUpdateIfServerHas0Players": "Só atualiza automaticamente se o servidor tiver 0 jogadores",
         "UpdateAutoCurMapCurPlayers": "Atualização Automática, Mapa Atual, Jogadores Atuais",
         "SaveAndReopen": "Salvar e reabrir para alterar estas configurações",
         "PluginDescription": "seDirector pode atualizar seu servidor automaticamente quando os servidores de conteúdo do Steam mudam. Para que estes recursos funcionem, você deve ter o SourceMod instalado antes de instalar este plugin (exceto se o servidor do jogo for o Garry's Mod).{LB}{LB}O plugin do seDirector também atualiza as colunas 'Mapa Atual' e 'Jogadores' na lista de servidores.",
@@ -283,7 +287,7 @@
       },
       "CreateServer": {
         "Game": "Jogo",
-        "ITD": "Instalar em Diretório",
+        "ITD": "Instalar no Diretório",
         "Browse": "Navegar",
         "CreateServer": "Criar Servidor"
       },
@@ -326,7 +330,7 @@
       "UpdatedPlugin": "Plugin atualizado"
     },
     "Networking": {
-      "Downloading": "Downloadin",
+      "Downloading": "Downloading",
       "DownloadingX": "Downloading {0}",
       "ErrorWhileDownloadingFile": "Houve um erro ao tentar fazer o download de um arquivo.",
       "Extracting": "Extraindo",
@@ -493,7 +497,13 @@
       "CompressingLogsDescription": "Compressão de logs {0}"
     },
     "Errors": {
-      "ErrorCreatingServer": "Erro 1012: Há um problema com {0}. O problema mais comum é que a caixa de seleção \"Detectar configurações automaticamente\" está desmarcada em Opções de Internet->Conexões->Configurações de LAN. Se estiver marcada, faça o download novamente {0}. Inicie {0} através de um prompt de comando para mais informações."
+      "ErrorCreatingServer": "Erro 1012: Há um problema com {0}. O problema mais comum é que a caixa de seleção \"Detectar configurações automaticamente\" está desmarcada em Opções de Internet->Conexões->Configurações de LAN. Se estiver marcada, faça o download novamente {0}. Inicie {0} através de um prompt de comando para mais informações.",
+      "CouldNotConnectToInteret": "Não foi possível conectar à Internet."
+    },
+    "Login": {
+      "EmailResetPassword": "Um e-mail foi enviado para {0}. Clique no link para redefinir sua senha.",
+      "PleaseTypeEmailThenReset": "Digite seu endereço de e-mail e clique em Esqueci a Senha.",
+      "EmailRegister": "Um e-mail de confirmação foi enviado para {0}. Clique no link para confirmar seu registro."
     },
     "ServerProperties": {
       "Addons": "Addons",
