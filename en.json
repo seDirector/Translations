@@ -504,7 +504,8 @@
 		"EmailRegister": "A confirmation email has been sent to {0}. Please click on the link to confirm your registration.",
 		"LoginText": "Sign in with your account or enter your e-mail address and password to register",
 		"InvalidLogin": "Invalid e-mail address or password",
-		"CheckEmailVerify": "Check your e-mail to verify your account"
+		"CheckEmailVerify": "Check your e-mail to verify your account",
+		"PasswordEightChars": "Please use a password of at least 8 characters."
 	  },
 	  "ServerProperties": {
 		"Addons": "Addons",
