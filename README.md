@@ -43,16 +43,19 @@ If you can read/write in any of these languages OR if you have another language 
 4.  Once a translation file has enough of the main translations done, it will be merged into seDirector.
 5.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
 6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
+7.  To request a beta version of seDirector so you know what it looks like with the translation, please do so in the translations channel on Discord.
 
 # 4. Rules to Follow
 
 1.  Do not translate if you don't read and write the language.
-2.  If you see HTML tags, please do not change/remove the HTML tags, just replace words/phrases as needed.
-3.  Keep the case the same - if it's capitalized, capitalize the translation, if there is a period, use a period in the translation, if it has a comma, use commas, etc.
+2.  If you see HTML tags, please do **not** change/remove the HTML tags, just replace words/phrases as needed.
+3.  Keep the case the same - if it's capitalized, capitalize the translation, if there is a period, use a period in the translation, if it has a comma, use a comma, etc.
 4.  There may be duplicate translations - please keep them.
 5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as the meaning is the same, you can move them as needed.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 
 # 5. Questions / Social
 
-Please join the special [#translations channel on our Discord](https://sedirector.net/discord/translations). Let us know your username and you'll be added to the list above.
+Join the **#translations** channel on Discord by requesting access from one of the mods.
+
+Let us know your username and you'll be added to the list above.
