@@ -85,6 +85,10 @@
         "Options": "Indstillinger",
         "SupportRequest": "Supportanmodning",
         "StatusPage": "Status Page",
+        "ReportABug": "Anmeld en fejl",
+        "BugTracker": "Bug Tracker",
+        "FeatureRequest": "Funktionsanmodning",
+        "Roadmap": "Roadmap",
         "PremiumSupport": "Premium support",
         "HelpTranslateSed": "Hjælp at oversæt seDirector",
         "DiscordServer": "Discord Server",
@@ -493,7 +497,18 @@
       "CompressingLogsDescription": "Komprimering af logfiler {0}"
     },
     "Errors": {
-      "ErrorCreatingServer": "Fejl 1012: Der er et problem med {0}. Vi har fundet det mest almindelige problem, at afkrydsningsfeltet \"Registrer indstillinger automatisk\" ikke er markeret i Internetindstillinger-> Forbindelser-> LAN-indstillinger. Hvis det er markeret, skal du downloade {0} igen. Start {0} via en kommandoprompt for at få flere oplysninger."
+      "ErrorCreatingServer": "Fejl 1012: Der er et problem med {0}. Vi har fundet det mest almindelige problem, at afkrydsningsfeltet \"Registrer indstillinger automatisk\" ikke er markeret i Internetindstillinger-> Forbindelser-> LAN-indstillinger. Hvis det er markeret, skal du downloade {0} igen. Start {0} via en kommandoprompt for at få flere oplysninger.",
+      "CouldNotConnectToInteret": "Kunne ikke oprette forbindelse til internettet."
+    },
+    "Login": {
+      "EmailResetPassword": "En e-mail er blevet sendt til {0}. Klik venligst på linket for at nulstille din adgangskode.",
+      "PleaseTypeEmailThenReset": "Indtast venligst din e-mail-adresse, og klik derefter på Glemt kodeord.",
+      "EmailRegister": "Der er sendt en bekræftelses e-mail til {0}. Klik venligst på linket for at bekræfte din registrering.",
+      "LoginText": "Log ind med din konto, eller indtast din email-adresse og adgangskode for at registrere dig.",
+      "InvalidLogin": "Ugyldig email-adresse eller adgangskode.",
+      "CheckEmailVerify": "Tjek din e-mail for at bekræfte din konto.",
+      "PasswordEightChars": "Brug en adgangskode på mindst 8 tegn.",
+      "AccountAlreadyRegistered": "Konto allerede registreret."
     },
     "ServerProperties": {
       "Addons": "Addons",
