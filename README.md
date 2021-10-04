@@ -12,6 +12,8 @@
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
+**Note**: the GitLocalize page may show **Translated 100%** but that is because of the **automatic machine translation**. The table below reflects the current status of language translation.
+
 |Language|Locale|Status|GitLocalize Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|--|
 |[Chinese](https://gitlocalize.com/repo/6519/zh-TW/en.json)|Taiwan|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/zh-TW/badge.svg)](https://gitlocalize.com/repo/6519/zh-TW?utm_source=badge)|Yes|[in2002-tw](https://github.com/in2002-tw)|
@@ -31,8 +33,6 @@ If you can read/write in any of these languages OR if you have another language 
 |[Romanian](https://gitlocalize.com/repo/6519/ro/en.json)|Romania|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/ro/badge.svg)](https://gitlocalize.com/repo/6519/ro?utm_source=badge)|||
 
 # 3. Getting Started
-
-**Note**: the GitLocalize page may show "Translated 100%" but that is because of the automatic machine translation. The table above reflects the current status of language translation.
 
 1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6519) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
 2.  Type the translation on the right side of the page and click **Submit**.
