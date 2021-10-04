@@ -29,7 +29,7 @@ If you can read/write in any of these languages OR if you have another language 
 |[French](https://gitlocalize.com/repo/6519/fr/en.json)|France|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/fr/badge.svg)](https://gitlocalize.com/repo/6519/fr?utm_source=badge)|||
 |[Italian](https://gitlocalize.com/repo/6519/it/en.json)|Italy|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/it/badge.svg)](https://gitlocalize.com/repo/6519/it?utm_source=badge)|||
 |[Japanese](https://gitlocalize.com/repo/6519/ja/en.json)|Japan|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/ja/badge.svg)](https://gitlocalize.com/repo/6519/ja?utm_source=badge)|||
-|[Spanish](https://gitlocalize.com/repo/6519/es/en.json)|*|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/es/badge.svg)](https://gitlocalize.com/repo/6519/es?utm_source=badge)|||
+|[Spanish](https://gitlocalize.com/repo/6519/es/en.json)|*|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/es/badge.svg)](https://gitlocalize.com/repo/6519/es?utm_source=badge)|Next Release|[IsidroPenh](https://github.com/IsidroPenh)|
 |[Romanian](https://gitlocalize.com/repo/6519/ro/en.json)|Romania|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/ro/badge.svg)](https://gitlocalize.com/repo/6519/ro?utm_source=badge)|||
 
 # 3. Getting Started
