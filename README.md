@@ -2,7 +2,7 @@
 
 # 1. seDirector Translations
 
-[seDirector](https://sedirector.net) is a game server management application.
+[seDirector](https://sedirector.net) is a game server management application. Find links to everything on the [main repo](https://github.com/seDirector/App).
 
 **Overall translation status:**
 
