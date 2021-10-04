@@ -1,0 +1,341 @@
+{
+  "Lang": {
+    "UI": {
+      "MainWindow": {
+        "Menu_Server": "Servidor",
+        "Menu_AllServers": "Todos los Servidores",
+        "Menu_Tools": "Herramientas",
+        "Menu_Help": "Ayuda",
+        "Menu_Exit": "Salir",
+        "Menu_Start": "Iniciar",
+        "Menu_Stop": "Detener",
+        "Menu_Restart": "Reiniciar",
+        "Menu_Update": "Actualizar",
+        "Menu_Show_Hide": "Mostrar/Ocultar",
+        "Menu_Add_Server": "Añadir Servidor",
+        "Menu_Delete_Server": "Eliminar Servidor",
+        "Menu_Open_Game_Directory": "Abrir Directorio del Juego",
+        "Menu_Open_Maps_Directory": "Abrir Directorio de Mapas",
+        "SelectAServer": "Seleccione un Servidor",
+        "Server_Name": "Nombre del Servidor",
+        "Status": "Estado",
+        "Uptime": "Tiempo de Actividad",
+        "CPU": "CPU",
+        "Memory": "Memoria",
+        "IP_Address": "Dirección IP",
+        "Port": "Puerto",
+        "Current_Map": "Mapa Actual",
+        "Players": "Jugadores",
+        "Game": "Juego",
+        "Information": "Información",
+        "Created": "Creado",
+        "Events": "Eventos",
+        "Logs": "Registros",
+        "Testing": "Pruebas",
+        "Started": "Iniciado",
+        "Updated": "Actualizado",
+        "Properties": "Propiedades",
+        "Start": "Iniciar",
+        "Stop": "Detener",
+        "Restart": "Reiniciar",
+        "ShowHide": "Mostrar/Ocultar",
+        "Update": "Actualizar",
+        "AddServer": "Agregar Servidor",
+        "DeleteServer": "Eliminar servidor",
+        "DuplicateServer": "Duplicar Servidor",
+        "CreateBackup": "Crear Backup",
+        "RunBZ2": "Ejecutar Compresión BZ2",
+        "RunLocal": "Ejecutar Sincronización Local/FTP/SFTP",
+        "Troubleshoot": "Solucionar Problemas",
+        "RunServerWithoutAddons": "Ejecutar el servidor sin complementos",
+        "RunServerWithoutCfgFile": "Ejecutar el servidor sin el archivo cfg",
+        "RunServerWithoutAdditionalParameters": "Ejecutar el servidor sin parámetros adicionales",
+        "RunServerWithoutAddonsCfgFileAP": "Ejecutar el servidor sin complementos, archivo cfg o parámetros adicionales",
+        "RunServerWithoutSedirector": "Ejecutar el servidor sin seDirector",
+        "Open": "Abrir",
+        "GameDirectory": "Directorio del Juego",
+        "CMDDir": "CMD en Directorio",
+        "ConfigFiles": "Archivos de Configuración",
+        "PluginsSearch": "Búsqueda de Complementos",
+        "MoveToTop": "Mover al Principio",
+        "MoveDown": "Descender",
+        "MoveToBottom": "Mover al Final",
+        "CreateServer": "Crear Servidor",
+        "PortChecker": "Comprobador de Puertos",
+        "KillAll": "Matar todas las instancias de proceso",
+        "OpenDefDir": "Abrir Directorio Predeterminado",
+        "OpenSL": "Abrir Registro de seDirector",
+        "OpenSeDir": "Abrir Directorio de seDirector",
+        "SupportRequest": "Solicitud de Soporte",
+        "StatusPage": "Página de Estado",
+        "ReportABug": "Reportar un Error",
+        "BugTracker": "Localizador de Bugs",
+        "FeatureRequest": "Solicitud de Función",
+        "Roadmap": "Roadmap",
+        "HelpTranslateSed": "Ayuda a Traducir seDirector",
+        "DiscordServer": "Servidor de Discord",
+        "RecFold": "Estructura de Carpetas Recomendada",
+        "ReleaseNotes": "Notas del Parche",
+        "CFU": "Buscar Actualizaciones",
+        "About": "Acerca De",
+        "SignIn": "Iniciar Sesión",
+        "SignOut": "Cerrar Sesión",
+        "ForgotPassword": "He Olvidado mi Contraseña"
+      },
+      "ServerProperties": {
+        "Tab_TextCFGEditor": "Editor de Texto/CFG",
+        "Tab_Optimization": "Optimización",
+        "Properties_ServerName": "Nombre del Servidor",
+        "Properties_PortNumber": "Número de Puerto",
+        "Properties_NumberOfPlayers": "Número de Jugadores",
+        "Properties_CSGOGameMode": "Modo de Juego de CS:GO",
+        "Properties_CSGOSkirmishMode": "Modo Escaramuza de CS:GO",
+        "Properties_AdditionalParameters": "Parámetros Adicionales",
+        "Properties_AdditionalParameters_Example": "opcional, +workshop_start_map XXX, etc.",
+        "Properties_ProcessorAffinity": "Afinidad del Procesador",
+        "Properties_ProcessPriority": "Prioridad del Proceso",
+        "Properties_CommandToRun": "Comando para Ejecutar",
+        "Properties_Browse": "Explorar",
+        "Properties_CustomGameMod": "Juego/Mod Personalizado",
+        "Properties_NextAvailable": "Siguiente Disponible",
+        "Properties_LocalMap": "Mapa Local",
+        "Properties_WorkshopCustomMap": "Workshop/Mapa Personalizado{LB} (use parámetros adicionales para ajustar)",
+        "Properties_NormalRecommendedRealtimeNotRecommended": "Se recomienda Normal; No se recomienda el nivel Tiempo Real",
+        "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Las propiedades del servidor no se pueden cambiar mientras se esta ejecutando",
+        "Properties_SaveSettings": "Guardar Ajustes",
+        "StartOptions": "Opciones de Inicio",
+        "StartThisServerWhenSedirectorStarts": "Iniciar este servidor cuando seDirector se inicie",
+        "UpdateOptions": "Opciones de Actualización",
+        "ValidateUpdate": "Validar la actualización cada vez (agrega el parámetro -validate a SteamCMD).{LB}{LB}Use esto si sus servidores no se actualizan o no funcionan correctamente.",
+        "OnlyUpdateIfServerHas0Players": "Solo actualizar automáticamente si el servidor tiene 0 jugadores",
+        "PluginDescription": "seDirector puede actualizar su servidor automáticamente cuando cambian los servidores de contenido de Steam. Para que estas funciones funcionen, debes tener SourceMod instalado antes de instalar este complemento (excepto si el servidor del juego es Garry's Mod).{LB}{LB}El complemento seDirector también actualiza las columnas 'Mapa actual' y 'Jugadores' en la lista de servidores.",
+        "UpdateAuto": "Actualizar Automáticamente",
+        "SpecialCSGO": "Instrucciones especiales para servidores de CS:GO",
+        "Install": "Instalar",
+        "CrashRecovery": "Recuperación de Crasheo",
+        "RecoverFromServerCrash": "Recuperar desde crasheo del servidor",
+        "HowCrashRecoveryWorks": "Cómo funciona la recuperación de fallos:{LB}seDirector cuenta cuántas veces ha crasheado un servidor. Si un servidor ha crasheado 2 veces en 10 minutos, seDirector intentará actualizar el servidor automáticamente. Si el servidor se crashea nuevamente dentro de los 10 minutos posteriores a la actualización, seDirector lo detendrá. Si un servidor ha pasado más de 10 minutos sin crashear, el contador de fallas se reiniciará.{LB}{LB}1 crasheo en 10 minutos = bien{LB}2 crasheos en 10 minutos = intento de actualización{LB}1 crasheo en 10 minutos después de la actualización = el servidor se detendrá (se enviará una notificación si están habilitadas){LB}Cada 10 minutos sin un crasheo = el recuento se reinicia",
+        "MoreInfo": "Más Información",
+        "LatestVersion": "Ultima Versión",
+        "Path": "Dirección",
+        "AddonsNotSupported": "Complementos no compatibles con este servidor de juego",
+        "Actions": "Acciones",
+        "AddOn": "Add-on",
+        "InstallChange": "Instalar/Cambiar",
+        "PluginsAddons": "Complementos",
+        "At": "en",
+        "Daily": "Diariamente",
+        "Monthly": "Mensualmente",
+        "Crashes": "Crasheos",
+        "UpdateComplete": "Actualización Completa",
+        "SaveTask": "Guardar Tarea",
+        "SaveFile": "Guardar Archivo",
+        "RestartServer": "Reiniciar Servidor",
+        "UpdateServer": "Actualizar Servidor",
+        "TextOrCFGFile": "Texto o Archivo CFG",
+        "BZ2CompressionExplained": "La compresión BZ2 permite descargar contenido a la computadora de un jugador mucho más rápido que descargar los archivos BSP tradicionales. Es similar a un archivo ZIP excepto que termina en BZ2. Los archivos se crean en el mismo directorio que el contenido.",
+        "AutoCompressUncompressed": "Comprime automáticamente el contenido descomprimido al iniciar el servidor",
+        "HTTPFastDownloadExplained": "Puede habilitar la sincronización de directorios y/o la sincronización FTP/SFTP para que su contenido se actualice automáticamente en su servidor web cada vez que se inicie este servidor. La sincronización funciona duplicando los directorios de mapas, sonido, materiales, modelos y recursos. Si los directorios de destino ya existen, se actualizarán para que coincidan con el contenido de este servidor. Solo se sincronizarán los archivos BZ2.",
+        "DirSyncHTTP3": "Generalmente se usa si su servidor web está en la misma computadora que su(s) servidor(es) de juego",
+        "FTPSFTPSync": "Sincronización FTP/SFTP para descarga rápida HTTP",
+        "EnableFTPSFTP": "Habilitar la sincronización FTP/SFTP",
+        "ConnectionType": "Tipo de conexión",
+        "ExampleNotification_Subject": "Asunto",
+        "ExampleNotification_SubjectData": "¡Alerta de seDirector! Computadora: <ComputerName> Servidor: <ServerName>",
+        "ExampleNotification_BodyData": "El servidor <ServerName> ha crasheado y seDirector no puede recuperarlo automáticamente.",
+        "EmailTextSMS": "Notificaciones por correo electrónico/ texto/SMS",
+        "EmailTextSMS2": "seDirector le notificará automáticamente por correo electrónico si su servidor falla y no se puede recuperar automáticamente O si un servidor no se inicia correctamente. La casilla de verificación 'Recuperarse de un crasheo' en la pestaña Automatización DEBE estar marcada para que las notificaciones por correo electrónico funcionen.",
+        "WantToReceive": "¿Quieres recibir un mensaje de texto/SMS?",
+        "DiscordNotifications": "Notificaciones de Discord",
+        "DiscordNotifications2": "seDirector le notificará automáticamente a través de Discord si su servidor falla y no se puede recuperar automáticamente O si un servidor no se inicia correctamente. La casilla de verificación 'Recuperarse de un crasheo' en la pestaña Automatización DEBE estar marcada para que las notificaciones de Discord funcionen.",
+        "EnableDiscordNotifications": "Habilitar notificaciones de Discord"
+      },
+      "Options": {
+        "Application": "Aplicación",
+        "SOWS": "Iniciar con Windows",
+        "DNCCP": "No verificar los jugadores y el mapa actual",
+        "DNAU": "No actualizar seDirector automáticamente",
+        "CSMS": "Crear acceso directo en el menú de inicio para seDirector",
+        "ComputerName": "Nombre de la computadora",
+        "SetToDefaultName": "Reestablecer nombre",
+        "Browse": "Examinar",
+        "Clear": "Limpiar",
+        "SteamLogin": "Inicio de sesión en Steam"
+      },
+      "CreateServer": {
+        "Browse": "Examinar"
+      },
+      "PortChecker": {
+        "Check": "Verificar"
+      }
+    },
+    "Controller": {
+    },
+    "CreateServer": {
+    },
+    "FTP": {
+      "FTPSFTPSync": "Sincronización FTP/SFTP",
+      "FTPSFTPSyncInProgress": "Sincronización FTP/SFTP en curso ... Esto puede tardar varios minutos ...",
+      "CouldNotOpenTestFileForWriting": "No se pudo abrir el archivo de prueba para escritura. Compruebe el acceso de escritura a esta carpeta."
+    },
+    "GameCommon": {
+    },
+    "Networking": {
+    },
+    "Options": {
+      "DesktopShortcutSuccess": "Acceso directo de escritorio creado",
+      "DesktopShortcutError": "Error al crear acceso directo de escritorio",
+      "UnsureCreateDir": "¿No está seguro? Cree un directorio en C: \\ llamado Steam y selecciónelo."
+    },
+    "Progress": {
+      "CancelExtractOp": "¿Cancelar la extracción?",
+      "CancelCurrentBackup": "¿Cancelar la copia de seguridad actual?"
+    },
+    "ServerConfig": {
+      "CouldNotDetectSteamInf": "No se pudo detectar el archivo steam.inf en el directorio del juego. Abra Propiedades y seleccione srcds.exe nuevamente. Si el problema persiste, active la opción -validate update en las propiedades y actualice, luego apáguelo.",
+      "CouldNotLocateSteamInf": "No se pudo ubicar el archivo steam.inf en el directorio del juego."
+    },
+    "SupportRequest": {
+    },
+    "Status": {
+      "Running": "Encendido",
+      "Offline": "Apagado",
+      "Starting": "Iniciando",
+      "Stopping": "Deteniendo",
+      "UpdateStarting": "Comenzando Actualización"
+    },
+    "MainWindow": {
+      "Started": "Iniciado",
+      "StartingMap": "Mapa Inicial",
+      "CurrentMap": "Mapa Actual",
+      "ServerCrashedEvenAfterUpdating": "El servidor crasheo incluso después de la actualización",
+      "SentServerCrashEmail": "Notificación por correo electrónico de fallo del servidor enviada",
+      "SentServerCrashDiscord": "Notificación de Discord de fallo del servidor enviada",
+      "ZipFiles": "Archivos Zip",
+      "Backup": "Backup",
+      "Daily": "Diariamente",
+      "Monthly": "Mensualmente",
+      "UpdateServer": "Actualizar Servidor",
+      "ServerFTPCanceled": "Sincronización FTP/SFTP del servidor cancelada",
+      "ServerCrashedUnableToRecoverAuto": "[b]Computadora:[/b] {COMPUTER_NAME}[br][b]Servidor [/b]: {SERVER_NAME} [br][br]Un servidor ha fallado y seDirector no puede recuperarlo automáticamente.",
+      "DiscordNotificationSent": "Notificación de Discord enviada.",
+      "LocalDirSyncInProgress": "Sincronización del directorio local en curso... Esto puede tardar varios minutos...",
+      "CopyingGameSerDirCont": "Copiando el directorio del servidor de juegos...",
+      "CopyingGameSerDir": "Copiando el directorio del servidor del juego...",
+      "Calculating": "Calculando",
+      "AllServersMustBeOfflineToRunThisTest": "Todos los servidores deben estar detenidos (en estado apagado) para ejecutar esta prueba."
+    },
+    "Notifications": {
+      "DebugModeEnabled": "¡El modo de depuración está activado!",
+      "RunningNotAttached": "{0} se está ejecutando y no está adjunto a seDirector. Haga clic en Aceptar para finalizar el proceso o Cancelar para salir de seDirector.",
+      "SteamUsernamePasswordChanged": "El nombre de usuario o la contraseña de Steam ha cambiado. Ingrese el código Steam Guard (enviado a su correo electrónico) en la siguiente ventana si se le solicita. No cierre la siguiente ventana, deje que se cierre automáticamente. Si te equivocas, solo presiona la tecla de retroceso para corregir. {LB}{LB}Si necesitas que se envíe el código nuevamente, presiona Ctrl-C una vez y deja que se cierre automáticamente, escriba un nombre de usuario aleatorio, Guardar, luego cambia al valor correcto nuevamente, Guardar.",
+      "MaxCrashesOccurred": "El servidor crasheó {0} veces seguidas. Usuario requerido.",
+      "NoCrashesInTenMinutes": "Sin crasheos en 10 minutos",
+      "SecondCrashInTenMinutesUpdating": "Segundo crasheo en 10 minutos: intentando actualizar el servidor",
+      "ErrorServerRecommendation": "Ejecute una actualización en el servidor para ver si eso soluciona el problema. Si eso no lo soluciona, puede haber un problema con un complemento. Consulte los registros de errores del servidor para obtener más información.",
+      "CrashedByClosing": "Crasheó al cerrar",
+      "DetectedNotResponding": "Se ha detectado que no responde, reintentando en 10 segundos",
+      "CrashByNotResponding": "Se crasheó por no responder",
+      "UpdateComplete": "Actualización completa",
+      "AreYouSureTerminate": "¿Está seguro de que desea terminar todas las instancias de {0}.exe?",
+      "AllInstancesOf": "Todas las instancias de {0}.exe se han cerrado si existían.",
+      "ErrorStartingUpdateRecommendation": "Error 1010: se produjo un error al iniciar una actualización en el servidor {0}. Hemos descubierto que el problema más común es que la casilla de verificación \"Detectar configuraciones automáticamente\" no está marcada en Opciones de Internet-> Conexiones-> Configuración de LAN. Si está marcado, vuelva a descargar {1}. Ejecute {1} a través de un símbolo del sistema para obtener más información. A veces, se requiere una versión inferior de SourceMod o Metamod para ejecutar el juego.{LB} {LB}Aquí está la {1} línea de comando con argumentos: {LB}{LB}{1}.exe {2}",
+      "QuitServerForUpdateConfirmation": "El servidor {0} se está ejecutando actualmente.{LB}{LB}¿Desea detener el servidor para continuar con la actualización?",
+      "NewerVersionAvailable": "Hay una versión más reciente de seDirector disponible.{LB}{LB}Versión actual: {0}{LB}Nueva versión: {1}{LB}{LB}¿Le gustaría actualizar seDirector? Sus servidores seguirán funcionando durante el proceso de actualización de seDirector.",
+      "AutomaticUpdateInfo": "seDirector admite la capacidad de actualizar un servidor automáticamente cuando los servidores de Steam tienen una actualización disponible. Para que esto funcione, debes tener SourceMod instalado con la extensión SteamTools y el complemento seDirector.{LB}{LB}Presiona OK para abrir la página del complemento seDirector.",
+      "ServerBeingCreated": "Ahora se está creando el servidor. Espere hasta que finalice el actualizador/instalador, luego seleccione srcds.exe en la ventana de propiedades del servidor.",
+      "AddonBackupFailure": "Error 2017: Error al hacer un backup del complemento existente. Inténtalo de nuevo."
+    },
+    "Backups": {
+      "CreateBackupAsk": "¿Crear backup para el servidor {0}?",
+      "CreatingBackupCaption": "Creando backup",
+      "BackingUpServer": "Realizando un backup de {0}"
+    },
+    "Compressing": {
+      "CompressingXToBZ2": "Comprimiendo {0} a BZ2..."
+    },
+    "LogsLogs": {
+      "CompressingLogsCaption": "Comprimiendo registros",
+      "CompressingLogsDescription": "Comprimiendo registros {0}"
+    },
+    "Errors": {
+    },
+    "Login": {
+      "PleaseTypeEmailThenReset": "Escriba su dirección de correo electrónico y luego haga clic en He Olvidado mi Contraseña"
+    },
+    "ServerProperties": {
+      "MetamodSource": "Metamod: Source es un entorno de complementos de C++ para Half-Life 2. Actúa como un 'metamod' que se encuentra entre el Juego y el Motor, y permite que los complementos intercepten las llamadas que fluyen entre ellos. Proporciona un mecanismo llamado SourceHook, una biblioteca muy poderosa para interceptar, anular y reemplazar llamadas a funciones virtuales.",
+      "WarningAllDataDeleted": "ADVERTENCIA: Se eliminarán todos los datos de los complementos.",
+      "AddonCouldNotBeDetected": "No se pudo detectar el complemento. Asegúrese de tener permiso para escribir en {0} y volver a ejecutar el proceso de instalación/cambio.",
+      "YouShouldCreateDirUnique": "Debe crear un directorio en su servidor web exclusivo para este servidor de juego.",
+      "AllTestsPassedFTP": "Todas las pruebas exitosas. La sincronización FTP/SFTP debería funcionar.",
+      "OneMoreTestFailedFTP": "Una o más pruebas fallaron. La sincronización FTP/SFTP no funcionará hasta que se resuelvan los errores anteriores.",
+      "ErrorTestingFTP": "Hubo un error al probar la conexión FTP/SFTP. Asegúrese de que todos los campos estén completados correctamente.",
+      "TestCon": "Prueba de Conexión",
+      "SpecialInstructionsCSGO": "Instrucciones especiales para CS:GO",
+      "SpecifyExactPath": "Especifique la ruta exacta al directorio del juego que contiene el subdirectorio de mapas, sonido, etc.",
+      "SWU_EXAMPLE": "Especifica la ruta exacta al directorio del juego que contiene el subdirectorio de mapas, sonido, etc.{LB}{LB}Por ejemplo: {LB}/var/www/yourdomain.com/assets/tf2{LB}sería accesible a través de HTTP en{LB}http://yourdomain.com/assets/tf2/{LB}{LB}Utilice el botón Probar conexión para asegurarse de que puede conectarse y que ha especificado el directorio correcto.",
+      "AddonInfoInfo": "<style> body {margin: 0; padding: 0; font-family: Tahoma, Ginebra, sans-serif; font-size: 13px;} \n</style> <h3> La mayoría de los juegos: Metamod:Source | SourceMod </h3> \n<p> seDirector admite la instalación, actualización, degradación, reinstalación y eliminación de complementos. seDirector es inteligente al cambiar los complementos; solo instalará los archivos necesarios para cambiar las versiones; no eliminará sus archivos o extensiones cfg. <br /> <br /> Si un complemento se actualiza, degrada o reinstala, se realizará una copia de seguridad antes de tomar cualquier acción. Busque en el directorio addons \\ [Backups] las copias de seguridad creadas por seDirector. <br /> <br /> <b> ASEGÚRESE de probar su servidor </b> después de realizar cambios en el complemento. Escriba 'meta versión' en la consola para asegurarse de que <b> Metamod: Fuente </b> esté funcionando. Escriba 'sm version' en la consola para asegurarse de que <b> SourceMod </b> esté funcionando. Si recibe un mensaje de error después de que se haya instalado / cambiado una actualización, asegúrese de que está usando la última versión. Es posible que las versiones anteriores no funcionen correctamente y que su servidor se bloquee o que los complementos no funcionen correctamente. <br /> <br /> <b> SourceMod </b> depende de <b> Metamod: Source </b> para funcionar. Asegúrese de utilizar una versión de <b> SourceMod </b> compatible con su versión de <b> Metamod: Source </b>. Después de instalar <b> Metamod: Source </b>, el archivo metamod.vdf se genera automáticamente específico para su servidor de juegos. </p> <h3> Garry's Mod: ULib | ULX | Wiremod </h3> <p> seDirector admite la instalación y eliminación de ULib, ULX y Wiremod. No se admite la actualización / degradación. La mayoría de las funciones relacionadas con la actualización son manejadas por los propios scripts, por lo que probablemente no habrá mucha necesidad de actualizar o degradar de todos modos. <br /> <br /> Puede instalar una versión publicada o elegir 'master' para obtener el código más reciente (el archivo de rama maestro). <br /> <br /> <b> ASEGÚRESE de probar su servidor </b> después de realizar cambios adicionales. <br /> <br /> Si ya tiene ULib , ULX o Wiremod instalado y desea que seDirector lo detecte, cambie el nombre de game\\addons\\ULib-oldname a game\\addons\\ULib, game\\ addons\\ULX-oldname a game\\addons\\ULX, game\\addons\\Wiremod-oldname al juego\\addons\\Wiremod. <br /> <br /> <b> ULX </b> depende de <b> ULib </b> para funcionar. Asegúrese de utilizar una versión de <b> ULX </b> compatible con su versión de <b> ULib </b>. </p>",
+      "ServerCfgAlreadyExist": "El archivo Server.cfg ya existe en el directorio cfg de este juego, ¿quieres guardarlo como server.cfg.example en su lugar?",
+      "WindowCaptionServer": "{0} - Propiedades",
+      "NotTheUpdateTool": "Puede elegir {0} como herramienta de actualización; sin embargo, {1} es la herramienta de actualización estándar para {2}. La actualización con {0} no se admite oficialmente y es posible que no funcione correctamente.{LB}{LB}¿Aún desea guardar esta configuración?",
+      "ProcessPriority": {
+      },
+      "Logs_ServerProperties": {
+      }
+    },
+    "UpdateProgress": {
+      "Working": "Procesando",
+      "UpdateComplete": "Actualización completa"
+    },
+    "Logs": {
+      "StartServerBegin": "Iniciando Servidor",
+      "StartServerStartingError": "Iniciando Servidor\nError al iniciar",
+      "StartServerFinished": "Encendido",
+      "StopServerFinished": "Detenido",
+      "StopServerError": "Error al detener servidor",
+      "UpdateServerErrorExited": "Error al actualizar servidor (Saliendo)",
+      "ShowHideError": "Mostrar/Ocultar error"
+    },
+    "FileProperties": {
+      "Logs_FileProperties": {
+        "Format": "AAAA-MM-DD HH:MM:SS AP | Evento"
+      }
+    },
+    "Paths": {
+      "Names": {
+      },
+      "InternalNames": {
+      }
+    },
+    "Addons": {
+      "Errors": {
+        "MustInstallMetamodBeforeSourcemod": "Instale Metamod:Source antes de instalar SourceMod.",
+        "ErrorInstallingUpdatingAddon": "Error al instalar/actualizar el complemento.",
+        "ErrorChangingAddon": "Hubo un error al cambiar el complemento. Es posible que deba desinstalar y reinstalar el complemento o, si tiene problemas, restaurar desde el archivo de respaldo en addons\\[Backups].",
+        "ErrorRemovingMetaMod": "Error al eliminar Metamod:Source:"
+      },
+      "Notifications": {
+      },
+      "Other": {
+        "ChangingAddon": "Cambiando Complemento",
+        "ChangingMetamodSource": "Cambiando versión de Metamod:Source",
+        "ChangingSourceModVersion": "Cambiando versión de SourceMod",
+        "CreatingBackup": "Creando Backup",
+        "BackingUp": "Realizando un backup de {0}"
+      }
+    },
+    "Donate": {
+    },
+    "PortChecker": {
+    },
+    "Troubleshooting": {
+      "ServerStartsNormally": "Este servidor parece iniciarse normalmente.{LB}{LB}¿Continuar con la solución de problemas?",
+      "TestPassedWithoutAdditionalParameters": "Prueba completada exitosamente. El servidor se inició correctamente sin los parámetros adicionales. Algo en sus Parámetros adicionales está causando un problema al iniciar el servidor.",
+      "ConfirmingServerStartIssue": "Solucionar problemas: confirmando problema de inicio del servidor",
+      "TestPassedWithoutACAP": "Prueba completada exitosamente. El servidor se inició correctamente sin complementos, cfg ni parámetros adicionales. Algo en los complementos, cfg y/o parámetros adicionales está causando un problema al iniciar el servidor.{LB}{LB}Nota: esta prueba no analiza los archivos cfg de SourceMod, verifíquelos también si tiene SourceMod.",
+      "TestFailedWithoutACAP": "Prueba fallida. El servidor no se inició correctamente, incluso con los complementos, cfg y los parámetros adicionales deshabilitados.{LB}{LB}Nota: esta prueba no analiza los archivos cfg de SourceMod, verifíquelos también si tiene SourceMod.",
+      "TestPassedWithoutAddons": "Prueba completada exitosamente. El servidor se inició correctamente sin la carpeta de complementos. Algo dentro de la carpeta de complementos está causando un problema al iniciar el servidor. Este problema podría ser causado por un archivo cfg relacionado con un complemento, así que verifique también la carpeta cfg."
+    }
+  }
+}
