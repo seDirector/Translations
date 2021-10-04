@@ -1,10 +1,14 @@
 ![seDirector logo](https://sedirector.net/images/logo.png)
 
-# seDirector Translations
+# 1. seDirector Translations
 
 [seDirector](https://sedirector.net) is a game server management application.
 
-# Language Status
+**Overall translation status:**
+
+[![gitlocalized ](https://gitlocalize.com/repo/6519/whole_project/badge.svg)](https://gitlocalize.com/repo/6519/whole_project?utm_source=badge)
+
+# 2. Language Status
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
 
@@ -26,7 +30,7 @@ If you can read/write in any of these languages OR if you have another language 
 |[Spanish](https://gitlocalize.com/repo/6519/es/en.json)|*|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/es/badge.svg)](https://gitlocalize.com/repo/6519/es?utm_source=badge)|||
 |[Romanian](https://gitlocalize.com/repo/6519/ro/en.json)|Romania|Need Proofread|[![gitlocalized ](https://gitlocalize.com/repo/6519/ro/badge.svg)](https://gitlocalize.com/repo/6519/ro?utm_source=badge)|||
 
-# Getting Started
+# 3. Getting Started
 
 **Note**: the GitLocalize page may show "Translated 100%" but that is because of the automatic machine translation. The table above reflects the current status of language translation.
 
@@ -40,7 +44,7 @@ If you can read/write in any of these languages OR if you have another language 
 5.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
 6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
 
-# Rules to Follow
+# 4. Rules to Follow
 
 1.  Do not translate if you don't read and write the language.
 2.  If you see HTML tags, please do not change/remove the HTML tags, just replace words/phrases as needed.
@@ -49,6 +53,6 @@ If you can read/write in any of these languages OR if you have another language 
 5.  When you see a number in braces, that is a tag that means a variable will go there. Keep the `{0}` or `{1}` tags in the translation. As long as the meaning is the same, you can move them as needed.
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 
-# Questions / Social
+# 5. Questions / Social
 
 Please join the special [#translations channel on our Discord](https://sedirector.net/discord/translations). Let us know your username and you'll be added to the list above.
