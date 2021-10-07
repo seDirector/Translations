@@ -425,7 +425,7 @@
 		"Calculating": "Calculating",
 		"ErrorDuringServerDup": "Error during server duplication",
 		"RecommendedFolderStruc": "Recommended Folder Structure",
-		"RecommendedFolderStructureText": "FFFFWe recommend making a base folder such as \"Steam\". Underneath \"Steam\" should be a folder for each game server, and a folder for SteamCMD.",
+		"RecommendedFolderStructureText": "We recommend making a base folder such as \"Steam\". Underneath \"Steam\" should be a folder for each game server, and a folder for SteamCMD.",
 		"DonateToSedirector": "Donate to seDirector",
 		"AllServersMustBeOfflineToRunThisTest": "All servers must be stopped (in the Offline state) to run this test."
 	  },
@@ -694,3 +694,4 @@
 	  }
 	}
   }
+	
