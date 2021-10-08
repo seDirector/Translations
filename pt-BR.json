@@ -505,7 +505,11 @@
       "EmailResetPassword": "Um e-mail foi enviado para {0}. Clique no link para redefinir sua senha.",
       "PleaseTypeEmailThenReset": "Digite seu endereço de e-mail e clique em Esqueci a Senha.",
       "EmailRegister": "Um e-mail de confirmação foi enviado para {0}. Clique no link para confirmar seu registro.",
-      "LoginText": "Faça login com sua conta ou digite seu endereço de e-mail e senha para se cadastrar."
+      "LoginText": "Faça login com sua conta ou digite seu endereço de e-mail e senha para se cadastrar.",
+      "InvalidLogin": "E-mail ou senha inválidos.",
+      "CheckEmailVerify": "Verifique seu e-mail para verificar sua conta.",
+      "PasswordEightChars": "Use uma senha de pelo menos 8 caracteres.",
+      "AccountAlreadyRegistered": "Conta já cadastrada."
     },
     "ServerProperties": {
       "Addons": "Addons",
