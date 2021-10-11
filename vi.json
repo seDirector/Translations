@@ -1,0 +1,294 @@
+{
+  "Lang": {
+    "UI": {
+      "MainWindow": {
+        "Menu_Server": "Máy chủ",
+        "Menu_AllServers": "Tất cả Máy chủ",
+        "Menu_Tools": "Công cụ",
+        "Menu_Help": "Giúp đỡ",
+        "Menu_Exit": "Thoát",
+        "Menu_Start": "Bắt đầu",
+        "Menu_Stop": "Dừng",
+        "Menu_Restart": "Khởi động lại",
+        "Menu_Update": "Cập nhật",
+        "Menu_Show_Hide": "Ẩn/Hiện",
+        "Menu_Add_Server": "Thêm máy chủ",
+        "Menu_Delete_Server": "Xóa máy chủ",
+        "Menu_Open_Game_Directory": "Mở nơi cài đặt game",
+        "Menu_Open_Maps_Directory": "Mở nơi cài đặt bản đồ",
+        "SelectAServer": "Chọn một Máy chủ",
+        "Server_Name": "Tên Máy chủ",
+        "Status": "Trạng thái",
+        "Uptime": "Thời gian chạy",
+        "CPU": "CPU",
+        "Memory": "Bộ nhớ",
+        "IP_Address": "Địa chỉ IP",
+        "Port": "Cổng Port",
+        "Current_Map": "Bản đồ hiện tại",
+        "Players": "Người chơi",
+        "Game": "Trò chơi\n",
+        "Information": "Thông tin",
+        "Created": "Đã tạo",
+        "Events": "Sự kiện",
+        "Logs": "Nhật ký",
+        "Testing": "Chạy thử",
+        "Started": "Đã bắt đầu",
+        "Updated": "Đã cập nhật",
+        "Properties": "Thông tin chi tiết",
+        "Start": "Bắt đầu",
+        "Stop": "Dừng",
+        "Restart": "Khởi động lại",
+        "ShowHide": "Ẩn/Hiện",
+        "Update": "Cập nhật",
+        "AddServer": "Thêm Máy chủ",
+        "DeleteServer": "Xóa Máy chủ",
+        "DuplicateServer": "Sao chép Máy chủ",
+        "CreateBackup": "Tạo bản sao lưu",
+        "RunBZ2": "Khởi chạy trình nén BZ2",
+        "RunLocal": "Khởi chạy đồng bộ Local/FTP/SFTP",
+        "Troubleshoot": "Khắc phục sự cố",
+        "CanMyServerUseThisPort": "Máy chủ của tôi có sử dụng được cổng port này không?",
+        "IsThisPortAccessibleOverTheInternet": "Cổng port này có truy cập được qua Internet không?",
+        "RunServerWithoutAddons": "Khởi chạy Máy chủ mà không có addons",
+        "RunServerWithoutCfgFile": "Khởi chạy Máy chủ mà không có tệp cfg",
+        "RunServerWithoutAdditionalParameters": "Khởi chạy Máy chủ mà không cần tham số bổ sung",
+        "RunServerWithoutAddonsCfgFileAP": "Khởi chạy Máy chủ mà không có addons, tệp cfg, hay tham số bổ sung",
+        "RunServerWithoutSedirector": "Khởi chạy Máy chủ mà không có seDirector",
+        "Open": "Mở",
+        "Reorder": "Sắp xếp lại",
+        "OSL": "Mở nhật ký seDirector cho Máy chủ",
+        "OSLF": "Mở thư mục nhật ký của Máy chủ",
+        "CompressLogs": "Nén nhật ký",
+        "GameDirectory": "Thư mục trò chơi",
+        "CMDDir": "CMD trong Thư mục",
+        "ConfigFiles": "Các tệp cấu hình",
+        "Maps": "Bản đồ",
+        "Sound": "Âm thanh",
+        "Addons": "Addons",
+        "SourceMod": "SourceMod",
+        "Directory": "Danh mục",
+        "Scripting": "Scripting",
+        "Plugins": "Plugins",
+        "PluginsSearch": "Tìm kiếm Plugins",
+        "Forums": "Diễn đàn",
+        "MoveToTop": "Di chuyển lên đầu",
+        "MoveUp": "Di chuyển lên",
+        "MoveDown": "Di chuyển xuống",
+        "MoveToBottom": "Di chuyển xuống dưới cùng",
+        "CreateServer": "Tạo Máy chủ",
+        "PortChecker": "Kiểm tra cổng port",
+        "ReloadSed": "Khởi động lại seDirector (giữ Máy chủ chạy)",
+        "KillAll": "Tắt tất cả các ứng dụng",
+        "OpenDefDir": "Mở thư mục mặc định",
+        "OpenSL": "Mở nhật ký seDirector",
+        "OpenSeDir": "Mở thư mục seDirector",
+        "Options": "Cài đặt",
+        "SupportRequest": "Yêu cầu hỗ trợ",
+        "StatusPage": "Trang trạng thái",
+        "ReportABug": "Báo lỗi",
+        "BugTracker": "Theo dõi lỗi",
+        "FeatureRequest": "Yêu cầu tính năng",
+        "Roadmap": "Bản cập nhật dự kiến",
+        "PremiumSupport": "Hỗ trợ cao cấp",
+        "HelpTranslateSed": "Giúp dịch seDirector",
+        "DiscordServer": "Discord Server",
+        "DonateToSed": "Ủng hộ seDirector",
+        "RecFold": "Kết cấu thư mục khuyên dùng",
+        "CFGExamples": "Mẫu tệp CFG",
+        "ReleaseNotes": "Ghi chú phát hành",
+        "CFU": "Kiểm tra cập nhật",
+        "About": "Về chúng tôi",
+        "SignIn": "Đăng nhập",
+        "SignOut": "Đăng xuất",
+        "Register": "Đăng kí",
+        "EmailAddress": "Địa chỉ E-mail",
+        "Password": "Mật khẩu"
+      },
+      "ServerProperties": {
+        "Tab_Tasks": "Tác vụ",
+        "Tab_TextCFGEditor": "Chỉnh sửa Text / CFG",
+        "Properties_PortNumber": "Số cổng port",
+        "ExecuteCFGOServerCFGOptional": "(tùy chọn, server.cfg luôn tự động thực thi)",
+        "Properties_Secure": "Bảo mật",
+        "Properties_ProcessorAffinity": "Mối quan hệ của bộ xử lí",
+        "Properties_ProcessPriority": "Ưu tiên xử lí",
+        "Properties_LocalMap": "Bản đồ có trên máy",
+        "Properties_WorkshopCustomMap": "Workshop / Custom Map {LB} (sử dụng các thông số bổ sung để điều chỉnh)",
+        "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Không thể thay đổi Server Properties khi đang chạy",
+        "CreateServerCFGInfo": "Vì server.cfg được thực thi tự động, nó sẽ không xuất hiện trong menu Thực thi CFG.",
+        "StartOptions": "Tùy chọn khi bắt đầu",
+        "Installed": "Đã cài",
+        "NotInstalled": "Chưa cài",
+        "HowCrashRecoveryWorks": "Cách khôi phục sự cố hoạt động: {LB} seDirector lưu giữ số lần máy chủ gặp sự cố. Nếu máy chủ gặp sự cố 2 lần trong 10 phút, seDirector sẽ tự động cố gắng cập nhật máy chủ. Nếu máy chủ bị treo lại trong vòng 10 phút sau khi cập nhật, seDirector sẽ dừng máy chủ. Nếu máy chủ đã hoạt động hơn 10 phút mà không gặp sự cố, bộ đếm sự cố sẽ đặt lại. {LB} {LB} 1 sự cố sau 10 phút = an toàn {LB} 2 sự cố sau 10 phút = cố gắng cập nhật {LB} 1 sự cố trong 10 phút vài phút sau khi cập nhật = máy chủ sẽ dừng (thông báo sẽ được gửi nếu được bật) {LB} Cứ 10 phút một lần mà không có sự cố = đặt lại bộ đếm",
+        "NotSet": "Chưa được thiết lập",
+        "Path": "Đường dẫn",
+        "Description": "Miêu tả",
+        "Website": "Trang chủ",
+        "Event": "Sự kiện",
+        "Monday": "Thứ Hai",
+        "Tuesday": "Thứ Ba",
+        "Wednesday": "Thứ Tư",
+        "Thursday": "Thứ Năm",
+        "Friday": "Thứ Sáu",
+        "Saturday": "Thứ Bảy",
+        "Sunday": "Chủ Nhật",
+        "AutoCompressUncompressed": "Tự động nén nội dung chưa được nén khi máy chủ khởi động",
+        "WhatToCompress": "Thứ cần nén",
+        "HTTPFastDownloadExplained": "Bạn có thể bật Đồng bộ hóa Thư mục và / hoặc Đồng bộ hóa FTP / SFTP để nội dung của bạn được cập nhật tự động trên máy chủ web của bạn mỗi khi máy chủ này được khởi động. Đồng bộ hóa hoạt động bằng cách sao chép bản đồ, âm thanh, vật liệu, mô hình và thư mục tài nguyên. Nếu các thư mục đích đã tồn tại, chúng sẽ được cập nhật để phù hợp với nội dung của máy chủ này. Chỉ các tệp BZ2 mới được đồng bộ hóa.",
+        "TargetDirectory": "Thư mục cần tìm",
+        "Server": "Máy chủ",
+        "Username": "Tên tài khoản",
+        "Port": "Cổng Port",
+        "ExampleNotification_Body": "Nội dung",
+        "ExampleNotification_BodyData": "Máy chủ <Tên máy chủ> đã gặp sự cố và seDirector không thể tự động khôi phục máy chủ này.",
+        "EmailTextSMS": "Thông báo qua E-mail / Văn bản / SMS",
+        "EmailTextSMS2": "seDirector sẽ tự động thông báo cho bạn qua e-mail nếu máy chủ của bạn gặp sự cố và không thể tự động khôi phục HOẶC nếu máy chủ không khởi động thành công. Ô 'Khôi phục từ sự cố máy chủ' trên tab Tự động hóa PHẢI được chọn để thông báo e-mail hoạt động.",
+        "DiscordNotifications": "Thông báo qua Discord",
+        "DiscordNotifications2": "seDirector sẽ tự động thông báo cho bạn qua Discord nếu máy chủ của bạn gặp sự cố và không thể tự động khôi phục HOẶC nếu máy chủ không khởi động thành công. Ô 'Khôi phục từ sự cố máy chủ' trên tab Tự động hóa PHẢI được chọn để thông báo Discord hoạt động.",
+        "SendTestNotif": "Gửi thử thông báo"
+      },
+      "Options": {
+        "RecommendedFolder": "Nhấp vào đây để xem Cấu trúc thư mục được đề xuất để sử dụng với seDirector",
+        "Clear": "Làm sạch",
+        "SteamLogin": "Đăng nhập vào Steam",
+        "Username": "Tên tài khoản"
+      },
+      "CreateServer": {
+      },
+      "PortChecker": {
+        "Port": "Cổng Port",
+        "Check": "Kiểm tra"
+      }
+    },
+    "Controller": {
+    },
+    "CreateServer": {
+      "SelectEmptyDirectoryForServer": "Chọn một thư mục TRỐNG để cài đặt máy chủ. Tạo một thư mục mới nếu cần.",
+      "UserPassReqToUpdate": "Cần có tên người dùng và mật khẩu cho Steam để cập nhật trò chơi này. Vui lòng đặt nó trong Công cụ -> Tùy chọn và quay lại cửa sổ này."
+    },
+    "FTP": {
+      "CouldNotConnectServer": "Không thể kết nối tới máy chủ. Kiểm tra máy chủ, cổng, tên người dùng, mật khẩu và kiểu kết nối.",
+      "InvalidUserPass": "Sai Tên đăng nhập hoặc Mật khẩu.",
+      "CouldNotReadDirectoryContents": "Không thể đọc nội dung thư mục. Kiểm tra quyền truy cập đọc vào thư mục này."
+    },
+    "GameCommon": {
+    },
+    "Networking": {
+    },
+    "Options": {
+    },
+    "Progress": {
+    },
+    "ServerConfig": {
+    },
+    "SupportRequest": {
+      "MessageSent": "Tin nhắn của bạn đã được gửi. Vui lòng đợi 1 đến 2 ngày làm việc để nhận trả lời. Cảm ơn bạn."
+    },
+    "Status": {
+      "UpdateStarting": "Đang bắt đầu cập nhật"
+    },
+    "MainWindow": {
+      "SentServerCrashEmail": "Đã gửi thông báo e-mail về sự cố máy chủ",
+      "SentServerCrashDiscord": "Đã gửi thông báo Discord về sự cố máy chủ",
+      "SedirectorAlert": "seDirector cảnh báo",
+      "Computer": "Máy tính",
+      "Server": "Máy chủ",
+      "ServerCrashedUnableToRecoverAuto": "[b] Máy tính: [/ b] {TÊN_MÁY} [br] [b] Máy chủ [/ b]: {TÊN_MÁY_CHỦ} [br] [br] Máy chủ đã bị lỗi và seDirector không thể tự động khôi phục.",
+      "DiscordNotificationSent": "Đã gửi thông báo qua Discord.",
+      "DoDuplicateGameDir": "Bạn có muốn sao chép nội dung của thư mục máy chủ trò chơi không?",
+      "SelectEmptyDir": "Chọn một thư mục TRỐNG để sao chép nội dung thư mục của máy chủ. Tạo một thư mục mới nếu cần.",
+      "ErrorDuringServerDup": "Lỗi khi sao chép máy chủ",
+      "RecommendedFolderStructureText": "Chúng tôi khuyên bạn nên tạo một thư mục gốc chẳng hạn như \"Steam\". Bên trong \"Steam\" phải là một thư mục cho mỗi máy chủ trò chơi và một thư mục cho SteamCMD."
+    },
+    "Notifications": {
+      "StartMenuShortcutCreated": "Đã tạo lối tắt trên Menu Start.",
+      "ShortcutError": "Đã xảy ra lỗi khi tạo lối tắt. Hãy đảm bảo rằng bạn có quyền truy cập vào màn hình chính.",
+      "SteamUsernamePasswordChanged": "Tên người dùng hoặc mật khẩu Steam đã thay đổi. Vui lòng nhập mã Steam Guard (được gửi đến e-mail của bạn) trên cửa sổ sau nếu được yêu cầu. Không đóng cửa sổ tiếp theo, hãy để nó tự động đóng lại. Nếu bạn nhầm lẫn, chỉ cần nhấn phím xóa lùi để sửa. {LB} {LB} Nếu bạn cần gửi lại mã, hãy nhấn Ctrl-C một lần và để nó tự động đóng, đặt tên người dùng của bạn thành tên khác, Lưu, sau đó thay đổi nó trở lại giá trị chính xác và Lưu.",
+      "CrashedByClosing": "Đánh sập bằng cách đóng chủ",
+      "CrashByNotResponding": "Đánh sập do không phản hồi",
+      "UpdateToolMissing": "{0} bị thiếu. Vui lòng đi tới Công cụ -> Tùy chọn để đặt vị trí của {0}."
+    },
+    "Backups": {
+      "BackingUpServer": "Đang sao lưu {0}"
+    },
+    "Compressing": {
+    },
+    "LogsLogs": {
+    },
+    "Errors": {
+    },
+    "Login": {
+    },
+    "ServerProperties": {
+      "MetamodSource": "Metamod: Source là một môi trường plugin C ++ cho Half-Life 2. Nó hoạt động như một 'siêu mô hình' nằm giữa Trò chơi và Phần mềm làm trò chơi, đồng thời cho phép các plugin chặn các giao tiếp giữa các luồng. Nó cung cấp một cơ chế được gọi là SourceHook, một thư viện rất mạnh để chặn, ghi đè và thay thế các lệnh gọi hàm ảo.",
+      "SourceMod": "SourceMod là công cụ sửa đổi máy chủ cho bất kỳ trò chơi nào chạy trên nền phần mềm tạo nên Half-Life 2. Nó là một nền tảng mạnh mẽ, được tối ưu hóa cao cho các plugin viết và xử lý trong việc quản lý máy chủ. Gói mặc định đi kèm với một bộ plugin cơ bản, nhưng có hàng nghìn plugin trong cộng đồng.",
+      "CSGO_Plugin_Info": "<p> Với CSGO, máy chủ ở chế độ ngủ đông trước khi plugin seDirector có cơ hội tắt tính năng đó. Bạn phải đặt <strong> sv_hibernate_when_empty </strong> thành <strong> 0 </strong> trong tệp cfg của bạn để khởi động máy chủ, nếu không, plugin seDirector sẽ KHÔNG hoạt động. </p> <p> <strong> Nếu bạn không 't đặt cvar này thành 0: </strong> <br> (1) Cập nhật sẽ không xảy ra cho đến khi người chơi tham gia <br> (2) Sau khi người chơi được thông báo trong trò chơi về bản cập nhật máy chủ, nếu tất cả rời khỏi trước khi đếm ngược đạt 0, máy chủ của bạn sẽ không bao giờ cập nhật <br> (3) Do 1 + 2, điều này gây ra vòng lặp cập nhật trong trò chơi vô tận và do đó máy chủ lỗi thời </p> <p> Bạn <i> không thể </ i > chỉ tắt chế độ ngủ đông sau đó, nó phải được thực hiện trong tệp cfg khởi chạy khi máy chủ của bạn chạy. </p> <p> <strong> Thêm dòng này vào tệp cfg của bạn và đảm bảo nó không ở bất kỳ nơi nào khác: </ strong > <br> sv_hibernate_when_empty 0 </p>",
+      "AddonInfo": "Thông tin của Addon",
+      "AddonInfoInfo": "<style> body {margin: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; } </style> <h3> Hầu hết các trò chơi sử dụng Metamod: Source | SourceMod </h3> <p> seDirector hỗ trợ cài đặt, nâng cấp, hạ cấp, cài đặt lại và xóa các phần bổ trợ. seDirector rất thông minh khi thay đổi các addon; nó sẽ chỉ cài đặt các tệp cần thiết để thay đổi phiên bản - nó sẽ không xóa các tệp hoặc tiện ích mở rộng cfg của bạn. <br /> <br /> Nếu một addon được nâng cấp, hạ cấp hoặc cài đặt lại, một bản sao lưu sẽ được thực hiện trước khi sử dụng bất kỳ hoạt động. Tìm trong thư mục addons \\ [Backups] để biết các bản sao lưu do seDirector tạo. <br /> <br /> <b> HÃY CHẮC CHẮN kiểm tra máy chủ của bạn </b> sau khi thực hiện các thay đổi về addon. Nhập 'meta version' trong bảng điều khiển console để đảm bảo rằng <b> Metamod: Source </b> đang hoạt động. Nhập 'sm version' vào bảng điều khiển console để đảm bảo rằng <b> SourceMod </b> đang hoạt động. Nếu bạn nhận được thông báo lỗi sau khi cài đặt / thay đổi bản cập nhật, hãy đảm bảo rằng bạn đang sử dụng phiên bản mới nhất. Các phiên bản cũ hơn có thể không hoạt động bình thường và khiến máy chủ của bạn gặp sự cố hoặc khiến các plugin hoạt động sai. <br /> <br /> <b> SourceMod </b> phụ thuộc vào <b> Metamod: Source </b> để hoạt động. Đảm bảo sử dụng phiên bản <b> SourceMod </b> tương thích với phiên bản <b> Metamod: Source </b> của bạn. Sau khi cài đặt <b> Metamod: Source </b>, tệp metamod.vdf được tạo tự động dành riêng cho máy chủ trò chơi của bạn. </p> <h3> Garry's Mod: ULib | ULX | Wiremod </h3> <p> seDirector hỗ trợ cài đặt và gỡ bỏ ULib, ULX và Wiremod. Nâng cấp / hạ cấp không được hỗ trợ. Hầu hết các tính năng liên quan đến cập nhật đều do tập lệnh tự xử lý, vì vậy, có lẽ sẽ không cần phải nâng cấp hoặc hạ cấp. <br /> <br /> Bạn có thể cài đặt phiên bản đã phát hành hoặc chọn 'chính' cho mã mới nhất (kho lưu trữ ở nhánh chính). <br /> <br /> <b> HÃY ĐẢM BẢO sẽ kiểm tra máy chủ của bạn </b> sau khi thực hiện các thay đổi. <br /> <br /> Nếu bạn đã có ULib , ULX hoặc Wiremod đã được cài đặt và bạn muốn seDirector phát hiện ra nó, hãy đổi tên game\\addons\\ULib-oldname thành game\\addons\\ ULib, game\\addons\\ ULX-oldname thành game\\addons\\ULX, game\\addons\\Wiremod-oldname thành game\\addons\\Wiremod. <br /> <br /> <b> ULX </b> phụ thuộc vào <b> ULib </b> để hoạt động. Đảm bảo sử dụng phiên bản <b> ULX </b> tương thích với phiên bản <b> ULib </b> của bạn. </p>",
+      "UseFormatBelowNotifEmail": "Sử dụng định dạng bên dưới làm địa chỉ nhận e-mail thông báo của bạn.",
+      "PleaseEnterServerNameProp": "Vui lòng nhập tên máy chủ vào tab Thuộc tính trước khi gửi thông báo thử nghiệm.",
+      "PleaseEnterEmailAddressTesting": "Vui lòng nhập địa chỉ e-mail trước khi gửi thông báo thử nghiệm.",
+      "ProcessPriority": {
+      },
+      "Logs_ServerProperties": {
+        "ModifiedServerProperties": "Thuộc tính máy chủ đã được sửa"
+      }
+    },
+    "UpdateProgress": {
+      "Working": "Đang tiến hành"
+    },
+    "Logs": {
+      "StartServerBegin": "Đang khởi chạy máy chủ",
+      "StartServerStartingError": "Lỗi khi đang khởi chạy máy chủ",
+      "StartServerError": "Lỗi khởi chạy máy chủ",
+      "StopServerBegin": "Đang dừng máy chủ",
+      "StopServerFinished": "Đã dừng",
+      "StopServerError": "Lỗi khi dừng máy chủ ",
+      "RestartServerError": "Lỗi khi khởi động lại máy chủ",
+      "UpdateServerErrorExited": "Lỗi cập nhật máy chủ (đã thoát)",
+      "UpdateServerError": "Lỗi cập nhật máy chủ",
+      "ShowHideError": "Ẩn/Hiện lỗi",
+      "TaskRequestedServerRestart": "Tác vụ yêu cầu khởi động lại máy chủ",
+      "TaskRequestedServerRestartInGame": "Tác vụ yêu cầu khởi động lại máy chủ với thông báo trong trò chơi",
+      "TaskRequestedUpdate": "Tác vụ yêu cầu cập nhật máy chủ",
+      "TaskRequestedUpdateInGame": "Tác vụ yêu cầu cập nhật máy chủ với thông báo trong trò chơi"
+    },
+    "FileProperties": {
+      "Logs_FileProperties": {
+        "DescriptionLabel": "Miêu tả"
+      }
+    },
+    "Paths": {
+      "Names": {
+      },
+      "InternalNames": {
+      }
+    },
+    "Addons": {
+      "Errors": {
+        "ErrorInstallingUpdatingAddon": "Lỗi khi cài đặt/cập nhật addon.",
+        "ErrorChangingAddon": "Đã xảy ra lỗi khi thay đổi phần bổ trợ. Bạn có thể cần gỡ cài đặt và cài đặt lại phần bổ trợ hoặc nếu gặp sự cố, hãy khôi phục từ tệp sao lưu trong phần addons\\[Backups].",
+        "ErrorRemovingMetaMod": "Lỗi khi xóa Metamod: Source:"
+      },
+      "Notifications": {
+      },
+      "Other": {
+        "ChangingMetamodSource": "Đang đổi phiên bản Metamod: Source",
+        "ChangingSourceModVersion": "Đang đổi phiên bản SourceMod",
+        "BackingUp": "Đang sao lưu {0}"
+      }
+    },
+    "Donate": {
+    },
+    "PortChecker": {
+      "PortIsClosed": "Cổng đã đóng"
+    },
+    "Troubleshooting": {
+      "TestPassedWithoutAdditionalParameters": "Kiểm tra đã đạt. Máy chủ đã khởi động thành công mà không có Tham số bổ sung. Một cái gì đó trong Thông số bổ sung của bạn đang gây ra sự cố khi khởi động máy chủ.",
+      "RunningServerWithoutAdditionalParameters": "Khắc phục sự cố: Khởi chạy máy chủ mà không có thông số bổ sung",
+      "RunningServerWithoutACAP": "Khắc phục sự cố: Khởi chạy máy chủ mà không có phần bổ trợ, tệp cfg, các tham số bổ sung",
+      "TestPassedWithoutACAP": "Kiểm tra đã đạt. Máy chủ đã khởi động thành công mà không có bổ trợ, cfg và các tham số bổ sung. Có điều gì đó trong addons, cfg và / hoặc Tham số bổ sung đang gây ra sự cố khi khởi động máy chủ. {LB} {LB} Lưu ý: kiểm tra này không kiểm tra các tệp SourceMod cfg, vui lòng kiểm tra các tệp đó nếu bạn có SourceMod.",
+      "RunningServerWithoutAddons": "Khắc phục sự cố: Khởi chạy máy chủ mà không có phần bổ trợ"
+    }
+  }
+}
