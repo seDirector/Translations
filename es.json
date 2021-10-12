@@ -310,7 +310,9 @@
       "SelectEmptyDirectoryForServer": "Seleccione un directorio VACÍO para instalar el servidor. Cree un nuevo directorio si es necesario.",
       "CannotUseRootDirectoryDrive": "No puede utilizar el directorio raíz de una unidad.",
       "DirectoryNotEmptyOverwrite": "El directorio no está vacío. ¡Los archivos pueden sobrescribirse! ¿Continuar?",
-      "UserPassReqToUpdate": "Se requiere un nombre de usuario y contraseña de Steam para actualizar este juego. Configúrelo en Herramientas-> Opciones y vuelva a esta ventana."
+      "UserPassReqToUpdate": "Se requiere un nombre de usuario y contraseña de Steam para actualizar este juego. Configúrelo en Herramientas-> Opciones y vuelva a esta ventana.",
+      "DisabledSee": " - deshabilitado - ver {0}",
+      "DownloadsForGameCurrentlyDisabled": "Las descargas de este juego están deshabilitadas actualmente. ¿Le gustaría ver {0} para más información?"
     },
     "FTP": {
       "CouldNotConnectServer": "No se pudo conectar al servidor. Verifique el servidor, el puerto, el nombre de usuario, la contraseña y el tipo de conexión.",
