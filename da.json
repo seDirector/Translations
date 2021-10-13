@@ -310,7 +310,9 @@
       "SelectEmptyDirectoryForServer": "Vælg et EMPTY -bibliotek for at installere serveren. Opret en ny mappe, hvis det er nødvendigt.",
       "CannotUseRootDirectoryDrive": "Du kan ikke bruge rodmappen på et drev.",
       "DirectoryNotEmptyOverwrite": "Telefonbogen er ikke tom. Filer kan blive overskrevet! Fortsæt?",
-      "UserPassReqToUpdate": "Et brugernavn og en adgangskode til Steam er påkrævet for at opdatere dette spil. Indstil det i Værktøjs-> Indstillinger og vend tilbage til dette vindue."
+      "UserPassReqToUpdate": "Et brugernavn og en adgangskode til Steam er påkrævet for at opdatere dette spil. Indstil det i Værktøjs-> Indstillinger og vend tilbage til dette vindue.",
+      "DisabledSee": " - deaktiveret - se hvorfor {0}",
+      "DownloadsForGameCurrentlyDisabled": "Downloads til dette spil er i øjeblikket deaktiveret. Vil du gerne se {0} for mere information?"
     },
     "FTP": {
       "CouldNotConnectServer": "Kunne ikke få forbindelse til serveren. Kontroller serveren, porten, brugernavnet, adgangskoden og forbindelsestypen.",
