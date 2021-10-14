@@ -310,7 +310,9 @@
       "SelectEmptyDirectoryForServer": "서버를 설치할 빈 디렉토리를 선택하십시오. 필요한 경우 새 디렉토리를 만드십시오.",
       "CannotUseRootDirectoryDrive": "드라이브의 루트 디렉토리는 사용할 수 없습니다.",
       "DirectoryNotEmptyOverwrite": "디렉토리가 비어 있지 않습니다. 파일을 덮어쓰게 됩니다! 진행하시겠습니까?",
-      "UserPassReqToUpdate": "이 게임을 업데이트하려면 Steam의 사용자 이름과 비밀번호가 필요합니다. 도구->옵션에서 설정하고 이 창으로 돌아가십시오."
+      "UserPassReqToUpdate": "이 게임을 업데이트하려면 Steam의 사용자 이름과 비밀번호가 필요합니다. 도구->옵션에서 설정하고 이 창으로 돌아가십시오.",
+      "DisabledSee": " - 비활성화됨 - {0} 참조",
+      "DownloadsForGameCurrentlyDisabled": "이 게임의 다운로드는 현재 비활성화되어 있습니다. 자세한 내용 {0}을(를) 보시겠습니까?"
     },
     "FTP": {
       "CouldNotConnectServer": "서버에 연결할 수 없습니다. 서버, 포트, 사용자 이름, 암호 및 연결 유형을 확인하십시오.",
