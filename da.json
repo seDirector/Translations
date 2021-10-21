@@ -85,10 +85,6 @@
         "Options": "Indstillinger",
         "SupportRequest": "Supportanmodning",
         "StatusPage": "Status Page",
-        "ReportABug": "Anmeld en fejl",
-        "BugTracker": "Bug Tracker",
-        "FeatureRequest": "Funktionsanmodning",
-        "Roadmap": "Roadmap",
         "PremiumSupport": "Premium support",
         "HelpTranslateSed": "Hjælp at oversæt seDirector",
         "DiscordServer": "Discord Server",
@@ -110,7 +106,6 @@
         "Tab_Automation": "Automatisering",
         "Tab_Addons": "Addons",
         "Tab_Tasks": "Opgaver",
-        "Tab_TextCFGEditor": "Tekst/CFG Rediger",
         "Tab_Optimization": "Optimering",
         "Tab_Notifications": "Notifikationer",
         "Properties_ServerName": "Server Navn",
@@ -310,9 +305,7 @@
       "SelectEmptyDirectoryForServer": "Vælg et EMPTY -bibliotek for at installere serveren. Opret en ny mappe, hvis det er nødvendigt.",
       "CannotUseRootDirectoryDrive": "Du kan ikke bruge rodmappen på et drev.",
       "DirectoryNotEmptyOverwrite": "Telefonbogen er ikke tom. Filer kan blive overskrevet! Fortsæt?",
-      "UserPassReqToUpdate": "Et brugernavn og en adgangskode til Steam er påkrævet for at opdatere dette spil. Indstil det i Værktøjs-> Indstillinger og vend tilbage til dette vindue.",
-      "DisabledSee": " - deaktiveret - se hvorfor {0}",
-      "DownloadsForGameCurrentlyDisabled": "Downloads til dette spil er i øjeblikket deaktiveret. Vil du gerne se {0} for mere information?"
+      "UserPassReqToUpdate": "Et brugernavn og en adgangskode til Steam er påkrævet for at opdatere dette spil. Indstil det i Værktøjs-> Indstillinger og vend tilbage til dette vindue."
     },
     "FTP": {
       "CouldNotConnectServer": "Kunne ikke få forbindelse til serveren. Kontroller serveren, porten, brugernavnet, adgangskoden og forbindelsestypen.",
@@ -427,11 +420,10 @@
       "Calculating": "Beregner",
       "ErrorDuringServerDup": "Fejl under serverduplikering",
       "RecommendedFolderStruc": "Anbefalet mappestruktur",
-      "RecommendedFolderStructureText": "Vi anbefaler at lave en basismappe som f.eks. \"Steam\". Under \"Steam\" skal der være en mappe til hver spilserver og en mappe til SteamCMD.",
       "DonateToSedirector": "Doner til seDirector",
       "AllServersMustBeOfflineToRunThisTest": "Alle servere skal stoppes (i offline tilstand) for at køre denne test.",
-      "TaskRequestedServerRestartInGame": "Opgave anmodede om server genstart m/in-game notifikation",
-      "TaskRequestedServerRestart": "Opgave anmodede om serverstart."
+      "TaskRequestedServerRestart": "Opgave anmodede om serverstart.",
+      "TaskRequestedServerRestartInGame": "Opgave anmodede om server genstart m/in-game notifikation"
     },
     "Notifications": {
       "DebugModeEnabled": "Fejlfindingstilstand er aktiveret!",
@@ -504,14 +496,6 @@
       "CouldNotConnectToInternet": "Kunne ikke oprette forbindelse til internettet."
     },
     "Login": {
-      "EmailResetPassword": "En e-mail er blevet sendt til {0}. Klik venligst på linket for at nulstille din adgangskode.",
-      "PleaseTypeEmailThenReset": "Indtast venligst din e-mail-adresse, og klik derefter på Glemt kodeord.",
-      "EmailRegister": "Der er sendt en bekræftelses e-mail til {0}. Klik venligst på linket for at bekræfte din registrering.",
-      "LoginText": "Log ind med din konto, eller indtast din email-adresse og adgangskode for at registrere dig.",
-      "InvalidLogin": "Ugyldig email-adresse eller adgangskode.",
-      "CheckEmailVerify": "Tjek din e-mail for at bekræfte din konto.",
-      "PasswordEightChars": "Brug en adgangskode på mindst 8 tegn.",
-      "AccountAlreadyRegistered": "Konto allerede registreret."
     },
     "ServerProperties": {
       "Addons": "Addons",
