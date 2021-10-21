@@ -430,8 +430,8 @@
       "RecommendedFolderStructureText": "Vi anbefaler at lave en basismappe som f.eks. \"Steam\". Under \"Steam\" skal der være en mappe til hver spilserver og en mappe til SteamCMD.",
       "DonateToSedirector": "Doner til seDirector",
       "AllServersMustBeOfflineToRunThisTest": "Alle servere skal stoppes (i offline tilstand) for at køre denne test.",
-      "TaskRequestedServerRestartInGame": "Opgave anmodede om server genstart m/in-game notifikation",
-      "TaskRequestedServerRestart": "Opgave anmodede om serverstart."
+      "TaskRequestedServerRestart": "Opgave anmodede om serverstart.",
+      "TaskRequestedServerRestartInGame": "Opgave anmodede om server genstart m/in-game notifikation"
     },
     "Notifications": {
       "DebugModeEnabled": "Fejlfindingstilstand er aktiveret!",
