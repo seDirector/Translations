@@ -495,7 +495,7 @@
 		"CompressLogsAsk": "Compress the logs for server {0}?",
 		"LogsDirectoryDNE": "Logs directory does not exist!",
 		"CompressingLogsCaption": "Compressing Logs",
-		"CompressingLogsDescription": "Compressing logs {0}"
+		"CompressingLogsDescription": "Compressing logs for server {0}"
 	  },
 	  "Errors": {
 		"ErrorCreatingServer": "Error 1012: There's a problem with {0}. We've found the most common problem is that the \"Automatically detect settings\" checkbox is unchecked in Internet Options->Connections->LAN Settings. If it is checked, redownload {0}. Launch {0} through a command prompt for more information.",
