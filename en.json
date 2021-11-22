@@ -174,7 +174,7 @@
 		  "SaveAndReopenToChange": "Save and reopen to change these settings",
 		  "AddonsNotSupported": "Addons not supported in this game server",
 		  "Actions": "Actions",
-		  "AddOn": "Add-on",
+		  "AddOn": "Addon",
 		  "VersionToInstall": "Version to Install",
 		  "InstallChange": "Install/Change",
 		  "Publisher": "Publisher",
@@ -522,7 +522,7 @@
 		"RemovingMetamodAffectSourcemod": "Removing Metamod will stop SourceMod from working. You must remove SourceMod first.",
 		"RemovingULibAffectULX": "Removing ULib will stop ULX from working. You must remove ULX first.",
 		"RemoveXFromServer": "Remove {0} from this server?",
-		"WarningAllDataDeleted": "WARNING: All add-on data will be deleted.",
+		"WarningAllDataDeleted": "WARNING: All addon data will be deleted.",
 		"AddonCouldNotBeDetected": "Addon could not be detected. Make sure you have permission to write to {0} and rerun the Install/Change process.",
 		"DoesNotExistClick": "Does not exist. Click here to create it.",
 		"SaveChangesFile": "Save changes to file?",
@@ -696,4 +696,3 @@
 	  }
 	}
   }
-	  
