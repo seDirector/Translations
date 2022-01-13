@@ -20,7 +20,7 @@ If you can read/write in any of these languages OR if you have another language 
 |[Russian](https://gitlocalize.com/repo/6994/ru/en.json)|Russia|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ru/badge.svg)](https://gitlocalize.com/repo/6994/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
 |[Portuguese](https://gitlocalize.com/repo/6994/pt-BR/en.json)|Brazil|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/pt-BR/badge.svg)](https://gitlocalize.com/repo/6994/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
 |[Korean](https://gitlocalize.com/repo/6994/ko/en.json)|South Korea|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ko/badge.svg)](https://gitlocalize.com/repo/6994/ko?utm_source=badge)|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|[MikkelDK](https://github.com/MikkelDK)|
+|[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|MikkelDK|
 |[Spanish](https://gitlocalize.com/repo/6994/es/en.json)|*|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/es/badge.svg)](https://gitlocalize.com/repo/6994/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
 |[Vietnamese](https://gitlocalize.com/repo/6994/vi/en.json)|Vietnam|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/vi/badge.svg)](https://gitlocalize.com/repo/6994/vi?utm_source=badge)|Yes|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
 
