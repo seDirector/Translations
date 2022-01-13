@@ -6,7 +6,7 @@
 
 **Overall translation status:**
 
-[![gitlocalized ](https://gitlocalize.com/repo/6519/whole_project/badge.svg)](https://gitlocalize.com/repo/6519/whole_project?utm_source=badge)
+[![gitlocalized ](https://gitlocalize.com/repo/6994/whole_project/badge.svg)](https://gitlocalize.com/repo/6994/whole_project?utm_source=badge)
 
 # 2. Language Status
 
@@ -16,17 +16,17 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|GitLocalize Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|--|
-|[Chinese](https://gitlocalize.com/repo/6519/zh-TW/en.json)|Taiwan|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/zh-TW/badge.svg)](https://gitlocalize.com/repo/6519/zh-TW?utm_source=badge)|Yes|[in2002-tw](https://github.com/in2002-tw)|
-|[Russian](https://gitlocalize.com/repo/6519/ru/en.json)|Russia|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/ru/badge.svg)](https://gitlocalize.com/repo/6519/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
-|[Portuguese](https://gitlocalize.com/repo/6519/pt-BR/en.json)|Brazil|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/pt-BR/badge.svg)](https://gitlocalize.com/repo/6519/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
-|[Korean](https://gitlocalize.com/repo/6519/ko/en.json)|South Korea|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/ko/badge.svg)](https://gitlocalize.com/repo/6519/ko?utm_source=badge)|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Danish](https://gitlocalize.com/repo/6519/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/da/badge.svg)](https://gitlocalize.com/repo/6519/da?utm_source=badge)|Yes|[MikkelDK](https://github.com/MikkelDK)|
-|[Spanish](https://gitlocalize.com/repo/6519/es/en.json)|*|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/es/badge.svg)](https://gitlocalize.com/repo/6519/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
-|[Vietnamese](https://gitlocalize.com/repo/6519/vi/en.json)|Vietnam|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6519/vi/badge.svg)](https://gitlocalize.com/repo/6519/vi?utm_source=badge)|Yes|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
+|[Chinese](https://gitlocalize.com/repo/6994/zh-TW/en.json)|Taiwan|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/zh-TW/badge.svg)](https://gitlocalize.com/repo/6994/zh-TW?utm_source=badge)|Yes|[in2002-tw](https://github.com/in2002-tw)|
+|[Russian](https://gitlocalize.com/repo/6994/ru/en.json)|Russia|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ru/badge.svg)](https://gitlocalize.com/repo/6994/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
+|[Portuguese](https://gitlocalize.com/repo/6994/pt-BR/en.json)|Brazil|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/pt-BR/badge.svg)](https://gitlocalize.com/repo/6994/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
+|[Korean](https://gitlocalize.com/repo/6994/ko/en.json)|South Korea|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ko/badge.svg)](https://gitlocalize.com/repo/6994/ko?utm_source=badge)|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
+|[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|[MikkelDK](https://github.com/MikkelDK)|
+|[Spanish](https://gitlocalize.com/repo/6994/es/en.json)|*|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/es/badge.svg)](https://gitlocalize.com/repo/6994/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
+|[Vietnamese](https://gitlocalize.com/repo/6994/vi/en.json)|Vietnam|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/vi/badge.svg)](https://gitlocalize.com/repo/6994/vi?utm_source=badge)|Yes|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
 
 # 3. Getting Started
 
-1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6519) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
+1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
 2.  Type the translation on the right side of the page and click **Submit**.
 3.  When you are ready to submit the translation for review:
     1. Click **Create Review Request** at the top.
