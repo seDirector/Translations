@@ -123,6 +123,9 @@
 		  "Properties_Map": "Map",
 		  "Properties_NumberOfPlayers": "Number of Players",
 		  "Properties_Secure": "Secure",
+		  "Properties_PlayerPassword": "Player Password",
+		  "Properties_RconPassword": "RCON Password",
+		  "Properties_CfgMayOverride": "CFG file may override these values, make sure to check",
 		  "Properties_EnableRCON": "Enable RCON",
 		  "Properties_CSGOGameMode": "CS:GO Game Mode",
 		  "Properties_CSGOSkirmishMode": "CS:GO Skirmish Mode",
@@ -179,6 +182,8 @@
 		  "InstallChange": "Install/Change",
 		  "Publisher": "Publisher",
 		  "Description": "Description",
+		  "ScriptExePath": "Script/Executable Path",
+		  "ScriptExeArgs": "Script/Executable Arguments",
 		  "Website": "Website",
 		  "Documentation": "Documentation",
 		  "Forum": "Forum",
@@ -205,6 +210,7 @@
 		  "RestartServer2": "Restart Server w/In-Game Notification (Plugin Required)",
 		  "UpdateServer": "Update Server",
 		  "UpdateServer2": "Update Server w/In-Game Notification (Plugin Required)",
+		  "RunScriptOrExecutable": "Run script or executable",
 		  "Monday": "Monday",
 		  "Tuesday": "Tuesday",
 		  "Wednesday": "Wednesday",
@@ -284,7 +290,8 @@
 		  "Game": "Game",
 		  "ITD": "Install to Directory",
 		  "Browse": "Browse",
-		  "CreateServer": "Create Server"
+		  "CreateServer": "Create Server",
+		  "LowDiskSpace": "There is less than 15 GB of free space on drive {0}. Are you sure you want to create a server on this drive?"
 		},
 		"PortChecker": {
 		  "Intro": "Check if a port is accessible over the Internet.",
@@ -406,6 +413,8 @@
 		"SedirectorAlert": "seDirector Alert",
 		"Computer": "Computer",
 		"Server": "Server",
+		"ServerCrashedEmail": "[b]Computer:[/b] {COMPUTER_NAME}[br][b]Server[/b]: {SERVER_NAME}[br][br]A server has crashed.",
+		"ServerCrashedDiscord": "A server has crashed.",
 		"ServerCrashedUnableToRecoverAuto": "[b]Computer:[/b] {COMPUTER_NAME}[br][b]Server[/b]: {SERVER_NAME}[br][br]A server has crashed and seDirector is unable to recover it automatically.",
 		"ServerCrashedUnableToRecoverAutoGeneral": "A server has crashed and seDirector is unable to recover it automatically.",
 		"ErrorSendingTestEmailContact": "Error sending test e-mail. Contact seDirector support.",
@@ -474,7 +483,8 @@
 		"ShuttingDownProper": "Shutting Down",
 		"ShuttingDown": "Shutting down",
 		"AddonUpdateFailure": "Error 1011: Error when trying to download the addon lists. Check your Internet connection or contact seDirector support if this issue continue.",
-		"AddonBackupFailure": "Error 2017: Error when backing up the existing addon. Please try again."
+		"AddonBackupFailure": "Error 2017: Error when backing up the existing addon. Please try again.",
+		"ScriptExeNotValid": "You must specify an exe, ps1, cmd, or bat file."
 	  },
 	  "Backups": {
 		"CreateBackupAsk": "Create backup for server {0}?",
