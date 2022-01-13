@@ -148,7 +148,7 @@
 		  "OnlyUpdateIfServerHas0Players": "Only update automatically if the server has 0 players",
 		  "UpdateAutoCurMapCurPlayers": "自動更新, 目前地圖, 目前玩家",
 		  "SaveAndReopen": "Save and reopen to change these settings",
-		  "PluginDescription": "seDirector can update your server automatically when Steam's content servers change. For these features to work, you must have SourceMod installed prior to installing this plugin (except if game server is Garry's Mod).",
+		  "PluginDescription": "seDirector can update your server automatically when Steam's content servers change. For these features to work, you must have SourceMod installed prior to installing this plugin (except if game server is Garry's Mod).{LB}{LB}The seDirector plugin also updates the 'Current Map' and 'Players' columns on the server list.",
 		  "UpdateAuto": "自動更新",
 		  "SpecialCSGO": "Special Instructions for CSGO Servers",
 		  "PluginStatus": "Plugin Status",
@@ -235,12 +235,19 @@
 		  "RemoteDir": "Remote Directory",
 		  "SFTPRecommended": "SFTP is recommended because it encrypts your credentials",
 		  "TestCon": "測試連線",
+		  "ExampleNotification": "Example Notification",
+		  "ExampleNotification_Subject": "Subject",
+		  "ExampleNotification_SubjectData": "seDirector Alert! Computer: <ComputerName> Server: <ServerName>",
+		  "ExampleNotification_Body": "Body",
+		  "ExampleNotification_BodyData": "Server <ServerName> has crashed and seDirector is unable to recover it automatically.",
 		  "EmailTextSMS": "E-mail/Text/SMS Notifications",
+		  "EmailTextSMS2": "seDirector will automatically notify you via e-mail if your server crashes and is unable to be recovered automatically OR if a server fails to start successfully. The 'Recover from server crash' checkbox on the Automation tab MUST be checked in order for e-mail notifications to work.",
 		  "EnableEmailNotifications": "Enable E-mail Notifications",
 		  "WantToReceive": "Want to receive a text/SMS?",
 		  "CopyFromOtherServer": "Copy From Other Server",
 		  "SendTestEmail": "Send Test E-mail",
 		  "DiscordNotifications": "Discord Notifications",
+		  "DiscordNotifications2": "seDirector will automatically notify you via Discord if your server crashes and is unable to be recovered automatically OR if a server fails to start successfully. The 'Recover from server crash' checkbox on the Automation tab MUST be checked in order for Discord notifications to work.",
 		  "EnableDiscordNotifications": "Enable Discord Notifications",
 		  "DiscordWebhook": "Discord Webhook",
 		  "HowDoI": "How do I get a webhook?",
@@ -673,3 +680,4 @@
 	  }
 	}
   }
+  
