@@ -257,10 +257,10 @@
         "DiscordWebhook": "Discord Webhook",
         "HowDoI": "Làm cách nào để nhận webhook?",
         "SendTestNotif": "Gửi thử thông báo",
+        "ExampleNotification_Body": "Nội dung",
         "ExampleNotification": "Thông báo mẫu",
         "ExampleNotification_Subject": "Chủ thể",
         "ExampleNotification_SubjectData": "seDirector Cảnh báo! Máy tính: <Tên máy tính> Máy chủ: <Tên máy chủ>",
-        "ExampleNotification_Body": "Nội dung",
         "ExampleNotification_BodyData": "Máy chủ <Tên máy chủ> đã gặp sự cố và seDirector không thể tự động khôi phục máy chủ này."
       },
       "Options": {
