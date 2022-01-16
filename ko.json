@@ -123,9 +123,6 @@
         "Properties_Map": "맵",
         "Properties_NumberOfPlayers": "플레이어 수",
         "Properties_Secure": "보안",
-        "Properties_PlayerPassword": "플레이어 비밀번호",
-        "Properties_RconPassword": "RCON 암호",
-        "Properties_CfgMayOverride": "CFG 파일이 이 값을 바꿀수 있으므로 다음을 확인하십시오.",
         "Properties_EnableRCON": "Enable RCON",
         "Properties_CSGOGameMode": "CS:GO Game Mode",
         "Properties_CSGOSkirmishMode": "CS:GO Skirmish Mode",
@@ -182,8 +179,6 @@
         "InstallChange": "설치/변경",
         "Publisher": "발행자",
         "Description": "설명",
-        "ScriptExePath": "스크립트/실행 경로",
-        "ScriptExeArgs": "스크립트/실행가능한 인자",
         "Website": "웹사이트",
         "Documentation": "문서",
         "Forum": "포럼",
@@ -210,7 +205,6 @@
         "RestartServer2": "게임 내 알림이 있는 서버 다시 시작(플러그인 필요)",
         "UpdateServer": "서버 업데이트",
         "UpdateServer2": "게임 내 알림이 있는 업데이트 서버(플러그인 필요)",
-        "RunScriptOrExecutable": "스크립트 또는 파일 실행",
         "Monday": "월요일",
         "Tuesday": "화요일",
         "Wednesday": "수요일",
@@ -257,11 +251,11 @@
         "DiscordWebhook": "디스코드 웹훅",
         "HowDoI": "웹훅은 어떻게 얻나요?",
         "SendTestNotif": "테스트 알림 보내기",
-        "ExampleNotification_SubjectData": "seDirector 경고! 컴퓨터: <컴퓨터 이름> 서버: <서버 이름>",
         "ExampleNotification_Subject": "Subject",
         "ExampleNotification": "알림 예시",
+        "ExampleNotification_BodyData": "서버 <ServerName>이(가) 충돌했으며 seDirector가 이를 자동으로 복구할 수 없습니다.",
         "ExampleNotification_Body": "Body",
-        "ExampleNotification_BodyData": "서버 <ServerName>이(가) 충돌했으며 seDirector가 이를 자동으로 복구할 수 없습니다."
+        "ExampleNotification_SubjectData": "seDirector 경고! 컴퓨터: <컴퓨터 이름> 서버: <서버 이름>"
       },
       "Options": {
         "Application": "애플리케이션",
@@ -295,8 +289,7 @@
         "Game": "게임",
         "ITD": "디렉토리에 설치",
         "Browse": "찾아보기",
-        "CreateServer": "서버 생성",
-        "LowDiskSpace": "{0} 드라이브에 15GB 미만의 여유 공간이 있습니다. 이 드라이브에 서버를 생성하시겠습니까?"
+        "CreateServer": "서버 생성"
       },
       "PortChecker": {
         "Intro": "인터넷을 통해 포트에 액세스할 수 있는지 확인하십시오.",
@@ -418,8 +411,6 @@
       "SedirectorAlert": "seDirector 경고",
       "Computer": "컴퓨터",
       "Server": "서버",
-      "ServerCrashedEmail": "[b]컴퓨터:[/b] {COMPUTER_NAME}[br][b]서버[/b]: {SERVER_NAME}[br][br]서버가 다운되었습니다.",
-      "ServerCrashedDiscord": "서버가 충돌했습니다.",
       "ServerCrashedUnableToRecoverAuto": "[b]컴퓨터:[/b] {COMPUTER_NAME}[br][b]서버[/b]: {SERVER_NAME}[br][br]서버가 충돌하여 seDirector에서 자동으로 복구할 수 없습니다.",
       "ServerCrashedUnableToRecoverAutoGeneral": "서버가 충돌하여 seDirector가 자동으로 복구할 수 없습니다.",
       "ErrorSendingTestEmailContact": "테스트 이메일을 보내는 동안 오류가 발생했습니다. seDirector측에 문의하십시오.",
@@ -490,8 +481,7 @@
       "ShuttingDownProper": "종료",
       "ShuttingDown": "종료",
       "AddonUpdateFailure": "오류 1011: 애드온 목록을 다운로드하는 동안 오류가 발생했습니다. 이 문제가 계속되면 인터넷 연결을 확인하거나 seDirector 지원에 문의하십시오.",
-      "AddonBackupFailure": "오류 2017: 기존 애드온을 백업할 때 오류가 발생했습니다. 다시 시도해 주세요.",
-      "ScriptExeNotValid": "exe, ps1, cmd 또는 bat 파일을 지정해야 합니다."
+      "AddonBackupFailure": "오류 2017: 기존 애드온을 백업할 때 오류가 발생했습니다. 다시 시도해 주세요."
     },
     "Backups": {
       "CreateBackupAsk": "서버 {0}에 대한 백업을 만드시겠습니까?",
