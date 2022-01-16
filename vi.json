@@ -123,6 +123,9 @@
         "Properties_Map": "Bản đồ",
         "Properties_NumberOfPlayers": "Số lượng người chơi",
         "Properties_Secure": "Bảo mật",
+        "Properties_PlayerPassword": "Mật khẩu người chơi",
+        "Properties_RconPassword": "Mật khẩu RCON",
+        "Properties_CfgMayOverride": "Tệp CFG có thể ghi đè các giá trị này, hãy nhớ kiểm tra lại.",
         "Properties_EnableRCON": "Bật RCON",
         "Properties_CSGOGameMode": "Chế độ trò chơi CS: GO",
         "Properties_CSGOSkirmishMode": "Chế độ giao tranh CS: GO",
@@ -179,6 +182,8 @@
         "InstallChange": "Cài đặt / Thay đổi",
         "Publisher": "Nhà xuất bản",
         "Description": "Miêu tả",
+        "ScriptExePath": "Đường dẫn đến tệp Script/Executable",
+        "ScriptExeArgs": "Tập lệnh / Đối số có thể thực thi.",
         "Website": "Trang chủ",
         "Documentation": "Tài liệu",
         "Forum": "Diễn đàn",
@@ -205,6 +210,7 @@
         "RestartServer2": "Khởi động lại máy chủ với Thông báo trong trò chơi (Cần có plugin)",
         "UpdateServer": "Cập nhật máy chủ",
         "UpdateServer2": "Cập nhật máy chủ với Thông báo trong trò chơi (Cần có plugin)",
+        "RunScriptOrExecutable": "Chạy tập lệnh hoặc đối số.",
         "Monday": "Thứ Hai",
         "Tuesday": "Thứ Ba",
         "Wednesday": "Thứ Tư",
@@ -239,11 +245,6 @@
         "RemoteDir": "Thư mục từ xa",
         "SFTPRecommended": "SFTP được khuyến nghị vì nó mã hóa thông tin đăng nhập của bạn",
         "TestCon": "Kiểm tra kết nối",
-        "ExampleNotification": "Thông báo mẫu",
-        "ExampleNotification_Subject": "Chủ thể",
-        "ExampleNotification_SubjectData": "seDirector Cảnh báo! Máy tính: <Tên máy tính> Máy chủ: <Tên máy chủ>",
-        "ExampleNotification_Body": "Nội dung",
-        "ExampleNotification_BodyData": "Máy chủ <Tên máy chủ> đã gặp sự cố và seDirector không thể tự động khôi phục máy chủ này.",
         "EmailTextSMS": "Thông báo qua E-mail / Văn bản / SMS",
         "EmailTextSMS2": "seDirector sẽ tự động thông báo cho bạn qua e-mail nếu máy chủ của bạn gặp sự cố và không thể tự động khôi phục HOẶC nếu máy chủ không khởi động thành công. Ô 'Khôi phục từ sự cố máy chủ' trên tab Tự động hóa PHẢI được chọn để thông báo e-mail hoạt động.",
         "EnableEmailNotifications": "Bật thông báo qua e-mail",
@@ -255,7 +256,12 @@
         "EnableDiscordNotifications": "Bật thông báo Discord",
         "DiscordWebhook": "Discord Webhook",
         "HowDoI": "Làm cách nào để nhận webhook?",
-        "SendTestNotif": "Gửi thử thông báo"
+        "SendTestNotif": "Gửi thử thông báo",
+        "ExampleNotification": "Thông báo mẫu",
+        "ExampleNotification_Subject": "Chủ thể",
+        "ExampleNotification_SubjectData": "seDirector Cảnh báo! Máy tính: <Tên máy tính> Máy chủ: <Tên máy chủ>",
+        "ExampleNotification_Body": "Nội dung",
+        "ExampleNotification_BodyData": "Máy chủ <Tên máy chủ> đã gặp sự cố và seDirector không thể tự động khôi phục máy chủ này."
       },
       "Options": {
         "Application": "Ứng dụng",
@@ -289,7 +295,8 @@
         "Game": "Trò chơi",
         "ITD": "Cài đặt vào Thư mục",
         "Browse": "Duyệt qua",
-        "CreateServer": "Tạo máy chủ"
+        "CreateServer": "Tạo máy chủ",
+        "LowDiskSpace": "Có ít hơn 15 GB dung lượng trống trên ổ đĩa {0}. Bạn có chắc muốn tạo máy chủ trên ổ đĩa này?"
       },
       "PortChecker": {
         "Intro": "Kiểm tra xem một cổng có thể truy cập được qua Internet hay không.",
@@ -310,7 +317,9 @@
       "SelectEmptyDirectoryForServer": "Chọn một thư mục TRỐNG để cài đặt máy chủ. Tạo một thư mục mới nếu cần.",
       "CannotUseRootDirectoryDrive": "Bạn không thể sử dụng thư mục gốc của ổ đĩa.",
       "DirectoryNotEmptyOverwrite": "Thư mục không trống. Các tập tin có thể bị ghi đè! Tiếp tục?",
-      "UserPassReqToUpdate": "Cần có tên người dùng và mật khẩu cho Steam để cập nhật trò chơi này. Vui lòng đặt nó trong Công cụ -> Tùy chọn và quay lại cửa sổ này."
+      "UserPassReqToUpdate": "Cần có tên người dùng và mật khẩu cho Steam để cập nhật trò chơi này. Vui lòng đặt nó trong Công cụ -> Tùy chọn và quay lại cửa sổ này.",
+      "DisabledSee": " - Đã vô hiệu hóa - xem {0}",
+      "DownloadsForGameCurrentlyDisabled": "Tải xuống cho trò chơi này hiện đang tắt. Bạn có muốn xem {0} để có thêm thông tin?"
     },
     "FTP": {
       "CouldNotConnectServer": "Không thể kết nối tới máy chủ. Kiểm tra máy chủ, cổng, tên người dùng, mật khẩu và kiểu kết nối.",
@@ -409,6 +418,8 @@
       "SedirectorAlert": "seDirector cảnh báo",
       "Computer": "Máy tính",
       "Server": "Máy chủ",
+      "ServerCrashedEmail": "[b]Máy tính:[/b] {COMPUTER_NAME}[br][b]Máy chủ[/b]: {SERVER_NAME}[br][br]Một máy chủ đã gặp sự cố.",
+      "ServerCrashedDiscord": "Một máy chủ đã gặp sự cố.",
       "ServerCrashedUnableToRecoverAuto": "[b] Máy tính: [/ b] {TÊN_MÁY} [br] [b] Máy chủ [/ b]: {TÊN_MÁY_CHỦ} [br] [br] Máy chủ đã bị lỗi và seDirector không thể tự động khôi phục.",
       "ServerCrashedUnableToRecoverAutoGeneral": "Máy chủ đã gặp sự cố và seDirector không thể tự động khôi phục.",
       "ErrorSendingTestEmailContact": "Lỗi khi gửi e-mail thử nghiệm. Liên hệ với bộ phận hỗ trợ seDirector.",
@@ -477,7 +488,8 @@
       "ShuttingDownProper": "Đang Tắt",
       "ShuttingDown": "Đang Tắt",
       "AddonUpdateFailure": "Lỗi 1011: Lỗi khi cố gắng tải xuống danh sách addon. Kiểm tra kết nối Internet của bạn hoặc liên hệ với bộ phận hỗ trợ seDirector nếu sự cố này vẫn tiếp diễn.",
-      "AddonBackupFailure": "Lỗi 2017: Lỗi khi sao lưu addon hiện có. Vui lòng thử lại."
+      "AddonBackupFailure": "Lỗi 2017: Lỗi khi sao lưu addon hiện có. Vui lòng thử lại.",
+      "ScriptExeNotValid": "Bạn phải chỉ định một tệp exe, ps1, cmd, hoặc bat."
     },
     "Backups": {
       "CreateBackupAsk": "Tạo bản sao lưu cho máy chủ {0}?",
