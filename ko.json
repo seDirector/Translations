@@ -257,11 +257,11 @@
         "DiscordWebhook": "디스코드 웹훅",
         "HowDoI": "웹훅은 어떻게 얻나요?",
         "SendTestNotif": "테스트 알림 보내기",
-        "ExampleNotification_SubjectData": "seDirector 경고! 컴퓨터: <컴퓨터 이름> 서버: <서버 이름>",
         "ExampleNotification_Subject": "Subject",
         "ExampleNotification": "알림 예시",
+        "ExampleNotification_BodyData": "서버 <ServerName>이(가) 충돌했으며 seDirector가 이를 자동으로 복구할 수 없습니다.",
         "ExampleNotification_Body": "Body",
-        "ExampleNotification_BodyData": "서버 <ServerName>이(가) 충돌했으며 seDirector가 이를 자동으로 복구할 수 없습니다."
+        "ExampleNotification_SubjectData": "seDirector 경고! 컴퓨터: <컴퓨터 이름> 서버: <서버 이름>"
       },
       "Options": {
         "Application": "애플리케이션",
