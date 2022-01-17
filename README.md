@@ -2,6 +2,8 @@
 
 # 1. seDirector Translations
 
+[Click here for the Chinese version of this page](https://github-com.translate.goog/seDirector/Translations?_x_tr_sl=auto&_x_tr_tl=zh-CN&_x_tr_hl=en-US&_x_tr_pto=wapp)
+
 [seDirector](https://sedirector.net) is a game server management application. Find links to everything on the [main repo](https://github.com/seDirector/App).
 
 **Overall translation status:**
