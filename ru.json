@@ -123,6 +123,9 @@
         "Properties_Map": "Карта",
         "Properties_NumberOfPlayers": "Количество игроков",
         "Properties_Secure": "Античит",
+        "Properties_PlayerPassword": "Пароль для игроков",
+        "Properties_RconPassword": "Пароль RCON ",
+        "Properties_CfgMayOverride": "CFG файл может переопределить эти значения",
         "Properties_EnableRCON": "Включить RCON",
         "Properties_CSGOGameMode": "Режимы (CS:GO)",
         "Properties_CSGOSkirmishMode": "Схватка (CS:GO)",
@@ -179,6 +182,8 @@
         "InstallChange": "Установить",
         "Publisher": "Издатель",
         "Description": "Описание",
+        "ScriptExePath": "Путь к скрипту/исполняемому файлу",
+        "ScriptExeArgs": "Параметры запуска скрипта/исполняемого файла",
         "Website": "Сайт",
         "Documentation": "Документация",
         "Forum": "Форум",
@@ -205,6 +210,7 @@
         "RestartServer2": "Перезапустить сервер с внутриигровым уведомлением  (нужен плагин)",
         "UpdateServer": "Сервер обновлений",
         "UpdateServer2": "Обновить сервер с внутриигровым уведомлением (нужен плагин)",
+        "RunScriptOrExecutable": "Запустить скрипт или исполняемый файл",
         "Monday": "Понедельник",
         "Tuesday": "Вторник",
         "Wednesday": "Среда",
@@ -239,11 +245,6 @@
         "RemoteDir": "Удаленный каталог",
         "SFTPRecommended": "SFTP рекомендуется, так как он шифрует ваши учетные данные",
         "TestCon": "Проверить соединение",
-        "ExampleNotification": "Пример уведомления",
-        "ExampleNotification_Subject": "Тема:",
-        "ExampleNotification_SubjectData": "seDirector Внимание! Компьютер: <Имя компьютера> Сервер: <Имя сервера>",
-        "ExampleNotification_Body": "Основная часть:",
-        "ExampleNotification_BodyData": "На сервере <ServerName> произошел сбой, и seDirector не может восстановить его автоматически.",
         "EmailTextSMS": "Email / текст / SMS-уведомление",
         "EmailTextSMS2": "seDirector автоматически уведомит вас по электронной почте, если ваш сервер выйдет из строя и не может быть восстановлен автоматически ИЛИ если сервер не запускается. Флажок «Восстановить после сбоя сервера» на вкладке «Автоматизация» ДОЛЖЕН быть установлен, чтобы уведомления по электронной почте работали.",
         "EnableEmailNotifications": "Включить уведомления по электронной почте",
@@ -255,7 +256,12 @@
         "EnableDiscordNotifications": "Включить уведомления в Discord ",
         "DiscordWebhook": "Discord Webhook",
         "HowDoI": "Как мне получить Webhook?",
-        "SendTestNotif": "Отправить тестовое уведомление"
+        "SendTestNotif": "Отправить тестовое уведомление",
+        "ExampleNotification": "Пример уведомления",
+        "ExampleNotification_Subject": "Тема:",
+        "ExampleNotification_SubjectData": "seDirector Внимание! Компьютер: <Имя компьютера> Сервер: <Имя сервера>",
+        "ExampleNotification_Body": "Основная часть:",
+        "ExampleNotification_BodyData": "На сервере <ServerName> произошел сбой, и seDirector не может восстановить его автоматически."
       },
       "Options": {
         "Application": "Приложение",
@@ -289,7 +295,8 @@
         "Game": "Игра",
         "ITD": "Установить в каталог",
         "Browse": "Обзор",
-        "CreateServer": "Создать сервер"
+        "CreateServer": "Создать сервер",
+        "LowDiskSpace": "На диске {0} меньше 15 ГБ свободного места. Вы уверены, что хотите создать сервер на этом диске?"
       },
       "PortChecker": {
         "Intro": "Проверьте, доступен ли порт через Интернет.",
@@ -411,6 +418,8 @@
       "SedirectorAlert": "Предупреждение seDirector",
       "Computer": "Компьютер",
       "Server": "Сервер",
+      "ServerCrashedEmail": "[b]Компьютер:[/b] {COMPUTER_NAME}[br][b]Сервер[/b]: {SERVER_NAME}[br][br]Сервер упал.",
+      "ServerCrashedDiscord": "Сервер упал.",
       "ServerCrashedUnableToRecoverAuto": "[b]Компьютер:[/b] {COMPUTER_NAME}[br]\n[b]Сервер[/ b]: {SERVER_NAME}\n[br][br]Произошел сбой сервера, и seDirector не может восстановить его автоматически.",
       "ServerCrashedUnableToRecoverAutoGeneral": "На сервере произошел сбой, и seDirector не может восстановить его автоматически.",
       "ErrorSendingTestEmailContact": "Ошибка при отправке тестового электронного письма. Обратитесь в службу поддержки seDirector.",
@@ -481,7 +490,8 @@
       "ShuttingDownProper": "Выключение",
       "ShuttingDown": "Выключение",
       "AddonUpdateFailure": "Ошибка 1011: Ошибка при попытке загрузить списки надстроек. Если проблема не исчезнет, проверьте подключение к Интернету или обратитесь в службу поддержки seDirector.",
-      "AddonBackupFailure": "Ошибка 2017: Ошибка при резервном копировании существующего аддона. Пожалуйста, попробуйте еще раз."
+      "AddonBackupFailure": "Ошибка 2017: Ошибка при резервном копировании существующего аддона. Пожалуйста, попробуйте еще раз.",
+      "ScriptExeNotValid": "Вы должны указать exe, ps1, cmd или bat файл."
     },
     "Backups": {
       "CreateBackupAsk": "Создать резервную копию для сервера {0}?",
