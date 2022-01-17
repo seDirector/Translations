@@ -25,9 +25,12 @@ If you can read/write in any of these languages OR if you have another language 
 |[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|MikkelDK|
 |[Spanish](https://gitlocalize.com/repo/6994/es/en.json)|*|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/es/badge.svg)](https://gitlocalize.com/repo/6994/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
 |[Vietnamese](https://gitlocalize.com/repo/6994/vi/en.json)|Vietnam|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/vi/badge.svg)](https://gitlocalize.com/repo/6994/vi?utm_source=badge)|Yes|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
-|[German](https://gitlocalize.com/repo/6994/de/en.json)|Germany|Need proofread|[![gitlocalized ](https://gitlocalize.com/repo/6994/de/badge.svg)](https://gitlocalize.com/repo/6994/de?utm_source=badge)|No||
-|[Turkish](https://gitlocalize.com/repo/6994/tr/en.json)|Turkey|Need proofread|[![gitlocalized ](https://gitlocalize.com/repo/6994/tr/badge.svg)](https://gitlocalize.com/repo/6994/tr?utm_source=badge)|No||
 |[Chinese](https://gitlocalize.com/repo/6994/zh-CN/en.json)|China|In progress|[![gitlocalized ](https://gitlocalize.com/repo/6994/zh-CN/badge.svg)](https://gitlocalize.com/repo/6994/zh-CN?utm_source=badge)|No|[qq410525209](https://github.com/qq410525209)|
+|[Turkish](https://gitlocalize.com/repo/6994/tr/en.json)|Turkey|Need a volunteer - say hi on Discord|[![gitlocalized ](https://gitlocalize.com/repo/6994/tr/badge.svg)](https://gitlocalize.com/repo/6994/tr?utm_source=badge)|No||
+|[German](https://gitlocalize.com/repo/6994/de/en.json)|Germany|Need a volunteer - say hi on Discord|[![gitlocalized ](https://gitlocalize.com/repo/6994/de/badge.svg)](https://gitlocalize.com/repo/6994/de?utm_source=badge)|No||
+|[Japanese](https://gitlocalize.com/repo/6994/ja/en.json)|Japan|Need a volunteer - say hi on Discord|[![gitlocalized ](https://gitlocalize.com/repo/6994/ja/badge.svg)](https://gitlocalize.com/repo/6994/ja?utm_source=badge)|No||
+|[French](https://gitlocalize.com/repo/6994/fr/en.json)|France|Need a volunteer - say hi on Discord|[![gitlocalized ](https://gitlocalize.com/repo/6994/fr/badge.svg)](https://gitlocalize.com/repo/6994/fr?utm_source=badge)|No||
+|[Italian](https://gitlocalize.com/repo/6994/it/en.json)|Italy|Need a volunteer - say hi on Discord|[![gitlocalized ](https://gitlocalize.com/repo/6994/it/badge.svg)](https://gitlocalize.com/repo/6994/it?utm_source=badge)|No||
 # 3. Getting Started
 
 1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
