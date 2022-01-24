@@ -326,7 +326,7 @@
 			"CancelCurrentDownload": "Den aktuellen Download abbrechen?",
 			"CancelExtractOp": "Abbrechen des Extraktionsvorgangs?",
 			"CancelCurrentBackup": "Abbrechen des aktuellen Sicherungsvorgangs?",
-			"CancelBZ2Compression": "BZ2-Komprimierung abbrechen? Alle Dateien werden beim nächsten Start des Servers neu komprimiert.",
+			"CancelBZ2Compression": "BZ2-Komprimierung abbrechen?",
 			"CancelFTPSync": "FTP-Synchronisation abbrechen? Einige Dateien werden möglicherweise nur teilweise hochgeladen. Durch erneutes Synchronisieren werden die teilweisen Uploads behoben.",
 			"CancelLocalSync": "Lokale Verzeichnissynchronisation abbrechen? Einige Dateien werden möglicherweise teilweise kopiert. Durch eine erneute Synchronisierung werden teilweise Dateien aufgelöst.",
 			"CancelDirectoryDuplication": "Duplizierung des Serververzeichnisses abbrechen?"

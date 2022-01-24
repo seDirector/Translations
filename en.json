@@ -357,7 +357,7 @@
 		"CancelCurrentDownload": "Cancel the current download?",
 		"CancelExtractOp": "Cancel the extract operation?",
 		"CancelCurrentBackup": "Cancel the current backup operation?",
-		"CancelBZ2Compression": "Cancel BZ2 compression? All files will be recompressed the next time you start the server.",
+		"CancelBZ2Compression": "Cancel BZ2 compression?",
 		"CancelFTPSync": "Cancel FTP synchronization? Some files may be partially uploaded. Resyncing will resolve partial uploads.",
 		"CancelLocalSync": "Cancel local directory synchronization? Some files may be partially copied. Resyncing will resolve partial files.",
 		"CancelDirectoryDuplication": "Cancel server directory duplication?"
