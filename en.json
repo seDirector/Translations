@@ -400,6 +400,7 @@
 		"SentServerCrashDiscord": "Sent server crash Discord notification",
 		"ZipFiles": "Zip Files",
 		"Backup": "Backup",
+		"BackupChoose": "Choose a location for the backup file",
 		"ErrorCheckingNewerVersionSedirector": "Error 1007: Error checking for newer version of seDirector. Check your Internet connection and try again or contact seDirector support if the problem persists.",
 		"RestartServer": "Restart Server",
 		"Daily": "Daily",
