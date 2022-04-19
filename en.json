@@ -82,6 +82,7 @@
 		  "OpenDefDir": "Open Default Directory",
 		  "OpenSL": "Open seDirector Log",
 		  "OpenSeDir": "Open seDirector Directory",
+		  "DiscordBotOptions": "Discord Bot Options (Coming Next Release!)",
 		  "Options": "Options",
 		  "SupportRequest": "Support Request",
 		  "StatusPage": "Status Page",
@@ -202,7 +203,11 @@
 		  "Minute": "Minute",
 		  "Info": "Info",
 		  "Crashes": "Crashes",
+		  "Crash": "Crash",
+		  "UnrecoverableCrash": "Unrecoverable Crash",
 		  "UpdateComplete": "Update Complete",
+		  "Starting": "Starting",
+		  "Stopping": "Stopping",
 		  "SaveTask": "Save Task",
 		  "SaveFile": "Save File",
 		  "Cancel": "Cancel",
@@ -256,7 +261,9 @@
 		  "EnableDiscordNotifications": "Enable Discord Notifications",
 		  "DiscordWebhook": "Discord Webhook",
 		  "HowDoI": "How do I get a webhook?",
-		  "SendTestNotif": "Send Test Notification"
+		  "SendTestNotif": "Send Test Notification",
+		  "Variables": "Variables",
+		  "VariablesMsgBox": "{NAME} - Server Name{LB}{MAP} - Current Map{LB}{PLAYERS} - Current Player Count"
 		},
 		"Options": {
 		  "Application": "Application",
@@ -269,6 +276,8 @@
 		  "CDS": "Create desktop shortcut for seDirector",
 		  "CSMS": "Create Start Menu shortcut for seDirector",
 		  "HTSWAUC": "How to start seDirector with UAC enabled but without UAC prompt",
+		  "UseBaiduInsteadOfGoogle": "Use Baidu instead of Google to check for Internet connectivity",
+		  "UseDiscordRelay": "Use Discord relay (if ISP blocks access to Discord)",
 		  "ComputerName": "Computer Name",
 		  "ComputerNameMoreInfo": "Identifies the computer that seDirector is running on. Currently used in notifications to help determine which computer sent the notification.",
 		  "SetToDefaultName": "Set to default name",
@@ -623,7 +632,9 @@
 		"TaskRequestedServerRestart": "Task requested server restart",
 		"TaskRequestedServerRestartInGame": "Task requested server restart w/in-game notification",
 		"TaskRequestedUpdate": "Task requested server update",
-		"TaskRequestedUpdateInGame": "Task requested server update w/in-game notification"
+		"TaskRequestedUpdateInGame": "Task requested server update w/in-game notification",
+		"TaskRequestedRunScriptOrExe":  "Task requested run script or executable"
+  
 	  },
 	  "FileProperties": {
 		"Logs_FileProperties": {
