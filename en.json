@@ -486,7 +486,7 @@
 		"HelpText8": "Examples:",
 		"HelpText9": "!start 1 - starts server number 1",
 		"HelpText10": "!start all - starts all servers",
-		"IconText":  "Bonus: go to this URL, save the image, then in \"General Information\" set the \"App Icon\" to the image.",
+		"IconText":  "Bonus: go to this URL, save the image, then in \"General Information\" set the \"App Icon\" to the image",
 		"IconOpen": "Open",
 		"IconCopy": "Copy",
 		"CopiedToClipboard": "Icon URL has been copied to the clipboard." 
