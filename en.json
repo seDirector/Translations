@@ -185,7 +185,7 @@
 		  "Description": "Description",
 		  "ScriptExePath": "Script/Executable Path",
 		  "ScriptExeArgs": "Script/Executable Arguments",
-		  "RunScriptExeRequiresSubscription": "Run Script/EXE{LB}requires Pro subscription or higher",
+		  "RunScriptExeRequiresSubscription": "Run script/EXE{LB}requires Pro subscription or higher",
 		  "OnAnEventRequiresSubscription": "On an Event requires Pro subscription or higher",
 		  "ThankYouForPurchasingASubscription": "Thank you for purchasing a subscription!",
 		  "Website": "Website",
