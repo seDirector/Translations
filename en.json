@@ -84,6 +84,7 @@
 		  "OpenSeDir": "Open seDirector Directory",
 		  "DiscordBotOptions": "Discord Bot Options",
 		  "Options": "Options",
+		  "FreeVsProVersion": "Free vs Pro Version",
 		  "SupportRequest": "Support Request",
 		  "StatusPage": "Status Page",
 		  "ReportABug": "Report a Bug",
@@ -104,7 +105,9 @@
 		  "Register": "Register",
 		  "EmailAddress": "E-mail Address",
 		  "Password": "Password",
-		  "ForgotPassword": "Forgot Password"
+		  "ForgotPassword": "Forgot Password",
+		  "ManageSubscription": "Manage Subscription",
+		  "Loading": "Loading" 
 		},
 		"ServerProperties": {
 		  "Tab_Properties": "Properties",
