@@ -107,7 +107,7 @@
 		  "Password": "Password",
 		  "ForgotPassword": "Forgot Password",
 		  "ManageSubscription": "Manage Subscription",
-		  "Loading": "Loading" 
+		  "Loading": "Loading"
 		},
 		"ServerProperties": {
 		  "Tab_Properties": "Properties",
@@ -214,6 +214,7 @@
 		  "UpdateComplete": "Update Complete",
 		  "Starting": "Starting",
 		  "Stopping": "Stopping",
+		  "MapChange": "Map Change",
 		  "SaveTask": "Save Task",
 		  "SaveFile": "Save File",
 		  "Cancel": "Cancel",
@@ -489,10 +490,10 @@
 		"HelpText8": "Examples:",
 		"HelpText9": "!start 1 - starts server number 1",
 		"HelpText10": "!start all - starts all servers",
-		"IconText":  "Bonus: go to this URL, save the image, then in \"General Information\" set the \"App Icon\" to the image",
+		"IconText": "Bonus: go to this URL, save the image, then in \"General Information\" set the \"App Icon\" to the image",
 		"IconOpen": "Open",
 		"IconCopy": "Copy",
-		"CopiedToClipboard": "Icon URL has been copied to the clipboard." 
+		"CopiedToClipboard": "Icon URL has been copied to the clipboard."
 	  },
 	  "Notifications": {
 		"DebugModeEnabled": "Debug mode is enabled!",
@@ -682,8 +683,14 @@
 		"TaskRequestedServerRestartInGame": "Task requested server restart w/in-game notification",
 		"TaskRequestedUpdate": "Task requested server update",
 		"TaskRequestedUpdateInGame": "Task requested server update w/in-game notification",
-		"TaskRequestedRunScriptOrExe":  "Task requested run script or executable"
-  
+		"TaskRequestedRunScriptOrExe": "Task requested run script or executable",
+		"TaskTriggeredByTime":  "Task triggered by time",
+		"TaskTriggeredByCrash": "Task triggered by crash",
+		"TaskTriggeredByUnrecoverableCrash": "Task triggered by unrecoverable crash",
+		"TaskTriggeredByUpdateComplete": "Task triggered by update complete",
+		"TaskTriggeredByStarting": "Task triggered by starting",
+		"TaskTriggeredByStopping": "Task triggered by stopping",
+		"TaskTriggeredByMapChange": "Task triggered by map change"
 	  },
 	  "FileProperties": {
 		"Logs_FileProperties": {
