@@ -85,6 +85,7 @@
 		  "DiscordBotOptions": "Discord Bot Options",
 		  "Options": "Options",
 		  "FreeVsProVersion": "Free vs Pro Version",
+		  "PlayersCurrentMapNotUpdating": "Players/Current Map Not Updating?",
 		  "SupportRequest": "Support Request",
 		  "StatusPage": "Status Page",
 		  "ReportABug": "Report a Bug",
@@ -146,7 +147,7 @@
 		  "Properties_LocalMap": "Local Map",
 		  "Properties_WorkshopCustomMap": "Workshop / Custom Map{LB}(use additional parameters to adjust)",
 		  "Properties_NormalRecommendedRealtimeNotRecommended": "Normal is recommended; realtime is not recommended",
-		  "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Server Properties cannot be changed while running",
+		  "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Server properties cannot be changed while running",
 		  "Properties_PleaseFillRequiredFields": "Please fill required fields",
 		  "Properties_SaveSettings": "Save Settings",
 		  "CreateServerCFGInfo": "Since server.cfg executes automatically, it will not appear in the Execute CFG drop-down.",
@@ -450,10 +451,13 @@
 		"RecommendedFolderStruc": "Recommended Folder Structure",
 		"RecommendedFolderStructureText": "We recommend making a base folder such as \"Steam\". Underneath \"Steam\" should be a folder for each game server, and a folder for SteamCMD.",
 		"DonateToSedirector": "Donate to seDirector",
-		"AllServersMustBeOfflineToRunThisTest": "All servers must be stopped (in the Offline state) to run this test."
+		"AllServersMustBeOfflineToRunThisTest": "All servers must be stopped (in the Offline state) to run this test.",
+		"PlayersCurrentMapNotUpdating": "Please make sure you have installed the seDirector addon on your server(s). Check the Automation tab in the server properties."
 	  },
 	  "DiscordBot": {
 		"RequiresSubscription": "Discord bot requires a Pro subscription or higher.",
+		"AuthenticationFailed": "Discord bot authentication failed. Please check your token and reset it if necessary.",
+		"NoToken": "You can save these settings without a token, but the Discord bot will not work until you set one.",
 		"Step1": "Go here and log in if needed: ",
 		"Step2": "Click \"New Application\" at the top right",
 		"Step3": "Name the bot \"seDirector\"",
@@ -766,6 +770,9 @@
 		"RunningServerWithoutAddons": "Troubleshoot: running server without addons",
 		"TestPassedWithoutAddons": "Test passed. Server started successfully without the addons folder. Something inside the addons folder is causing a problem when starting the server. This problem could be caused by a cfg file related to an addon so check the cfg folder as well.",
 		"TestFailedWithoutAddons": "Test failed. Server did not start successfully, even with addons disabled."
-	  }
+	  },
+	  "General": {
+		"CopiedToClipboard": "Copied to clipboard."
+	  } 
 	}
   }
