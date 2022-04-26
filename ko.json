@@ -271,12 +271,7 @@
         "HowDoI": "웹훅은 어떻게 얻나요?",
         "SendTestNotif": "테스트 알림 보내기",
         "Variables": "변수",
-        "VariablesMsgBox": "{NAME} -서버 이름{LB}{MAP} - 현재 맵{LB}{PLAYERS} - 현재 인원 수",
-        "ExampleNotification": "알림 예시",
-        "ExampleNotification_Subject": "Subject",
-        "ExampleNotification_SubjectData": "seDirector 경고! 컴퓨터: <컴퓨터 이름> 서버: <서버 이름>",
-        "ExampleNotification_Body": "Body",
-        "ExampleNotification_BodyData": "서버 <ServerName>이(가) 충돌했으며 seDirector가 이를 자동으로 복구할 수 없습니다."
+        "VariablesMsgBox": "{NAME} -서버 이름{LB}{MAP} - 현재 맵{LB}{PLAYERS} - 현재 인원 수"
       },
       "Options": {
         "Application": "애플리케이션",
@@ -457,9 +452,7 @@
       "RecommendedFolderStructureText": "\"Steam\"과 같은 기본 폴더를 만드는 것이 좋습니다. \"Steam\"폴더 아래에는 각 게임 서버용 폴더와 SteamCMD용 폴더가 있어야 합니다.",
       "DonateToSedirector": "seDirector에 기부",
       "AllServersMustBeOfflineToRunThisTest": "이 테스트를 실행하려면 모든 서버를 중지해야 합니다(오프라인 상태).",
-      "PlayersCurrentMapNotUpdating": "적용하고자 하는 서버에 seDirector 애드온을 설치했는지 확인한 후, 서버 속성에서 자동화 탭을 확인하세요.",
-      "TaskRequestedServerRestartInGame": "서버 재시작을 요청했습니다.(게임 내 알림 포함)",
-      "TaskRequestedServerRestart": "서버 재시작을 요청했습니다."
+      "PlayersCurrentMapNotUpdating": "적용하고자 하는 서버에 seDirector 애드온을 설치했는지 확인한 후, 서버 속성에서 자동화 탭을 확인하세요."
     },
     "DiscordBot": {
       "RequiresSubscription": "Discord 봇 기능은 프로 플랜 이상의 구독이 필요합니다.",
