@@ -272,11 +272,11 @@
         "SendTestNotif": "Enviar Notificação de Teste",
         "Variables": "Variáveis",
         "VariablesMsgBox": "{NAME} - Nome do Servidor{LB}{MAP} - Mapa Atual{LB}{PLAYERS} - Contagem de Jogadores Atual",
+        "ExampleNotification_BodyData": "Servidor <ServerName> falhou e o seDirector é incapaz de recuperá-lo automaticamente.",
         "ExampleNotification": "Exemplo de Notificação",
-        "ExampleNotification_Subject": "Assunto",
         "ExampleNotification_SubjectData": "Alerta do seDirector! Computador: <ComputerName> Servidor: <ServerName>",
-        "ExampleNotification_Body": "Corpo",
-        "ExampleNotification_BodyData": "Servidor <ServerName> falhou e o seDirector é incapaz de recuperá-lo automaticamente."
+        "ExampleNotification_Subject": "Assunto",
+        "ExampleNotification_Body": "Corpo"
       },
       "Options": {
         "Application": "Aplicação",
@@ -458,8 +458,8 @@
       "DonateToSedirector": "Doar para o seDirector",
       "AllServersMustBeOfflineToRunThisTest": "Todos os servidores devem ser parados (no estado Offline) para executar este teste.",
       "PlayersCurrentMapNotUpdating": "Certifique-se de ter instalado o addon seDirector em seu(s) servidor(es). Verifique a guia Automação nas propriedades do servidor.",
-      "TaskRequestedServerRestartInGame": "Reinício do servidor solicitado de tarefa c/ notificação do jogo",
-      "TaskRequestedServerRestart": "Reinício do servidor de tarefas solicitado."
+      "TaskRequestedServerRestart": "Reinício do servidor de tarefas solicitado.",
+      "TaskRequestedServerRestartInGame": "Reinício do servidor solicitado de tarefa c/ notificação do jogo"
     },
     "DiscordBot": {
       "RequiresSubscription": "O bot do Discord requer uma assinatura Pro ou superior.",
