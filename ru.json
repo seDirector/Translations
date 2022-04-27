@@ -82,8 +82,10 @@
         "OpenDefDir": "Открыть каталог по умолчанию",
         "OpenSL": "Открыть лог seDirector",
         "OpenSeDir": "Открыть каталог seDirector",
+        "DiscordBotOptions": "Параметры Discord-бота",
         "Options": "Настройки",
         "FreeVsProVersion": "Отличия версии seDirector",
+        "PlayersCurrentMapNotUpdating": "Игроки/текущая карта не обновляются?",
         "SupportRequest": "Запрос поддержки",
         "StatusPage": "Статус seDirector",
         "ReportABug": "Сообщить об ошибке",
@@ -104,7 +106,9 @@
         "Register": "Регистрация",
         "EmailAddress": "Эл. почта",
         "Password": "Пароль",
-        "ForgotPassword": "Забыл пароль"
+        "ForgotPassword": "Забыл пароль",
+        "ManageSubscription": "Управление подпиской",
+        "Loading": "Загрузка"
       },
       "ServerProperties": {
         "Tab_Properties": "Параметры",
@@ -185,7 +189,9 @@
         "Description": "Описание",
         "ScriptExePath": "Путь к скрипту/исполняемому файлу",
         "ScriptExeArgs": "Параметры запуска скрипта/исполняемого файла",
+        "RunScriptExeRequiresSubscription": "Для запуска скрипта/EXE{LB} требуется подписка Pro или выше.",
         "OnAnEventRequiresSubscription": "Требуется подписка Pro или выше",
+        "ThankYouForPurchasingASubscription": "Спасибо за покупку подписки!",
         "Website": "Сайт",
         "Documentation": "Документация",
         "Forum": "Форум",
@@ -205,8 +211,10 @@
         "Info": "Информация",
         "Crashes": "Сбои",
         "Crash": "Краш",
+        "UnrecoverableCrash": "Неисправимый сбой",
         "UpdateComplete": "Обновление завершено",
         "Starting": "Запуск",
+        "Stopping": "Остановка",
         "MapChange": "Смена карты",
         "SaveTask": "Сохранить задачу",
         "SaveFile": "Сохранить",
@@ -261,7 +269,9 @@
         "EnableDiscordNotifications": "Включить уведомления в Discord ",
         "DiscordWebhook": "Discord Webhook",
         "HowDoI": "Как мне получить Webhook?",
-        "SendTestNotif": "Отправить тестовое уведомление"
+        "SendTestNotif": "Отправить тестовое уведомление",
+        "Variables": "Переменные",
+        "VariablesMsgBox": "{NAME} – Имя сервера{LB}{MAP} – Текущая карта{LB}{PLAYERS} – Текущее количество игроков"
       },
       "Options": {
         "Application": "Приложение",
@@ -274,6 +284,8 @@
         "CDS": "Создать ярлык на рабочем столе",
         "CSMS": "Создать ярлык в меню \"Пуск\"",
         "HTSWAUC": "Как запустить seDirector с включенным UAC, но без запроса UAC",
+        "UseBaiduInsteadOfGoogle": "Используйте Baidu вместо Google для проверки подключения к Интернету",
+        "UseDiscordRelay": "Использовать ретранслятор Discord (если провайдер блокирует доступ к Discord)",
         "ComputerName": "Имя компьютера",
         "ComputerNameMoreInfo": "Определяет компьютер, на котором запущен seDirector. Используется в уведомлениях, чтобы помочь определить, с какого компьютера отправлено уведомление.",
         "SetToDefaultName": "По умолчанию",
@@ -405,6 +417,7 @@
       "SentServerCrashDiscord": "Уведомление о сбое сервера отправлено в Discord",
       "ZipFiles": "ZIP-файлы",
       "Backup": "Резервное копирование",
+      "BackupChoose": "Выберите место для файла резервной копии",
       "ErrorCheckingNewerVersionSedirector": "Ошибка 1007: ошибка при проверке более новой версии seDirector. Проверьте подключение к Интернету и повторите попытку или обратитесь в службу поддержки seDirector, если проблема не исчезнет.",
       "RestartServer": "Перезапустить сервер",
       "Daily": "Ежедневно",
@@ -438,13 +451,20 @@
       "RecommendedFolderStruc": "Рекомендуемая структура папки",
       "RecommendedFolderStructureText": "Мы рекомендуем сделать базовую папку вроде «Steam». В «Steam» должна быть папка для каждого игрового сервера и папка для SteamCMD.",
       "DonateToSedirector": "Пожертвовать seDirector",
-      "AllServersMustBeOfflineToRunThisTest": "Все серверы должны быть остановлены (в автономном состоянии) для запуска этого теста."
+      "AllServersMustBeOfflineToRunThisTest": "Все серверы должны быть остановлены (в автономном состоянии) для запуска этого теста.",
+      "PlayersCurrentMapNotUpdating": "Пожалуйста, убедитесь, что вы установили надстройку seDirector на свой сервер(а). Проверьте вкладку Автоматизация в свойствах сервера."
     },
     "DiscordBot": {
+      "RequiresSubscription": "Для бота Discord требуется подписка Pro или выше.",
+      "AuthenticationFailed": "Аутентификация бота Discord не удалась. Проверьте свой токен и при необходимости сбросьте его.",
+      "NoToken": "Вы можете сохранить эти настройки без токена, но бот Discord не будет работать, пока вы его не установите.",
+      "Step1": "Перейдите сюда и войдите, если необходимо:",
       "Step2": "Нажмите «New Application» в правом верхнем углу.",
+      "Step3": "Назовите бота \"seDirector\"",
       "Step4": "Нажмите «Create»",
       "Step5": "Щелкните пункт меню «OAuth2» слева, затем пункт меню «URL Generator».",
       "Step6": "Откройте вкладку «бот» в разделе «Settings».",
+      "Step7": "Поставьте галочку рядом со следующими разрешениями:",
       "Step7a": "В столбце «GENERAL PERMISSIONS»:",
       "Step7a1": "\"Manage Emojis and Stickers\"",
       "Step7a2": "Управление веб-хуками",
@@ -453,20 +473,30 @@
       "Step7b1": "Установите ВСЕ разрешения в этом столбце",
       "Step7c": "В столбце «Voice Permissions»:",
       "Step7c1": "Не устанавливайте разрешения в этом столбце.",
+      "Step8": "Скопируйте сгенерированный URL-адрес внизу в это поле.",
+      "Step8a": "URL-адрес:",
       "Step9": "Вернувшись в веб-браузер, щелкните пункт меню «bot» слева.",
       "Step10": "Нажмите \"Добавить бота\", затем \"Yes, do it!\"",
       "Step11": "ВАЖНО: Отключите «Публичный бот» и нажмите «Save changes».",
       "Step12": "Нажмите «Сбросить токен», затем «Yes, do it!», затем скопируйте токен в это поле:",
+      "Step12a": "Токен:",
       "Step13": "Теперь нажмите кнопку справа от этого текста, чтобы добавить бота на один из ваших ЧАСТНЫХ серверов.{LB}{LB}ПРИМЕЧАНИЕ: если вы добавите бота на общедоступный сервер, ЛЮБОЙ сможет управлять вашим сервером! Добавляйте бота только на частный сервер!",
+      "Step14": "Наконец, сохраните настройки.",
+      "AddBotToServer": "Добавить бота на сервер",
       "Save": "Сохранить",
       "HelpText1": "Через несколько секунд бот seDirector должен появиться на Вашем сервере Discord. Вот команды, которые вы можете использовать:",
+      "HelpText2": "!servers ИЛИ !status ИЛИ !s - показывает список всех серверов",
       "HelpText3": "Для следующих команд можно указать либо номер сервера из списка серверов, либо ввести слово «all», чтобы применить команду ко всем серверам.",
       "HelpText4": "!start",
       "HelpText5": "!stop",
       "HelpText6": "!restart",
       "HelpText7": "!update",
+      "HelpText8": "Примеры:",
+      "HelpText9": "!start 1 - запускает сервер номер 1",
+      "HelpText10": "!start all - запускает все серверы",
       "IconText": "Бонус: перейдите по этому URL-адресу, сохраните изображение, затем в «General Information» установите иконку приложения",
       "IconOpen": "Открыть",
+      "IconCopy": "Копировать",
       "CopiedToClipboard": "URL иконки скопирован в буфер обмена."
     },
     "Notifications": {
@@ -657,7 +687,11 @@
       "TaskRequestedServerRestartInGame": "Задача запросила перезапуск сервера с внутриигровым уведомлением",
       "TaskRequestedUpdate": "Задача запросила обновление сервера",
       "TaskRequestedUpdateInGame": "Задача запросила обновление сервера с внутриигровым уведомлением",
+      "TaskRequestedRunScriptOrExe": "Запрошенный заданием сценарий запуска или исполняемый файл",
       "TaskTriggeredByTime": "Задача по расписанию",
+      "TaskTriggeredByCrash": "Задача вызвана сбоем",
+      "TaskTriggeredByUnrecoverableCrash": "Задача запущена неустранимым сбоем",
+      "TaskTriggeredByUpdateComplete": "Задача, запущенная обновлением, завершена",
       "TaskTriggeredByStarting": "Задача при запуске сервера",
       "TaskTriggeredByStopping": "Задачи при остановке сервера",
       "TaskTriggeredByMapChange": "Задача при смене карты"
@@ -738,6 +772,7 @@
       "TestFailedWithoutAddons": "Тест не пройден. Сервер не запускается, даже с отключёнными аддонами."
     },
     "General": {
+      "CopiedToClipboard": "Скопировано в буфер обмена."
     }
   }
 }
