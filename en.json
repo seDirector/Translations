@@ -277,7 +277,7 @@
 		  "Application": "Application",
 		  "Language": "Language",
 		  "HelpTranslate": "Help Translate seDirector!",
-		  "SOWS": "Start at computer login",
+		  "SOWS": "Start on user login",
 		  "MTSTOC": "Minimize to system tray on close",
 		  "DNCCP": "Do not check for current players and current map",
 		  "DNAU": "Do not automatically update seDirector",

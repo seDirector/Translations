@@ -277,7 +277,7 @@
         "Application": "애플리케이션",
         "Language": "언어",
         "HelpTranslate": "seDirector 번역을 도와주세요!",
-        "SOWS": "Windows 시작 시 실행",
+        "SOWS": "",
         "MTSTOC": "닫을 때 시스템 트레이로 최소화",
         "DNCCP": "현재 플레이어 및 현재 맵을 확인하지 않음.",
         "DNAU": "seDirector를 자동으로 업데이트하지 않음",

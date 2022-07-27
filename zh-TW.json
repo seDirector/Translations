@@ -257,7 +257,7 @@
 		  "Application": "應用軟體",
 		  "Language": "語言",
 		  "HelpTranslate": "協助翻譯 seDirector",
-		  "SOWS": "開機時一起啟動",
+		  "SOWS": "",
 		  "MTSTOC": "關閉時最小化到系統列",
 		  "DNCCP": "不檢查目前玩家和地圖",
 		  "DNAU": "不自動更新 seDirector",

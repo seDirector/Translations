@@ -277,7 +277,7 @@
         "Application": "应用",
         "Language": "语言",
         "HelpTranslate": "帮助翻译 seDirector！",
-        "SOWS": "在 Windows 启动时启动",
+        "SOWS": "",
         "MTSTOC": "关闭时最小化到系统托盘",
         "DNCCP": "不检查当前玩家和当前地图",
         "DNAU": "不自动更新 seDirector",
