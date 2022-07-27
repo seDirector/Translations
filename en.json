@@ -278,6 +278,7 @@
 		  "Language": "Language",
 		  "HelpTranslate": "Help Translate seDirector!",
 		  "SOWS": "Start on user login",
+		  "WLMI": "seDirector uses a scheduled task to start automatically when this user logs into Windows. If this user account has a password, you can use a tool like Autologon by Sysinternals to automatically log in on Windows startup.",
 		  "MTSTOC": "Minimize to system tray on close",
 		  "DNCCP": "Do not check for current players and current map",
 		  "DNAU": "Do not automatically update seDirector",
