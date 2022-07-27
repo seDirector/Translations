@@ -8,7 +8,7 @@
 
 **Overall translation status:**
 
-[![gitlocalized ](https://gitlocalize.com/repo/6994/whole_project/badge.svg)](https://gitlocalize.com/repo/6994/whole_project?utm_source=badge)
+[![gitlocalized](https://gitlocalize.com/repo/6994/whole_project/badge.svg)](https://gitlocalize.com/repo/6994/whole_project?utm_source=badge)
 
 # 2. Language Status
 
@@ -18,19 +18,20 @@ If you can read/write in any of these languages OR if you have another language 
 
 |Language|Locale|Status|GitLocalize Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|--|
-|[Chinese](https://gitlocalize.com/repo/6994/zh-CN/en.json)|China|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/zh-CN/badge.svg)](https://gitlocalize.com/repo/6994/zh-CN?utm_source=badge)|Yes|[qq410525209](https://github.com/qq410525209)|
-|[Russian](https://gitlocalize.com/repo/6994/ru/en.json)|Russia|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ru/badge.svg)](https://gitlocalize.com/repo/6994/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
-|[Portuguese](https://gitlocalize.com/repo/6994/pt-BR/en.json)|Brazil|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/pt-BR/badge.svg)](https://gitlocalize.com/repo/6994/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
-|[Korean](https://gitlocalize.com/repo/6994/ko/en.json)|South Korea|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/ko/badge.svg)](https://gitlocalize.com/repo/6994/ko?utm_source=badge)|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
-|[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|MikkelDK|
-|[Spanish](https://gitlocalize.com/repo/6994/es/en.json)|*|Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/es/badge.svg)](https://gitlocalize.com/repo/6994/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
-|[Chinese](https://gitlocalize.com/repo/6994/zh-TW/en.json)|Taiwan|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/zh-TW/badge.svg)](https://gitlocalize.com/repo/6994/zh-TW?utm_source=badge)|Partial|[in2002-tw](https://github.com/in2002-tw)|
-|[Vietnamese](https://gitlocalize.com/repo/6994/vi/en.json)|Vietnam|Mostly Complete|[![gitlocalized ](https://gitlocalize.com/repo/6994/vi/badge.svg)](https://gitlocalize.com/repo/6994/vi?utm_source=badge)|Partial|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
-|[Turkish](https://gitlocalize.com/repo/6994/tr/en.json)|Turkey|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized ](https://gitlocalize.com/repo/6994/tr/badge.svg)](https://gitlocalize.com/repo/6994/tr?utm_source=badge)|No||
-|[German](https://gitlocalize.com/repo/6994/de/en.json)|Germany|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized ](https://gitlocalize.com/repo/6994/de/badge.svg)](https://gitlocalize.com/repo/6994/de?utm_source=badge)|No||
-|[Japanese](https://gitlocalize.com/repo/6994/ja/en.json)|Japan|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized ](https://gitlocalize.com/repo/6994/ja/badge.svg)](https://gitlocalize.com/repo/6994/ja?utm_source=badge)|No||
-|[French](https://gitlocalize.com/repo/6994/fr/en.json)|France|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized ](https://gitlocalize.com/repo/6994/fr/badge.svg)](https://gitlocalize.com/repo/6994/fr?utm_source=badge)|No||
-|[Italian](https://gitlocalize.com/repo/6994/it/en.json)|Italy|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized ](https://gitlocalize.com/repo/6994/it/badge.svg)](https://gitlocalize.com/repo/6994/it?utm_source=badge)|No||
+|[French](https://gitlocalize.com/repo/6994/fr/en.json)|France|In Progress|[![gitlocalized](https://gitlocalize.com/repo/6994/fr/badge.svg)](https://gitlocalize.com/repo/6994/fr?utm_source=badge)|No|[DAYBR3AK1999](https://github.com/DAYBR3AK1999)|
+|[Dutch](https://gitlocalize.com/repo/6994/nl/en.json)|Dutch|In Progress|[![gitlocalized](https://gitlocalize.com/repo/6994/nl/badge.svg)](https://gitlocalize.com/repo/6994/nl?utm_source=badge)|No|[DAYBR3AK1999](https://github.com/DAYBR3AK1999)|
+|[Chinese](https://gitlocalize.com/repo/6994/zh-CN/en.json)|China|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/zh-CN/badge.svg)](https://gitlocalize.com/repo/6994/zh-CN?utm_source=badge)|Yes|[qq410525209](https://github.com/qq410525209)|
+|[Russian](https://gitlocalize.com/repo/6994/ru/en.json)|Russia|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/ru/badge.svg)](https://gitlocalize.com/repo/6994/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
+|[Portuguese](https://gitlocalize.com/repo/6994/pt-BR/en.json)|Brazil|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/pt-BR/badge.svg)](https://gitlocalize.com/repo/6994/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
+|[Korean](https://gitlocalize.com/repo/6994/ko/en.json)|South Korea|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/ko/badge.svg)](https://gitlocalize.com/repo/6994/ko?utm_source=badge)|Yes|[Tsukasa](https://github.com/Tsukasa-Nefren)|
+|[Danish](https://gitlocalize.com/repo/6994/da/en.json)|Denmark|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/da/badge.svg)](https://gitlocalize.com/repo/6994/da?utm_source=badge)|Yes|MikkelDK|
+|[Spanish](https://gitlocalize.com/repo/6994/es/en.json)|*|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/es/badge.svg)](https://gitlocalize.com/repo/6994/es?utm_source=badge)|Yes|[IsidroPenh](https://github.com/IsidroPenh)|
+|[Chinese](https://gitlocalize.com/repo/6994/zh-TW/en.json)|Taiwan|Mostly Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/zh-TW/badge.svg)](https://gitlocalize.com/repo/6994/zh-TW?utm_source=badge)|Partial|[in2002-tw](https://github.com/in2002-tw)|
+|[Vietnamese](https://gitlocalize.com/repo/6994/vi/en.json)|Vietnam|Mostly Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/vi/badge.svg)](https://gitlocalize.com/repo/6994/vi?utm_source=badge)|Partial|[Cyber-Samurai-997](https://github.com/Cyber-Samurai-997)|
+|[Turkish](https://gitlocalize.com/repo/6994/tr/en.json)|Turkey|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized](https://gitlocalize.com/repo/6994/tr/badge.svg)](https://gitlocalize.com/repo/6994/tr?utm_source=badge)|No||
+|[German](https://gitlocalize.com/repo/6994/de/en.json)|Germany|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized](https://gitlocalize.com/repo/6994/de/badge.svg)](https://gitlocalize.com/repo/6994/de?utm_source=badge)|No||
+|[Japanese](https://gitlocalize.com/repo/6994/ja/en.json)|Japan|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized](https://gitlocalize.com/repo/6994/ja/badge.svg)](https://gitlocalize.com/repo/6994/ja?utm_source=badge)|No||
+|[Italian](https://gitlocalize.com/repo/6994/it/en.json)|Italy|Need a volunteer - [say hi on Discord](https://sedirector.net/discord)|[![gitlocalized](https://gitlocalize.com/repo/6994/it/badge.svg)](https://gitlocalize.com/repo/6994/it?utm_source=badge)|No||
 # 3. Getting Started
 
 1.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
