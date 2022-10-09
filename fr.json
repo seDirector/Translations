@@ -1,0 +1,89 @@
+{
+  "Lang": {
+    "UI": {
+      "MainWindow": {
+        "Menu_Server": "Server"
+      },
+      "ServerProperties": {
+      },
+      "Options": {
+      },
+      "CreateServer": {
+      },
+      "PortChecker": {
+      }
+    },
+    "Controller": {
+    },
+    "CreateServer": {
+    },
+    "FTP": {
+    },
+    "GameCommon": {
+    },
+    "Networking": {
+    },
+    "Options": {
+    },
+    "Progress": {
+    },
+    "ServerConfig": {
+    },
+    "SupportRequest": {
+    },
+    "Status": {
+    },
+    "MainWindow": {
+    },
+    "DiscordBot": {
+    },
+    "Notifications": {
+    },
+    "Backups": {
+    },
+    "Compressing": {
+    },
+    "LogsLogs": {
+    },
+    "Errors": {
+    },
+    "Login": {
+    },
+    "ServerProperties": {
+      "ProcessPriority": {
+      },
+      "Logs_ServerProperties": {
+      }
+    },
+    "UpdateProgress": {
+    },
+    "Logs": {
+    },
+    "FileProperties": {
+      "Logs_FileProperties": {
+      }
+    },
+    "Paths": {
+      "Names": {
+      },
+      "InternalNames": {
+      }
+    },
+    "Addons": {
+      "Errors": {
+      },
+      "Notifications": {
+      },
+      "Other": {
+      }
+    },
+    "Donate": {
+    },
+    "PortChecker": {
+    },
+    "Troubleshooting": {
+    },
+    "General": {
+    }
+  }
+}
