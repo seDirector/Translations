@@ -2,11 +2,188 @@
   "Lang": {
     "UI": {
       "MainWindow": {
-        "Menu_Server": "Server"
+        "Menu_Server": "Serveur",
+        "Menu_AllServers": "Tous Les Serveurs",
+        "Menu_Tools": "Outils",
+        "Menu_Help": "Aide",
+        "Menu_Exit": "Quitter",
+        "Menu_Start": "Démarrer",
+        "Menu_Stop": "Arrêter",
+        "Menu_Restart": "Redémarrer",
+        "Menu_Update": "Mettre À Jour",
+        "Menu_Show_Hide": "Montrer/Cacher",
+        "Menu_Add_Server": "Ajouter Un Serveur",
+        "Menu_Delete_Server": "Supprimer Un Serveur",
+        "Menu_Open_Game_Directory": "Ouvrir Dossier Serveur",
+        "Menu_Open_Maps_Directory": "Ouvrir Dossier Cartes",
+        "SelectAServer": "Selectionner un serveur",
+        "Server_Name": "Nom Du Serveur",
+        "Status": "État",
+        "Uptime": "Activité",
+        "CPU": "Processeur",
+        "Memory": "Mémoire",
+        "IP_Address": "Adresse IP",
+        "Port": "Port",
+        "Current_Map": "Carte Actuelle",
+        "Players": "Joueurs",
+        "Game": "Jeu",
+        "Information": "Information",
+        "Created": "Créé Le:",
+        "Events": "Événements",
+        "Logs": "Logs",
+        "Testing": "Essai",
+        "Started": "Démarré",
+        "Updated": "À Jour",
+        "Properties": "Propriétés",
+        "Start": "Démarrer",
+        "Stop": "Arrêter",
+        "Restart": "Redémarrer",
+        "ShowHide": "Montrer/Cacher",
+        "Update": "Mettre À Jour",
+        "AddServer": "Ajouter Un Serveur",
+        "DeleteServer": "Supprimer Le Serveur",
+        "DuplicateServer": "Dupliquer Le Serveur",
+        "CreateBackup": "Créer Une Sauvegarde",
+        "RunBZ2": "Démarrer La Compression BZ2",
+        "RunLocal": "Démarrer La Synchronisation Local/FTP/SFTP",
+        "Troubleshoot": "Diagnostiquer",
+        "CanMyServerUseThisPort": "Est-ce que ce serveur peut utiliser ce port?",
+        "IsThisPortAccessibleOverTheInternet": "Ce port est-il accessible au réseau Internet?",
+        "RunServerWithoutAddons": "Démarrer le serveur sans addons",
+        "RunServerWithoutCfgFile": "Démarrer le serveur sans fichier CFG",
+        "RunServerWithoutAdditionalParameters": "Démarrer le serveur sans paramètres supplémentaires",
+        "RunServerWithoutAddonsCfgFileAP": "Démarrer le serveur sans addons, fichier cfg, ou paramètres supplémentaires.",
+        "RunServerWithoutSedirector": "Démarrer le serveur sans seDirector",
+        "Open": "Ouvrir",
+        "Reorder": "Réorganiser",
+        "OSL": "Ouvrir les logs seDirector pour serveur",
+        "OSLF": "Ouvrir le repértoire des logs serveurs",
+        "CompressLogs": "Compresser les logs",
+        "GameDirectory": "Dossier Du Serveur De Jeu",
+        "CMDDir": "CMD Dans Le Répertoire",
+        "ConfigFiles": "Fichiers De Configuration",
+        "Maps": "Cartes",
+        "Sound": "Sons",
+        "Addons": "Addons",
+        "SourceMod": "SourceMod",
+        "Directory": "Dossier",
+        "Scripting": "Scriptage",
+        "Plugins": "Plugins",
+        "PluginsSearch": "Recherche De Plugins",
+        "Forums": "Forums",
+        "MoveToTop": "Déplacer Au Top",
+        "MoveUp": "Déplacer Vers Le Haut",
+        "MoveDown": "Déplacer Vers le Bas",
+        "MoveToBottom": "Déplacer Tout En Bas",
+        "CreateServer": "Créer Un Serveur",
+        "PortChecker": "Contrôle De Port",
+        "ReloadSed": "Recharger seDirector (garde les serveurs démarrer)",
+        "KillAll": "Éteindre Toutes Les Instances.",
+        "OpenDefDir": "Ouvrir Le Dossier Par Défaut",
+        "OpenSL": "Ouvrir Les Logs seDirector",
+        "OpenSeDir": "Ouvrir Le Repértoire seDirector",
+        "DiscordBotOptions": "Options Du Bot Discord",
+        "Options": "Options",
+        "FreeVsProVersion": "Gratuit vs Version Pro",
+        "PlayersCurrentMapNotUpdating": "Joueurs/Carte Actuelle Pas À Jour?",
+        "SupportRequest": "Requête Support",
+        "StatusPage": "Page D'état",
+        "ReportABug": "Rapporter un Bug",
+        "BugTracker": "Traceur de bug",
+        "FeatureRequest": "Requête De Fonctionnalité",
+        "Roadmap": "Guide",
+        "PremiumSupport": "Support Premium",
+        "HelpTranslateSed": "Aidez À Traduire seDirector",
+        "DiscordServer": "Serveur Discord",
+        "DonateToSed": "Faire un don pour seDirector",
+        "RecFold": "Structure De Dossiers Recommendé",
+        "CFGExamples": "Examples CFG",
+        "ReleaseNotes": "Notes De Réalisation",
+        "CFU": "Rechercher des mises à jour.",
+        "About": "À Propos",
+        "SignIn": "Connexion",
+        "SignOut": "Déconnexion",
+        "Register": "S'enregistrer",
+        "EmailAddress": "Adresse E-mail",
+        "Password": "Mot De Passe",
+        "ForgotPassword": "Mot De Passe Oublié",
+        "ManageSubscription": "Gérer L'abonnement",
+        "Loading": "Chargement"
       },
       "ServerProperties": {
+        "Tab_Properties": "Propriétés",
+        "Tab_Automation": "Automatisation",
+        "Tab_Addons": "Addons",
+        "Tab_Tasks": "Tâches",
+        "Tab_TextCFGEditor": "Éditeur Texte/CFG",
+        "Tab_Optimization": "Optimisation",
+        "Tab_Notifications": "Notifications",
+        "Properties_ServerName": "Nom Du Serveur",
+        "Properties_SRCDSLocation": "Localisation SRCDS",
+        "Properties_Game": "Jeu",
+        "Properties_IPAddress": "Adresse IP (facultatif)",
+        "Properties_PortNumber": "Numéro De Port",
+        "Properties_ExecuteCFG": "Executer CFG",
+        "ExecuteCFGOServerCFGOptional": "(facultatif, exécutez le server.cfg automatiquement)",
+        "Properties_Map": "Carte",
+        "Properties_NumberOfPlayers": "Nombre De Joueurs",
+        "Properties_Secure": "Sécurisé",
+        "Properties_PlayerPassword": "Mot De Passe Joueur",
+        "Properties_RconPassword": "Mot De Passe RCON",
+        "Properties_CfgMayOverride": "Le fichier CFG peut remplacer ces valeurs, assurez-vous de vérifier",
+        "Properties_EnableRCON": "Activer RCON",
+        "Properties_CSGOGameMode": "Mode De Jeu CS:GO",
+        "Properties_CSGOSkirmishMode": "Mode Escarmouche CS:GO",
+        "Properties_AdditionalParameters": "Paramètres Supplémentaires",
+        "Properties_ProcessorAffinity": "Affinité Du Processeur",
+        "Properties_ProcessPriority": "Priorité Processus",
+        "Properties_CommandToRun": "Commande à démarrer",
+        "Properties_Create": "Céer",
+        "Properties_CustomGameMod": "Jeu / Mod Personnalisée",
+        "Properties_NextAvailable": "Prochain Disponible",
+        "Properties_CreateServerCFG": "Créer le server.cfg",
+        "Properties_WorkshopCustomMap": "Workshop / Carte Personnalisée{LB}(utiliser des paramètres facultatifs pour ajuster)",
+        "Properties_NormalRecommendedRealtimeNotRecommended": "Normale est recommandée; Temps réel non recommandé",
+        "Properties_ServerPropertiesCannotBeChangedWhileRunning": "Les propriétés ne peuvent être modifiées si le serveur est démarré",
+        "Properties_SaveSettings": "Enregistrer Les Paramètres",
+        "CreateServerCFGInfo": "Étant donné que server.cfg s'exécute automatiquement, il n'apparaîtra pas dans la liste déroulante Exécuter CFG.",
+        "StartOptions": "Paramètres De Démarrage",
+        "StartThisServerWhenSedirectorStarts": "Démarrer le serveur si seDirector démarre.",
+        "PluginStatus": "État du plug-in",
+        "Directory": "Repértoire",
+        "CrashRecovery": "Récupération après un crash",
+        "RecoverFromServerCrash": "Récupération après un crash du serveur",
+        "HowCrashRecoveryWorks": "Fonctionnement de la récupération après un crash:{LB}seDirector comptabilise le nombre de plantages d'un serveur. Si un serveur plante 2 fois en 10 minutes, seDirector essaiera automatiquement de mettre à jour le serveur. Si le serveur plante à nouveau dans les 10 minutes suivant la mise à jour, seDirector arrêtera le serveur. Si un serveur a passé plus de 10 minutes sans planter, le compteur de plantages est réinitialisé.{LB}{LB}1 plantage en 10 minutes = OK{LB}2 plantages en 10 minutes = tentative de mise à jour{LB}1 plantage sur 10 minutes après la mise à jour = le serveur s'arrêtera (notification envoyée si activé){LB}Toutes les 10 minutes sans plantage = Réinitialisation du compteur",
+        "AddonsFolder": "Dossier Addons",
+        "YourVersion": "Votre Version",
+        "AddOn": "Addon",
+        "Publisher": "Céateur",
+        "Description": "Description",
+        "ScriptExePath": "Script/Chemin de l'exécutable",
+        "ScriptExeArgs": "Script/Arguments de l'exécutable",
+        "Website": "Site",
+        "WhenColumn": "Quand",
+        "Daily": "Tous Les Jours",
+        "Weekly": "Chaque Semaine",
+        "Crashes": "Crashs",
+        "Crash": "Crash",
+        "Starting": "Démarrage",
+        "WhatToCompress": "Compresser Quoi",
+        "Sounds": "Sons",
+        "Models": "Modèles",
+        "HTTPFastDownloadExplained": "Vous pouvez activer la synchronisation des repértoires et/ou la synchronisation FTP/SFTP afin que votre contenu soit automatiquement mis à jour sur votre serveur Web à chaque démarrage de ce serveur. La synchronisation fonctionne en mettant en miroir les répertoires de cartes, de sons, de matériaux, de modèles et de ressources. Si des répertoires cibles existent déjà, ils seront mis à jour pour correspondre au contenu de ce serveur. Seuls les fichiers BZ2 seront synchronisés.",
+        "DirSyncHTTP": "Synchronisation des repértoires pour le téléchargement rapide HTTP",
+        "DirSyncHTTP2": "Activer la synchronisation des repértoires",
+        "TargetDirectory": "Répertoire Cible",
+        "RemoteDir": "Repértoire Distant",
+        "EmailTextSMS2": "seDirector vous avertira automatiquement par e-mail si votre serveur crash. Une notification sera envoyée à chaque crash du serveur et également si seDirector n'arrive pas à récupérer le serveur en le mettant à jour. La case \"Récupérer après un crash du serveur\" de l'onglet Automatisation DOIT être cochée pour que les notifications par e-mail fonctionnent.",
+        "DiscordNotifications": "Notifications Discord",
+        "DiscordNotifications2": "seDirector vous avertira automatiquement via Discord si votre serveur crash. Une notification sera envoyée à chaque crash du serveur et également si seDirector n'arrive pas à récupérer le serveur en le mettant à jour. La case \"Récupérer après un plantage du serveur\" dans l'onglet Automatisation DOIT être cochée pour que les notifications Discord fonctionnent.",
+        "DiscordWebhook": "Webhook Discord",
+        "Variables": "Variables"
       },
       "Options": {
+        "Clear": "Effacer"
       },
       "CreateServer": {
       },
@@ -14,74 +191,164 @@
       }
     },
     "Controller": {
+      "DataUpgradeSuccess": "Les données ont été mises à jour avec succès. Veuillez redémarrer seDirector."
     },
     "CreateServer": {
+      "UserPassReqToUpdate": "Le nom d'utilisateur et un mot de passe pour Steam sont nécessaires pour mettre à jour ce jeu. Veuillez le définir dans Outils->Options et revenir à cette fenêtre."
     },
     "FTP": {
+      "CouldNotConnectServer": "impossible de se connecter au serveur. Vérifiez le serveur, le port, le nom d'utilisateur, le mot de passe et le type de connexion."
     },
     "GameCommon": {
     },
     "Networking": {
+      "DownloadingX": "Téléchargement  {0}",
+      "ExtractingX": "Extraction {0}"
     },
     "Options": {
     },
     "Progress": {
+      "CancelLocalSync": "Annuler la synchronisation du repértoire local ? Certains fichiers peuvent être partiellement copiés. La resynchronisation résoudra les fichiers partiels."
     },
     "ServerConfig": {
+      "CouldNotDetectSteamInf": "Impossible de détecter steam.inf dans le répertoire du jeu. Veuillez ouvrir les Propriétés et sélectionner à nouveau srcds.exe. Si le problème persiste, activez l'option de mise à jour -validate dans les propriétés et la mise à jour, puis désactivez-la.",
+      "ErrorLoadingServersXML": "Une erreur s'est produite lors du chargement du fichier de données Servers.xml. Cela peut être dû à un bug dans seDirector. Si Servers.xml est vide, supprimez le fichier et restaurez-le à partir d'une sauvegarde ou ajoutez manuellement vos serveurs à seDirector. Veuillez envoyer un e-mail à support@sedirector.net et faites-nous savoir ce que vous faisiez dans seDirector juste avant que cela ne se produise. Joignez Servers.xml à votre e-mail s'il n'est PAS vide."
     },
     "SupportRequest": {
     },
     "Status": {
+      "Running": "Démarré",
+      "Starting": "Démarrage",
+      "Stopping": "Arrêt en cours",
+      "UpdateStarting": "Démarrage de la mise à jour",
+      "Updating": "Mise à jour en cours"
     },
     "MainWindow": {
+      "Uptime": "Démarré depuis",
+      "Started": "A démarré",
+      "ServerCrashedEvenAfterUpdating": "Le serveur a crashé même après la mise à jour",
+      "SentServerCrashEmail": "Notification par e-mail de crash du serveur envoyée",
+      "SentServerCrashDiscord": "Notification Discord de crash du serveur envoyée",
+      "Daily": "Tous Les Jours",
+      "ServerCrashedEmail": "[b]Ordinateur :[/b] {COMPUTER_NAME}[br][b]Serveur[/b] : {SERVER_NAME}[br][br]Un serveur a crashé.",
+      "ServerCrashedDiscord": "Un serveur a crashé.",
+      "ServerCrashedUnableToRecoverAuto": "[b]Ordinateur :[/b] {COMPUTER_NAME}[br][b]Serveur[/b] : {SERVER_NAME}[br][br]Un serveur a crashé et seDirector ne peut pas le récupérer automatiquement.",
+      "ServerCrashedUnableToRecoverAutoGeneral": "Un serveur a crashé et seDirector est incapable de le récupérer automatiquement.",
+      "Calculating": "Calculation"
     },
     "DiscordBot": {
+      "Step5": "Cliquez sur l'option de menu \"OAuth2\" à gauche, puis sur l'option de menu \"Generateur URL\"",
+      "Step7b": "Dans la colonne \"Permissions Textuelles\":",
+      "Step13": "Cliquez maintenant sur le bouton à droite de ce texte pour ajouter le bot à l'un de vos serveurs PRIVÉS.{LB}{LB}REMARQUE: si vous ajoutez un bot à un serveur public, N'IMPORTE QUI pourra contrôler votre serveur ! Ajoutez plutôt un bot à un serveur privé !",
+      "Step14": "Et pour la fin, enregistrez les paramètres.",
+      "AddBotToServer": "Ajouter un Bot au serveur",
+      "Save": "Sauvegarder",
+      "HelpText2": "!servers ou !status ou !s - affiche une liste de tous les serveurs",
+      "HelpText3": "Pour les commandes suivantes, vous pouvez spécifier soit un numéro de serveur dans la liste des serveurs, soit saisir le mot \"all\" pour appliquer la commande à tous les serveurs.",
+      "HelpText4": "!start",
+      "HelpText5": "!stop",
+      "HelpText6": "!restart",
+      "HelpText7": "!update",
+      "IconOpen": "Ouvrir",
+      "IconCopy": "Copier"
     },
     "Notifications": {
+      "DebugModeEnabled": "Le mode débug est activé !",
+      "SteamUsernamePasswordChanged": "Le nom d'utilisateur ou le mot de passe Steam a changé. Veuillez saisir le code Steam Guard (envoyé à votre adresse e-mail) dans la fenêtre suivante si cela est demandé. Ne fermez pas la fenêtre suivante, laissez-la se fermer automatiquement. Si vous vous trompez, appuyez simplement sur retour arrière pour corriger.{LB}{LB}Si vous avez besoin que le code soit renvoyé, appuyez une fois sur Ctrl-C et laissez-le se fermer automatiquement, définissez votre nom d'utilisateur sur autre chose, enregistrez, puis modifiez le à la valeur correcte, Enregistrer.",
+      "MaxCrashesOccurred": "Le serveur a crashé {0} fois de suite. Utilisateur requis.",
+      "NoCrashesInTenMinutes": "Aucun crash en 10 minutes",
+      "SecondCrashInTenMinutesUpdating": "2ème crash en 10 minutes - tentative de mise à jour du serveur",
+      "ErrorServerRecommendation": "Exécutez une mise à jour sur le serveur pour voir si cela a résolu le problème. Si cela n'a pas résolu le problème, il peut y avoir un problème avec un addon ou un plugin. Consultez les journaux d'erreurs du serveur pour plus d'informations.",
+      "ShuttingDownProper": "Fermeture en cours",
+      "ShuttingDown": "Fermeture en cours"
     },
     "Backups": {
+      "BackingUpServer": "Sauvegarde en cours {0}"
     },
     "Compressing": {
+      "RecompressingDueToCancel": "(recompression de tout en raison d'une annulation précédente)"
     },
     "LogsLogs": {
     },
     "Errors": {
     },
     "Login": {
+      "CheckEmailVerify": "Vérifiez votre e-mail pour activer votre compte."
     },
     "ServerProperties": {
+      "Addons": "Addons",
+      "ErrorInstallingAddon": "Erreur lors de l'installation du addon. Vérifiez votre connexion Internet et réessayez.",
+      "WarningAllDataDeleted": "AVERTISSEMENT : Toutes les données des addons seront supprimées.",
+      "AddonCouldNotBeDetected": "L'addon n'a pas pu être détecté. Assurez-vous que vous êtes autorisé à écrire dans {0} et réexécutez le processus d'installation/modification.",
+      "RemoteDir": "Repértoire Distant",
+      "Connecting": "Connexion en cours",
+      "AddonInfo": "Informations du Addon",
+      "AddonInfoInfo": "<style> corps {marge : 0 ; rembourrage : 0 ; famille de polices : Tahoma, Genève, sans empattement ; taille de police : 13 px ; } </style> <h3>La plupart des jeux : Metamod:Source | SourceMod</h3> <p> seDirector prend en charge l'installation, la mise à niveau, la rétrogradation, la réinstallation et la suppression des addons. seDirector est intelligent lors du changement des addons ; il n'installera que les fichiers nécessaires pour changer les versions - il ne supprimera pas vos fichiers ou extensions cfg.<br /><br /> Si un addon est mis à niveau, rétrogradé ou réinstallé, une sauvegarde sera effectuée avant de prendre tout action. Regardez sous le répertoire addons\\[Backups] pour les sauvegardes créées par seDirector.<br /><br /> <b>ASSUREZ-VOUS de tester votre serveur</b> après avoir apporté des modifications aux addons. Tapez 'meta version' dans la console pour vous assurer que <b>Metamod:Source</b> fonctionne. Tapez 'sm version' dans la console pour vous assurer que <b>SourceMod</b> fonctionne. Si vous recevez un message d'erreur après l'installation/la modification d'une mise à jour, assurez-vous que vous utilisez la dernière version. Les versions plus anciennes peuvent ne pas fonctionner correctement et provoquer un crash de votre serveur ou un dysfonctionnement des plugins.<br /><br /> <b>SourceMod</b> dépend de <b>Metamod:Source</b> pour fonctionner. Assurez-vous d'utiliser une version de <b>SourceMod</b> compatible avec votre version de <b>Metamod:Source</b>. Après avoir installé <b>Metamod:Source</b>, le fichier metamod.vdf est automatiquement généré spécifiquement pour votre serveur de jeu. </p> <h3>Le mod de Garry : ULib | ULX | Wiremod</h3> <p> seDirector prend en charge l'installation et la suppression de ULib, ULX et Wiremod. La mise à niveau/rétrogradation n'est pas prise en charge. La plupart des fonctionnalités liées à la mise à jour sont gérées par les scripts eux-mêmes, il n'y aura donc probablement pas besoin de mettre à niveau ou de rétrograder de toute façon.<br /><br /> Vous pouvez installer une version publiée ou choisir \"master\" pour le dernier code (l'archive de la branche principale).<br /><br /> <b>ASSUREZ-VOUS de tester votre serveur</b> après avoir apporté des modifications aux addons.<br /><br /> Si vous avez déjà ULib , ULX ou Wiremod est installé et que vous voulez que seDirector le détecte, renommez game\\addons\\ULib-oldname en game\\addons\\ULib, game\\addons\\ULX-oldname en game\\addons\\ULX, game\\addons\\Wiremod-oldname à game\\addons\\Wiremod.<br /><br /> <b>ULX</b> dépend de <b>ULib</b> pour fonctionner. Assurez-vous d'utiliser une version d'<b>ULX</b> compatible avec votre version d'<b>ULib</b>. </p>",
+      "Installed": "Installée",
+      "DirectorySyncFieldMissing": "Activer la synchronisation du repértoire est coché mais il manque des informations dans un champ. Vérifiez les champs au milieu de l'onglet Optimisation.",
       "ProcessPriority": {
       },
       "Logs_ServerProperties": {
       }
     },
     "UpdateProgress": {
+      "Working": "Fin de mise a jour"
     },
     "Logs": {
+      "StartServerBegin": "Serveur en cours de démarrage",
+      "StartServerStartingError": "Erreur de démarrage du serveur",
+      "StartServerFinished": "Démarré",
+      "TaskRequestedServerRestart": "Tâche demandé le redémarrage du serveur",
+      "TaskRequestedServerRestartInGame": "Tâche demandé le redémarrage du serveur avec notification dans le jeu",
+      "TaskRequestedUpdate": "Tâche demandé la mise à jour du serveur",
+      "TaskRequestedUpdateInGame": "Tâche demandé la mise à jour du serveur avec notification dans le jeu",
+      "TaskTriggeredByUnrecoverableCrash": "Tâche déclenchée par un crash irrécupérable"
     },
     "FileProperties": {
       "Logs_FileProperties": {
+        "Title": "Fichier logs seDirector",
+        "DescriptionLabel": "Description",
+        "ServerNameFormat": "{0}: {1}",
+        "GameFormat": "{0}: {1}"
       }
     },
     "Paths": {
       "Names": {
+        "ServerLogsFolder": "Logs du serveur"
       },
       "InternalNames": {
+        "ServerLogsPath": "ServerLogsPath",
+        "ServerLogsHostPath": "ServerLogsHostPath",
+        "ServerLogsHostServerPath": "ServerLogsHostServerPath"
       }
     },
     "Addons": {
       "Errors": {
+        "ErrorRemovingMetaMod": "Erreur lors de la suppression de Metamod:Source:"
       },
       "Notifications": {
       },
       "Other": {
+        "ChangingAddon": "Modification de l'Addon",
+        "ChangingMetamodSource": "Changer Metamod:Source version",
+        "ChangingSourceModVersion": "Changement de la version SourceMod",
+        "BackingUp": "Sauvegarde en cours {0}"
       }
     },
     "Donate": {
     },
     "PortChecker": {
+      "PortRequirements": "Utiliser un numéro de port entre 1 et 65535."
     },
     "Troubleshooting": {
+      "ServerStartsNormally": "Ce serveur semble démarrer normalement.{LB}{LB}Poursuivre le diagnostique?",
+      "CouldNotEnableAddons": "Erreur 3601. Impossible d'activer les addons. Vous devrez renommer manuellement 'addons_testing_renamed' en 'addons' pour réactiver vos addons.",
+      "ConfirmingServerStartIssue": "Diagnose: confirmation du problème de démarrage du serveur",
+      "RunningServerWithoutAdditionalParameters": "Diagnose: serveur en cours d'exécution sans paramètres supplémentaires",
+      "RunningServerWithoutACAP": "Diagnose: serveur en cours d'exécution sans addons, fichier cfg, paramètres supplémentaires",
+      "TestPassedWithoutACAP": "Test réussi. Le serveur a démarré avec succès sans addons, cfg et paramètres supplémentaires. Quelque chose dans les addons, cfg et/ou les paramètres supplémentaires cause un problème de démarrage du serveur.{LB}{LB}Remarque: ce test ne teste pas les fichiers cfg SourceMod, veuillez également les vérifier si vous avez SourceMod.",
+      "TestFailedWithoutACAP": "Test échoué. Le serveur n'a pas démarré avec succès, même avec les addons, cfg et paramètres supplémentaires désactivés.{LB}{LB}Remarque: ce test ne teste pas les fichiers cfg SourceMod, veuillez également les vérifier si vous avez SourceMod.",
+      "RunningServerWithoutAddons": "Dépannage : serveur en cours d'exécution sans addons"
     },
     "General": {
     }
