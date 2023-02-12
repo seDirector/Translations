@@ -267,7 +267,7 @@
 		  "Application": "Ứng dụng",
 		  "Language": "Ngôn ngữ",
 		  "HelpTranslate": "Giúp dịch seDirector!",
-		  "SOWS": "",
+		  "SOWS": "Bắt đầu khi khởi động Windows",
 		  "MTSTOC": "Thu nhỏ xuống khay hệ thống khi đóng",
 		  "DNCCP": "Không kiểm tra người chơi hiện tại và bản đồ hiện tại",
 		  "DNAU": "Không tự động cập nhật seDirector",
@@ -296,7 +296,7 @@
 		  "ITD": "Cài đặt vào Thư mục",
 		  "Browse": "Duyệt qua",
 		  "CreateServer": "Tạo máy chủ",
-		  "LowDiskSpace": "Có ít hơn 15 GB dung lượng trống trên ổ đĩa {0}. Bạn có chắc muốn tạo máy chủ trên ổ đĩa này?"
+		  "LowDiskSpace": "Có ít hơn 50 GB dung lượng trống trên ổ đĩa {0}. Bạn có chắc muốn tạo máy chủ trên ổ đĩa này?"
 		},
 		"PortChecker": {
 		  "Intro": "Kiểm tra xem một cổng có thể truy cập được qua Internet hay không.",
