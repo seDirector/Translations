@@ -45,6 +45,7 @@ If you can read/write in any of these languages OR if you have another language 
 6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
 7.  To request a beta version of seDirector so you know what it looks like with the translation, please do so in the translations channel on Discord.
 
+Some of the HTML strings can be daunting. You can use a tool like <a target="_blank" href="https://www.sceditor.com/">SCEditor</a> to visualize the HTML and make it easier to edit. Just click the "view source" button and paste the English HTML string into it, then click it again to see the HTML version. After editing, click the "view source" button again and copy the HTML back into GitLocalize. Please make sure the HTML tags still match what the English string shows. Thank you!
 # 4. Rules to Follow
 
 1.  Do not translate if you don't read and write the language.
