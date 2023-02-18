@@ -19,7 +19,7 @@ If you can read/write in any of these languages OR if you have another language 
 |Language|Locale|Status|GitLocalize Status|Merged into seDirector|Contributors|
 |--|--|--|--|--|--|
 |[French](https://gitlocalize.com/repo/6994/fr/en.json)|France|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/fr/badge.svg)](https://gitlocalize.com/repo/6994/fr?utm_source=badge)|Yes|[DAYBR3AK1999](https://github.com/DAYBR3AK1999)|
-|[Dutch](https://gitlocalize.com/repo/6994/nl/en.json)|Dutch|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/nl/badge.svg)](https://gitlocalize.com/repo/6994/nl?utm_source=badge)|Yes|[DAYBR3AK1999](https://github.com/DAYBR3AK1999)|
+|[Dutch](https://gitlocalize.com/repo/6994/nl/en.json)|Dutch|In Progress|[![gitlocalized](https://gitlocalize.com/repo/6994/nl/badge.svg)](https://gitlocalize.com/repo/6994/nl?utm_source=badge)|Yes|[DAYBR3AK1999](https://github.com/DAYBR3AK1999)|
 |[Chinese](https://gitlocalize.com/repo/6994/zh-CN/en.json)|China|In Progress|[![gitlocalized](https://gitlocalize.com/repo/6994/zh-CN/badge.svg)](https://gitlocalize.com/repo/6994/zh-CN?utm_source=badge)|Yes|[qq410525209](https://github.com/qq410525209)|
 |[Russian](https://gitlocalize.com/repo/6994/ru/en.json)|Russia|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/ru/badge.svg)](https://gitlocalize.com/repo/6994/ru?utm_source=badge)|Yes|[BODZy](https://github.com/BODZy)|
 |[Portuguese](https://gitlocalize.com/repo/6994/pt-BR/en.json)|Brazil|Complete|[![gitlocalized](https://gitlocalize.com/repo/6994/pt-BR/badge.svg)](https://gitlocalize.com/repo/6994/pt-BR?utm_source=badge)|Yes|[crashzk](https://github.com/crashzk)|
