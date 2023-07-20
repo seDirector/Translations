@@ -123,6 +123,7 @@
         "Properties_Game": "Spil",
         "Properties_IPAddress": "IP Adresse (valgfri)",
         "Properties_PortNumber": "Port",
+        "Properties_Check": "Tjek",
         "Properties_ExecuteCFG": "Kør CFG",
         "ExecuteCFGOServerCFGOptional": "(valgfri, server.cfg udføres automatisk)",
         "Properties_Map": "Kort",
@@ -307,8 +308,11 @@
         "SteamLoginDesc": "Valgfri. Kræves kun til nogle spil, eller hvis du laver noget avanceret.",
         "Username": "Brugernavn",
         "Password": "Kodeord",
+        "API": "API",
         "APIKey": "API-nøgle",
+        "APIPort": "API Port",
         "GenerateAPIKey": "Generer API-nøgle",
+        "DefaultPort": "Default Port",
         "PleaseFillRequiredFields": "Udfyld de nødvendige felter.",
         "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>API-oplysninger</h2><p>Hvis du har en <b>Pro</b>-konto, kan du bruge seDirector API.<br><br><b>Bemærk</b><br>Du SKAL tilføje api-nøglen til hver anmodning: ?apikey=APIKEY_GOES_HERE <br><br><table><thead><tr style=background-color:#d3d3d3><th>Beskrivelse<th>URI<tbody><tr><td>List serverinfo<td>http://localhost :10447/api/servers<tr><td>Start server<td>http://localhost:10447/api/servers/start/<serverNumber><tr><td>Stop server<td>http://localhost :10447/api/servers/stop/<serverNumber><tr><td>Genstart server<td>http://localhost:10447/api/servers/restart/<serverNumber><tr><td>Opdater server<td >http://localhost:10447/api/servers/update/<serverNumber><tr><td>Start alle servere<td>http://localhost:10447/api/servers/start/all<tr><td >Stop alle servere<td>http://localhost:10447/api/servers/stop/all</table><br><h3>Eksempler</h3><b>Start server 2</b><br> http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>Opdater server 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>Fjernadgang</h3>Du kan erstatte \"localhost\" med \"127.0.0.1\" eller ved fjernadgang, din offentlige IP-adresse.<br><br>Hvis du ønsker at få fjernadgang til din API via internettet, anbefaler vi kun at tillade hacking/DDoS-forsøg for at undgå specifikke IP-adresser for at få adgang til port 10447. Du kan justere dette med Windows Firewall, når du opretter en firewall-regel under \"Scope\" og \"Remote IP address\".",
         "SaveSettings": "Gem indstillinger"
@@ -344,10 +348,12 @@
       "DownloadsForGameCurrentlyDisabled": "Downloads til dette spil er i øjeblikket deaktiveret. Vil du gerne se {0} for mere information?",
       "ErrorDuringTf2cDuplication": "Fejl under tf2classic-duplikering",
       "CopyingTf2cZip": "Kopiering af TF2 Classic zip-udpakket mappe til serveren",
-      "DownloadLatestedTf2c": "Vil du downloade de seneste TF2 Classic-spilfiler? TF2 Classic-spilfiler (5-6 GB) tager omkring 10 minutter på 500 Mbps-forbindelse, 20 minutter på en 250 Mbps-forbindelse og 40 minutter på en 100 Mbps-forbindelse.{LB}{LB}Download vil blive gemt her: {0 }",
+      "DownloadLatestedTf2c": "Vil du downloade TF2 Classic-spilfilerne? Hvis du allerede har downloadet TF2 Classic en gang, vil det ikke 'downloade det igen, det vil bare udpakke de seneste spilfiler, indtil der er registreret en ny version.{LB}{LB}Hvis du ikke tidligere har downloadet TF2 Classic på denne computer, tager spilfilerne (5 GB) omkring 10 minutter på en 500 Mbps-forbindelse, 20 minutter på en 250 Mbps-forbindelse og 50 minutter på en 100 Mbps-forbindelse.",
       "ErrorWhenDownloadingTf2c": "Fejl ved download af TF2 Classic zip-fil",
       "SelectTf2cFolderCopyExtractedZip": "Vælg tf2classic-mappen, der skal kopieres (udtrukket fra zip).",
-      "Tf2cNotDetectedCopyAnyway": "TF2 Classic er ikke registreret i denne mappe. Vi anbefaler, at du klikker på Nej og downloader den nyeste version.{LB}{LB}Ønsker du alligevel at kopiere fra denne mappe?"
+      "Tf2cNotDetectedCopyAnyway": "TF2 Classic er ikke registreret i denne mappe. Vi anbefaler, at du klikker på Nej og downloader den nyeste version.{LB}{LB}Ønsker du alligevel at kopiere fra denne mappe?",
+      "TF2CFolderInvalid": "tf2classic-mappen er ikke gyldig. Slet venligst mappen og kør download igen.",
+      "TF2CDownloaderDoesNotExist": "TF2 Classic downloaderen findes ikke. Rapporter venligst en fejl ved at gå til Hjælp > Rapporter fejl."
     },
     "FTP": {
       "CouldNotConnectServer": "Kunne ikke få forbindelse til serveren. Kontroller serveren, porten, brugernavnet, adgangskoden og forbindelsestypen.",
@@ -384,7 +390,9 @@
       "ErrorTryingDownload": "Fejl under forsøg på at downloade {0}. Internetforbindelsesproblem?",
       "SelectDirMostCommonUsed": "Vælg det bibliotek, du oftest bruger i seDirector.",
       "UnsureCreateDir": "Usikker? Opret en mappe under C:\\ kaldet Steam, og vælg den.",
-      "DefaultDirToBrowse": "Indstillingen 'Standardkatalog til gennemsyn' fortæller seDirector automatisk at åbne for det angivne bibliotek, når der søges efter en fil eller mappe. På den måde behøver du ikke at gå igennem Computer-> C Drive-> Steam-> etc hver gang, det åbnes automatisk for det bibliotek, du har indstillet det til."
+      "DefaultDirToBrowse": "Indstillingen 'Standardkatalog til gennemsyn' fortæller seDirector automatisk at åbne for det angivne bibliotek, når der søges efter en fil eller mappe. På den måde behøver du ikke at gå igennem Computer-> C Drive-> Steam-> etc hver gang, det åbnes automatisk for det bibliotek, du har indstillet det til.",
+      "SedWillReloadLang": "seDirector vil nu genindlæse ved hjælp af sprog {0}. Dine servere vil fortsat køre.",
+      "SedWillReloadPort": "seDirector vil nu genindlæse ved hjælp af API-port {0}. Dine servere vil fortsat køre"
     },
     "Progress": {
       "CancelCurrentDownload": "Vil du annullere den aktuelle download?",
@@ -399,7 +407,8 @@
       "CouldNotDetectSteamInf": "Steam.inf kunne ikke registreres i spilkataloget. Åbn venligst egenskaber, og vælg srcds.exe igen. Hvis problemet fortsætter, skal du aktivere -valider opdateringsindstillingen i egenskaber og opdatere, og derefter slukke den igen.",
       "CouldNotLocateSteamInf": "Steam.inf kunne ikke findes i spilkataloget.",
       "ThisServerFailedToStartSuccessfully": "Denne server kunne ikke starte med succes.",
-      "ErrorLoadingServersXML": "Der opstod en fejl under indlæsning af Servers.xml -datafilen. Dette kan skyldes en fejl i seDirector. Hvis Servers.xml er tom, skal du slette filen og enten gendanne den fra en sikkerhedskopi eller tilføje dine servere tilbage til seDirector manuelt. Send en e -mail til support@sedirector.net, og lad os vide, hvad du lavede i seDirector lige før dette skete. Vedhæft Servers.xml til din e -mail, hvis den IKKE er tom."
+      "ErrorLoadingServersXML": "Der opstod en fejl under indlæsning af Servers.xml -datafilen. Dette kan skyldes en fejl i seDirector. Hvis Servers.xml er tom, skal du slette filen og enten gendanne den fra en sikkerhedskopi eller tilføje dine servere tilbage til seDirector manuelt. Send en e -mail til support@sedirector.net, og lad os vide, hvad du lavede i seDirector lige før dette skete. Vedhæft Servers.xml til din e -mail, hvis den IKKE er tom.",
+      "TF2CUpdateNotSupportedYet": "TF2C-opdatering understøttes endnu ikke. For nu kan du køre TF2C Downloader med opdateringsmuligheden med din spilmappe."
     },
     "SupportRequest": {
       "PleaseEnterEmail": "Indtast venligst en gyldig e-mailadresse.",
@@ -558,7 +567,8 @@
       "CreateServerConfirm": "Vil du oprette {0} i {1}?",
       "UpdateToolMissing": "{0} mangler. Gå til Værktøjs-> Indstillinger for at angive placeringen af {0}.",
       "UpdateToolNotSelected": "Der er ikke valgt et opdateringsværktøj til {0}. Gå til fanen Automatisering i serverens egenskaber for at vælge et opdateringsværktøj.",
-      "ServerBeingCreated": "Serveren oprettes nu. Vent, indtil opdateringsprogrammet/installationsprogrammet er færdigt, og vælg derefter srcds.exe i vinduet serveregenskaber.",
+      "ServerBeingCreated": "Serveren vil nu blive oprettet. Vent venligst indtil installatøren er færdig, vælg derefter srcds.exe i serveregenskabsvinduet.",
+      "ServerBeingCreatedTF2C": "TF2 Classic vil blive downloadet, udpakket og installeret, sammen med de grundlæggende serverfiler. Vent venligst indtil installatøren er færdig, vælg derefter srcds.exe i serveregenskabsvinduet.",
       "DownloadingUpdateTool": "Klik på OK for at downloade {0}. Når overførslen er fuldført, skal du udpakke exe fra zip -filen og placere en passende mappe og derefter vende tilbage til denne skærm.",
       "NoUpdateToolSet": "Der er ikke angivet et opdateringsværktøj på {0} af dine servere. Indstil opdateringsværktøjet på fanen Automatisering af serverens egenskaber.",
       "ShuttingDownProper": "Lukker ned",
@@ -663,6 +673,7 @@
       "FillInDiscordNotification": "Udfyld venligst Discord webhook eller fjern markeringen i afkrydsningsfeltet 'Aktiver Discord Notifications'.",
       "GameRequiresLoginToUpdate": "Dette spil kræver et login for at opdatere det. Indstil Steam-login i Værktøjs-> Indstillinger, eller opdatering mislykkes.",
       "InstallMetamodSourcemodBeforePlugin": "Du skal installere Metamod + SourceMod, før du installerer seDirector -plugin.",
+      "MMSSMayNotBeCompatibleTF2C": "Metamod og SourceMod er muligvis ikke kompatible med TF2 Classic og kan få det til at gå ned ved opstart.",
       "ProcessPriority": {
         "Realtime": "Realtid",
         "High": "Høj",
@@ -712,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Opgave udløst af opdatering afsluttet",
       "TaskTriggeredByStarting": "Opgave udløst ved start",
       "TaskTriggeredByStopping": "Opgave, der udløses ved stop",
-      "TaskTriggeredByMapChange": "Opgave udløst af kortændring"
+      "TaskTriggeredByMapChange": "Opgave udløst af kortændring",
+      "TF2CUpdateNotSupported": "TF2 Classic opdatering understøttes endnu ikke."
     },
     "FileProperties": {
       "Logs_FileProperties": {
