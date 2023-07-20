@@ -723,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tâche déclenchée par la mise à jour terminée",
       "TaskTriggeredByStarting": "Tâche déclenchée par le démarrage",
       "TaskTriggeredByStopping": "Tâche déclenchée par l'arrêt",
-      "TaskTriggeredByMapChange": "Tâche déclenchée par un changement de carte"
+      "TaskTriggeredByMapChange": "Tâche déclenchée par un changement de carte",
+      "TF2CUpdateNotSupported": "La mise à jour de TF2 Classic n'est pas encore prise en charge."
     },
     "FileProperties": {
       "Logs_FileProperties": {
