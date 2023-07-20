@@ -314,6 +314,7 @@
         "GenerateAPIKey": "生成API密鑰",
         "DefaultPort": "默認端口",
         "PleaseFillRequiredFields": "請輸入必填項目",
+        "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>API 資訊</h2><p>如果你有一個 <b>Pro</b> 帳戶，你可以使用 seDirector API。<br><br><b>注意</b><br>你必須在每個請求後附加API金鑰：?apikey=在此輸入你的API金鑰<br><br><table><thead><tr style=background-color:#d3d3d3><th>描述<th>URI<tbody><tr><td>列出伺服器資訊<td>http://localhost:10447/api/servers<tr><td>開啟伺服器<td>http://localhost:10447/api/servers/start/&lt;serverNumber><tr><td>停止伺服器<td>http://localhost:10447/api/servers/stop/&lt;serverNumber><tr><td>重啟伺服器<td>http://localhost:10447/api/servers/restart/&lt;serverNumber><tr><td>更新伺服器<td>http://localhost:10447/api/servers/update/&lt;serverNumber><tr><td>開啟所有伺服器<td>http://localhost:10447/api/servers/start/all<tr><td>停止所有伺服器<td>http://localhost:10447/api/servers/stop/all</table><br><h3>範例</h3><b>開啟伺服器2</b><br>http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>更新伺服器4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>遠端存取</h3>你可以將 \"localhost\" 替換為 \"127.0.0.1\"，或者在遠端存取時，替換為你的公共 IP 位址。<br><br>如果你想透過網路遠端存取你的API，為了避免駭客/DDoS 攻擊，我們建議只允許特定的 IP 位址存取 10447 埠。你可以在建立防火牆規則時，調整 \"範圍\" 和 \"遠端 IP 位址\" 的設定。",
         "SaveSettings": "儲存設定"
       },
       "CreateServer": {
@@ -722,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "更新完成觸發的任務",
       "TaskTriggeredByStarting": "啟動觸發任務",
       "TaskTriggeredByStopping": "停止觸發任務",
-      "TaskTriggeredByMapChange": "地圖變化觸發的任務"
+      "TaskTriggeredByMapChange": "地圖變化觸發的任務",
+      "TF2CUpdateNotSupported": "TF2經典更新尚未得到支持。"
     },
     "FileProperties": {
       "Logs_FileProperties": {
