@@ -314,6 +314,7 @@
         "GenerateAPIKey": "Tạo khóa API",
         "DefaultPort": "Cổng mặc định",
         "PleaseFillRequiredFields": "Vui lòng điền vào các trường bắt buộc.",
+        "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>Thông tin API</h2><p>Nếu bạn có một tài khoản <b>Pro</b>, bạn có thể sử dụng API của seDirector.<br><br><b>Lưu ý</b><br>Bạn PHẢI thêm khóa API vào mỗi yêu cầu: ?apikey=ĐÂY_LÀ_NƠI_ĐẶT_KHÓA_API<br><br><table><thead><tr style=background-color:#d3d3d3><th>Mô tả<th>URI<tbody><tr><td>Danh sách thông tin máy chủ<td>http://localhost:10447/api/servers<tr><td>Khởi động máy chủ<td>http://localhost:10447/api/servers/start/&lt;serverNumber><tr><td>Dừng máy chủ<td>http://localhost:10447/api/servers/stop/&lt;serverNumber><tr><td>Khởi động lại máy chủ<td>http://localhost:10447/api/servers/restart/&lt;serverNumber><tr><td>Cập nhật máy chủ<td>http://localhost:10447/api/servers/update/&lt;serverNumber><tr><td>Khởi động Tất cả các Máy chủ<td>http://localhost:10447/api/servers/start/all<tr><td>Dừng Tất cả các Máy chủ<td>http://localhost:10447/api/servers/stop/all</table><br><h3>Ví dụ</h3><b>Khởi động máy chủ 2</b><br>http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>Cập nhật máy chủ 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>Truy cập từ xa</h3>Bạn có thể thay thế \"localhost\" bằng \"127.0.0.1\" hoặc khi truy cập từ xa, địa chỉ IP công khai của bạn.<br><br>Nếu bạn muốn truy cập API từ xa qua Internet, để tránh những cuộc tấn công hacking/DDoS, chúng tôi khuyên chỉ nên cho phép các địa chỉ IP cụ thể truy cập cổng 10447. Bạn có thể điều chỉnh điều này với Windows Firewall khi tạo một quy tắc tường lửa dưới \"Phạm vi\" và \"Địa chỉ IP từ xa\".",
         "SaveSettings": "Lưu các thiết lập"
       },
       "CreateServer": {
@@ -722,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tác vụ được kích hoạt bằng cách cập nhật hoàn tất",
       "TaskTriggeredByStarting": "Nhiệm vụ được kích hoạt bằng cách bắt đầu",
       "TaskTriggeredByStopping": "Tác vụ được kích hoạt bằng cách dừng",
-      "TaskTriggeredByMapChange": "Nhiệm vụ được kích hoạt bởi thay đổi bản đồ"
+      "TaskTriggeredByMapChange": "Nhiệm vụ được kích hoạt bởi thay đổi bản đồ",
+      "TF2CUpdateNotSupported": "Cập nhật TF2 Classic chưa được hỗ trợ."
     },
     "FileProperties": {
       "Logs_FileProperties": {
