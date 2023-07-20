@@ -123,6 +123,7 @@
         "Properties_Game": "Jeu",
         "Properties_IPAddress": "Adresse IP (facultatif)",
         "Properties_PortNumber": "Numéro De Port",
+        "Properties_Check": "Vérifier",
         "Properties_ExecuteCFG": "Executer CFG",
         "ExecuteCFGOServerCFGOptional": "(facultatif, exécutez le server.cfg automatiquement)",
         "Properties_Map": "Carte",
@@ -307,8 +308,11 @@
         "SteamLoginDesc": "Optionnel. Nécessaire uniquement pour certains jeux ou si vous faites quelque chose de avancé.",
         "Username": "Nom d'utilisateur",
         "Password": "Mot de passe",
+        "API": "API",
         "APIKey": "Clé API",
+        "APIPort": "Port API",
         "GenerateAPIKey": "Générer Une Clé API",
+        "DefaultPort": "Port par défaut",
         "PleaseFillRequiredFields": "Veuillez remplir les champs obligatoires.",
         "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>Informations API</h2><p>Si vous avez un compte <b>Pro</b>, vous pouvez utiliser l'API seDirector.<br><br><b>Remarque</b><br>Vous DEVEZ ajouter la clé API à chaque demande : ?apikey=Votre_Cle_API<br><br><table><thead><tr style=background-color:#d3d3d3><th>Description<th>URI<tbody><tr><td>Répertorier les informations sur les serveurs<td>http://localhost :10447/api/servers<tr><td>Démarrer le serveur<td>http://localhost:10447/api/servers/start/<serverNumber><tr><td>Arrêter le serveur<td>http://localhost :10447/api/servers/stop/<serverNumber><tr><td>Redémarrer le serveur<td>http://localhost:10447/api/servers/restart/<serverNumber><tr><td>Mettre à jour le serveur<td >http://localhost:10447/api/servers/update/<serverNumber><tr><td>Démarrer tous les serveurs<td>http://localhost:10447/api/servers/start/all<tr><td >Arrêter tous les serveurs<td>http://localhost:10447/api/servers/stop/all</table><br><h3>Exemples</h3><b>Démarrer le serveur 2</b><br> http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>Mettre à jour le serveur 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>Accès à distance</h3>Vous peut remplacer \"localhost\" par \"127.0.0.1\" ou lors d'un accès à distance, votre adresse IP publique.<br><br>Si vous souhaitez accéder à votre API à distance via Internet, pour éviter les tentatives de piratage/DDoS, nous vous recommandons d'autoriser uniquement des adresses IP spécifiques pour accéder au port 10447. Vous pouvez régler cela avec le pare-feu Windows lors de la création d'une règle de pare-feu sous « Portée » et « Adresse IP distante ».",
         "SaveSettings": "Enregistrer les paramètres"
@@ -344,10 +348,12 @@
       "DownloadsForGameCurrentlyDisabled": "Les téléchargements pour ce jeu sont actuellement désactivés. Souhaitez-vous voir {0} pour plus d'informations ?",
       "ErrorDuringTf2cDuplication": "Erreur lors de la duplication de tf2classic",
       "CopyingTf2cZip": "Copie du dossier extrait du zip de TF2 Classic sur le serveur",
-      "DownloadLatestedTf2c": "Télécharger les derniers fichiers de jeu TF2 Classic? Les fichiers de jeu TF2 Classic (5-6 Go) prennent environ 10 minutes sur une connexion de 500 Mbps, 20 minutes sur une connexion de 250 mbps, et 40 minutes sur une connexion de 100 Mbps.{LB}{LB}Le téléchargement sera stocké ici: {0}",
+      "DownloadLatestedTf2c": "Vous souhaitez télécharger les fichiers du jeu TF2 Classic ? Si vous avez déjà téléchargé TF2 Classic une fois, il ne le retéléchargera pas, il extraira simplement les derniers fichiers du jeu jusqu'à ce qu'une nouvelle version soit détectée.{LB}{LB}Si vous n'avez pas téléchargé TF2 Classique sur cet ordinateur auparavant, les fichiers du jeu (5 Go) prennent environ 10 minutes sur une connexion 500 Mbps, 20 minutes sur une connexion 250 Mbps, et 50 minutes sur une connexion 100 Mbps.",
       "ErrorWhenDownloadingTf2c": "Erreur lors du téléchargement du fichier zip de TF2 Classic",
       "SelectTf2cFolderCopyExtractedZip": "Sélectionnez le dossier tf2classic à copier (extrait du zip).",
-      "Tf2cNotDetectedCopyAnyway": "TF2 Classic n'est pas détecté dans ce dossier. Nous vous recommandons de cliquer sur Non et de télécharger la dernière version.{LB}{LB}Voulez-vous quand même copier à partir de ce dossier ?"
+      "Tf2cNotDetectedCopyAnyway": "TF2 Classic n'est pas détecté dans ce dossier. Nous vous recommandons de cliquer sur Non et de télécharger la dernière version.{LB}{LB}Voulez-vous quand même copier à partir de ce dossier ?",
+      "TF2CFolderInvalid": "Le dossier tf2classic n'est pas valide. Veuillez supprimer le dossier et relancer le téléchargement.",
+      "TF2CDownloaderDoesNotExist": "Le téléchargeur TF2 Classic n'existe pas. Veuillez signaler un bogue en allant dans Aide > Signaler un bogue."
     },
     "FTP": {
       "CouldNotConnectServer": "impossible de se connecter au serveur. Vérifiez le serveur, le port, le nom d'utilisateur, le mot de passe et le type de connexion.",
@@ -384,7 +390,9 @@
       "ErrorTryingDownload": "Erreur lors de la tentative de téléchargement de {0}. Problème de connexion Internet ?",
       "SelectDirMostCommonUsed": "Sélectionnez le répertoire que vous utilisez le plus souvent dans seDirector.",
       "UnsureCreateDir": "Incertain? Créez un répertoire sous C:\\ appelé Steam et sélectionnez-le.",
-      "DefaultDirToBrowse": "Le paramètre 'Répertoire à parcourir par défaut' indique à seDirector de s'ouvrir automatiquement dans le répertoire spécifié lors de la recherche d'un fichier ou d'un dossier. De cette façon, vous n'avez pas à passer par Ordinateur-> Lecteur C-> Steam-> etc. à chaque fois, il s'ouvrira automatiquement dans le répertoire dans lequel vous l'avez défini."
+      "DefaultDirToBrowse": "Le paramètre 'Répertoire à parcourir par défaut' indique à seDirector de s'ouvrir automatiquement dans le répertoire spécifié lors de la recherche d'un fichier ou d'un dossier. De cette façon, vous n'avez pas à passer par Ordinateur-> Lecteur C-> Steam-> etc. à chaque fois, il s'ouvrira automatiquement dans le répertoire dans lequel vous l'avez défini.",
+      "SedWillReloadLang": "seDirector va maintenant se recharger en utilisant la langue {0}. Vos serveurs continueront de fonctionner.",
+      "SedWillReloadPort": "seDirector va maintenant se recharger en utilisant le port API {0}. Vos serveurs continueront de fonctionner."
     },
     "Progress": {
       "CancelCurrentDownload": "Annuler le téléchargement en cours ?",
@@ -399,7 +407,8 @@
       "CouldNotDetectSteamInf": "Impossible de détecter steam.inf dans le répertoire du jeu. Veuillez ouvrir les Propriétés et sélectionner à nouveau srcds.exe. Si le problème persiste, activez l'option de mise à jour -validate dans les propriétés et la mise à jour, puis désactivez-la.",
       "CouldNotLocateSteamInf": "Impossible de localiser steam.inf dans le répertoire du jeu.",
       "ThisServerFailedToStartSuccessfully": "Ce serveur n'a pas réussi à démarrer.",
-      "ErrorLoadingServersXML": "Une erreur s'est produite lors du chargement du fichier de données Servers.xml. Cela peut être dû à un bug dans seDirector. Si Servers.xml est vide, supprimez le fichier et restaurez-le à partir d'une sauvegarde ou ajoutez manuellement vos serveurs à seDirector. Veuillez envoyer un e-mail à support@sedirector.net et faites-nous savoir ce que vous faisiez dans seDirector juste avant que cela ne se produise. Joignez Servers.xml à votre e-mail s'il n'est PAS vide."
+      "ErrorLoadingServersXML": "Une erreur s'est produite lors du chargement du fichier de données Servers.xml. Cela peut être dû à un bug dans seDirector. Si Servers.xml est vide, supprimez le fichier et restaurez-le à partir d'une sauvegarde ou ajoutez manuellement vos serveurs à seDirector. Veuillez envoyer un e-mail à support@sedirector.net et faites-nous savoir ce que vous faisiez dans seDirector juste avant que cela ne se produise. Joignez Servers.xml à votre e-mail s'il n'est PAS vide.",
+      "TF2CUpdateNotSupportedYet": "La mise à jour TF2C n'est pas encore prise en charge. Pour l'instant, vous pouvez exécuter le téléchargeur TF2C avec l'option de mise à jour avec votre répertoire de jeu."
     },
     "SupportRequest": {
       "PleaseEnterEmail": "S'il vous plaît, mettez une adresse email valide.",
@@ -558,7 +567,8 @@
       "CreateServerConfirm": "Créer {0} dans {1} ?",
       "UpdateToolMissing": "{0} est manquant. Veuillez aller dans Outils->Options pour définir l'emplacement de {0}.",
       "UpdateToolNotSelected": "Aucun outil de mise à jour n'a été sélectionné pour {0}. Veuillez vous rendre dans l'onglet Automatisation dans les propriétés du serveur pour sélectionner un outil de mise à jour.",
-      "ServerBeingCreated": "Le serveur est en cours de création. Veuillez attendre que le programme de mise à jour/d'installation soit terminé, puis sélectionnez srcds.exe dans la fenêtre des propriétés du serveur.",
+      "ServerBeingCreated": "Le serveur va maintenant être créé. Veuillez attendre la fin du programme d'installation, puis sélectionnez srcds.exe dans la fenêtre des propriétés du serveur.",
+      "ServerBeingCreatedTF2C": "TF2 Classic sera téléchargé, extrait et installé, ainsi que les fichiers du serveur de base. Veuillez attendre la fin du programme d'installation, puis sélectionnez srcds.exe dans la fenêtre des propriétés du serveur.",
       "DownloadingUpdateTool": "Cliquez sur OK pour télécharger {0}. Une fois le téléchargement terminé, extrayez l'exe du fichier zip et placez-le dans le répertoire approprié, puis revenez à cet écran.",
       "NoUpdateToolSet": "Aucun outil de mise à jour n'a été défini sur {0} de vos serveurs. Veuillez définir l'outil de mise à jour dans l'onglet Automatisation des propriétés du serveur.",
       "ShuttingDownProper": "Fermeture en cours",
@@ -663,6 +673,7 @@
       "FillInDiscordNotification": "Veuillez remplir le webhook Discord ou décocher la case \"Activer les notifications Discord\".",
       "GameRequiresLoginToUpdate": "Ce jeu nécessite une connexion pour le mettre à jour. Veuillez définir la connexion Steam dans Outils->Options ou la mise à jour échouera.",
       "InstallMetamodSourcemodBeforePlugin": "Vous devez installer Metamod + SourceMod avant d'installer le plugin seDirector.",
+      "MMSSMayNotBeCompatibleTF2C": "Metamod et SourceMod peuvent ne pas être compatibles avec TF2 Classic et pourraient le faire planter au démarrage.",
       "ProcessPriority": {
         "Realtime": "Temps réel",
         "High": "Haute",
@@ -712,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tâche déclenchée par la mise à jour terminée",
       "TaskTriggeredByStarting": "Tâche déclenchée par le démarrage",
       "TaskTriggeredByStopping": "Tâche déclenchée par l'arrêt",
-      "TaskTriggeredByMapChange": "Tâche déclenchée par un changement de carte"
+      "TaskTriggeredByMapChange": "Tâche déclenchée par un changement de carte",
+      "TF2CUpdateNotSupported": "La mise à jour de TF2 Classic n'est pas encore prise en charge."
     },
     "FileProperties": {
       "Logs_FileProperties": {
