@@ -314,6 +314,7 @@
         "GenerateAPIKey": "Generar clave API",
         "DefaultPort": "Puerto predeterminado",
         "PleaseFillRequiredFields": "Por favor complete los campos obligatorios.",
+        "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>Información de API</h2><p>Si tienes una cuenta <b>Pro</b>, puedes utilizar la API de seDirector.<br><br><b>Nota</b><br>DEBES agregar la clave API a cada solicitud: ?apikey=LA_CLAVE_API_VA_AQUÍ<br><br><table><thead><tr style=background-color:#d3d3d3><th>Descripción<th>URI<tbody><tr><td>Lista la información de los servidores<td>http://localhost:10447/api/servers<tr><td>Iniciar servidor<td>http://localhost:10447/api/servers/start/&lt;serverNumber><tr><td>Detener servidor<td>http://localhost:10447/api/servers/stop/&lt;serverNumber><tr><td>Reiniciar servidor<td>http://localhost:10447/api/servers/restart/&lt;serverNumber><tr><td>Actualizar servidor<td>http://localhost:10447/api/servers/update/&lt;serverNumber><tr><td>Iniciar Todos los Servidores<td>http://localhost:10447/api/servers/start/all<tr><td>Detener Todos los Servidores<td>http://localhost:10447/api/servers/stop/all</table><br><h3>Ejemplos</h3><b>Iniciar servidor 2</b><br>http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>Actualizar servidor 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>Acceso Remoto</h3>Puedes reemplazar \"localhost\" con \"127.0.0.1\" o, al acceder de forma remota, tu dirección IP pública.<br><br>Si deseas acceder a tu API de forma remota a través de Internet, para evitar intentos de hacking/DDoS, recomendamos permitir solo direcciones IP específicas para acceder al puerto 10447. Puedes ajustar esto con el Firewall de Windows cuando creas una regla de firewall bajo \"Ámbito\" y \"Dirección IP remota\".",
         "SaveSettings": "Guardar ajustes"
       },
       "CreateServer": {
@@ -722,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tarea desencadenada por actualización completa",
       "TaskTriggeredByStarting": "Tarea desencadenada al iniciar",
       "TaskTriggeredByStopping": "Tarea desencadenada al detenerse",
-      "TaskTriggeredByMapChange": "Tarea desencadenada por cambio de mapa"
+      "TaskTriggeredByMapChange": "Tarea desencadenada por cambio de mapa",
+      "TF2CUpdateNotSupported": "La actualización de TF2 Classic aún no está soportada."
     },
     "FileProperties": {
       "Logs_FileProperties": {
