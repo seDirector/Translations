@@ -723,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "서버 업데이트가 완료되면 실행되는 작업",
       "TaskTriggeredByStarting": "서버 실행 시 실행되는 작업",
       "TaskTriggeredByStopping": "서버 종료 시 실행되는 작업",
-      "TaskTriggeredByMapChange": "맵 변경 시 실행되는 작업"
+      "TaskTriggeredByMapChange": "맵 변경 시 실행되는 작업",
+      "TF2CUpdateNotSupported": "TF2 Classic 업데이트는 아직 지원되지 않습니다."
     },
     "FileProperties": {
       "Logs_FileProperties": {
