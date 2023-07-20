@@ -723,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tarefa acionada por atualização concluída",
       "TaskTriggeredByStarting": "Tarefa acionada ao iniciar",
       "TaskTriggeredByStopping": "Tarefa acionada pela parada",
-      "TaskTriggeredByMapChange": "Tarefa acionada por alteração de mapa"
+      "TaskTriggeredByMapChange": "Tarefa acionada por alteração de mapa",
+      "TF2CUpdateNotSupported": "A atualização do TF2 Classic ainda não é suportada."
     },
     "FileProperties": {
       "Logs_FileProperties": {
