@@ -123,6 +123,7 @@
         "Properties_Game": "Jogo",
         "Properties_IPAddress": "Endereço IP (opcional)",
         "Properties_PortNumber": "Número da Porta",
+        "Properties_Check": "Verificar",
         "Properties_ExecuteCFG": "Executar CFG",
         "ExecuteCFGOServerCFGOptional": "(opcional, server.cfg é executado automaticamente)",
         "Properties_Map": "Mapa",
@@ -307,8 +308,11 @@
         "SteamLoginDesc": "Opcional. Somente necessário para alguns jogos ou se você estiver fazendo algo avançado.",
         "Username": "Nome de usuário",
         "Password": "Senha",
+        "API": "API",
         "APIKey": "Chave API",
+        "APIPort": "Porta API",
         "GenerateAPIKey": "Gerar Chave de API",
+        "DefaultPort": "Porta Padrão",
         "PleaseFillRequiredFields": "Por favor, preencha os campos obrigatórios.",
         "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>Informações da API</h2><p>Se você tiver uma conta <b>Pro</b>, você pode utilizar a API seDirector.<br><br><b>Observação</b><br>Você DEVE anexar a chave API a cada solicitação: ?apikey=APIKEY_GOES_HERE<br><br><table><thead><tr style=background-color:#d3d3d3><th>Descrição<th>URI<tbody><tr><td>Informações da lista de servidores<td>http://localhost :10447/api/servers<tr><td>Iniciar servidor<td>http://localhost:10447/api/servers/start/<serverNumber><tr><td>Parar servidor<td>http://localhost :10447/api/servers/stop/<serverNumber><tr><td>Reiniciar servidor<td>http://localhost:10447/api/servers/restart/<serverNumber><tr><td>Atualizar servidor<td >http://localhost:10447/api/servers/update/<serverNumber><tr><td>Iniciar todos os servidores<td>http://localhost:10447/api/servers/start/all<tr><td >Parar todos os servidores<td>http://localhost:10447/api/servers/stop/all</table><br><h3>Exemplos</h3><b>Iniciar servidor 2</b><br> http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>Servidor de atualização 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>Acesso remoto</h3>Você pode substituir \"localhost\" por \"127.0.0.1\" ou ao acessar remotamente, seu endereço IP público.<br><br>Se você deseja acessar sua API remotamente pela Internet, para evitar tentativas de hacking/DDoS, recomendamos permitir apenas endereços IP específicos para acessar a porta 10447. Você pode ajustar isso com o Firewall do Windows ao criar uma regra de firewall em \"Escopo\" e \"Endereço IP remoto\".",
         "SaveSettings": "Salvar Configurações"
@@ -344,10 +348,12 @@
       "DownloadsForGameCurrentlyDisabled": "Downloads deste jogo estão desativados no momento. Gostaria de visualizar {0} para obter mais informações?",
       "ErrorDuringTf2cDuplication": "Erro durante a duplicação do tf2classic",
       "CopyingTf2cZip": "Copiando a pasta extraída do TF2 Classic zip para o servidor",
-      "DownloadLatestedTf2c": "Baixar os últimos arquivos do jogo TF2 Classic? Os arquivos do jogo TF2 Classic (5-6 GB) levam cerca de 10 minutos em uma conexão de 500 Mbps, 20 minutos em uma conexão de 250 Gbps e 40 minutos em uma conexão de 100 Mbps.{LB}{LB}O download será armazenado aqui: {0 }",
+      "DownloadLatestedTf2c": "Deseja baixar os arquivos do jogo TF2 Classic? Se você já baixou o TF2 Classic uma vez, ele não fará o download novamente, apenas extrairá os arquivos do jogo mais recente até que uma nova versão seja detectada.{LB}{LB}Se você não baixou o TF2 Clássico neste computador antes, os arquivos do jogo (5 GB) levam cerca de 10 minutos em uma conexão de 500 Mbps, 20 minutos em uma conexão de 250 Mbps e 50 minutos em uma conexão de 100 Mbps.",
       "ErrorWhenDownloadingTf2c": "Erro ao baixar o arquivo zip do TF2 Classic",
       "SelectTf2cFolderCopyExtractedZip": "Selecione a pasta tf2classic para copiar (extraída do zip).",
-      "Tf2cNotDetectedCopyAnyway": "TF2 Classic não é detectado nesta pasta. Recomendamos que você clique em Não e baixe a versão mais recente.{LB}{LB}Deseja copiar desta pasta mesmo assim?"
+      "Tf2cNotDetectedCopyAnyway": "TF2 Classic não é detectado nesta pasta. Recomendamos que você clique em Não e baixe a versão mais recente.{LB}{LB}Deseja copiar desta pasta mesmo assim?",
+      "TF2CFolderInvalid": "A pasta tf2classic não é válida. Exclua a pasta e execute o download novamente.",
+      "TF2CDownloaderDoesNotExist": "O downloader do TF2 Classic não existe. Relate um bug acessando Ajuda > Relatar bug."
     },
     "FTP": {
       "CouldNotConnectServer": "Não foi possível conectar-se ao servidor. Verifique o servidor, porta, nome de usuário, senha e tipo de conexão.",
@@ -384,7 +390,9 @@
       "ErrorTryingDownload": "Erro ao tentar baixar {0}. Problema de conexão com a Internet?",
       "SelectDirMostCommonUsed": "Selecione o diretório que você usa com mais freqüência no seDirector.",
       "UnsureCreateDir": "Inseguro? Crie um diretório em C:\\ chamado Steam e selecione-o.",
-      "DefaultDirToBrowse": "A configuração 'Diretório Padrão para Navegar' diz ao seDirector para abrir automaticamente para o diretório especificado quando estiver navegando por um arquivo ou pasta. Dessa forma, você não precisa passar por Computador->C Drive->Steam->etc todas as vezes, ele se abrirá automaticamente para o diretório em que você o configurou."
+      "DefaultDirToBrowse": "A configuração 'Diretório Padrão para Navegar' diz ao seDirector para abrir automaticamente para o diretório especificado quando estiver navegando por um arquivo ou pasta. Dessa forma, você não precisa passar por Computador->C Drive->Steam->etc todas as vezes, ele se abrirá automaticamente para o diretório em que você o configurou.",
+      "SedWillReloadLang": "O seDirector agora será recarregado usando o idioma {0}. Seus servidores permanecerão em execução.",
+      "SedWillReloadPort": "O seDirector agora será recarregado usando a porta API {0}. Seus servidores permanecerão em execução."
     },
     "Progress": {
       "CancelCurrentDownload": "Cancelar o download atual?",
@@ -399,7 +407,8 @@
       "CouldNotDetectSteamInf": "Não foi possível detectar o steam.inf no diretório de jogos. Favor abrir Propriedades e selecionar srcds.exe novamente. Se o problema persistir, ligue a opção -validar atualização em propriedades e atualize, depois desligue-a novamente.",
       "CouldNotLocateSteamInf": "Não foi possível localizar o steam.inf no diretório de jogos.",
       "ThisServerFailedToStartSuccessfully": "Este servidor falhou em começar com sucesso.",
-      "ErrorLoadingServersXML": "Houve um erro ao carregar o arquivo de dados Servers.xml. Isto poderia ser causado por um erro no seDirector. Se o Servers.xml estiver vazio, exclua o arquivo e ou restaure-o de um backup ou adicione seus servidores de volta ao seDirector manualmente. Por favor, envie um e-mail para support@sedirector.net e nos informe o que você estava fazendo no seDirector antes que isto acontecesse. Anexe o Servers.xml ao seu e-mail se ele NÃO estiver vazio."
+      "ErrorLoadingServersXML": "Houve um erro ao carregar o arquivo de dados Servers.xml. Isto poderia ser causado por um erro no seDirector. Se o Servers.xml estiver vazio, exclua o arquivo e ou restaure-o de um backup ou adicione seus servidores de volta ao seDirector manualmente. Por favor, envie um e-mail para support@sedirector.net e nos informe o que você estava fazendo no seDirector antes que isto acontecesse. Anexe o Servers.xml ao seu e-mail se ele NÃO estiver vazio.",
+      "TF2CUpdateNotSupportedYet": "A atualização TF2C ainda não é suportada. Por enquanto, você pode executar o TF2C Downloader com a opção de atualização no diretório do seu jogo."
     },
     "SupportRequest": {
       "PleaseEnterEmail": "Por favor, digite um endereço de e-mail válido.",
@@ -558,7 +567,8 @@
       "CreateServerConfirm": "Criar {0} em {1}?",
       "UpdateToolMissing": "{0} está faltando. Por favor, vá para Ferramentas->Opções para definir a localização de {0}.",
       "UpdateToolNotSelected": "Uma ferramenta de atualização não foi selecionada para {0}. Favor ir para a guia Automação nas propriedades do servidor para selecionar uma ferramenta de atualização.",
-      "ServerBeingCreated": "O servidor está sendo criado agora. Aguarde até que o atualizador/instalador tenha terminado, então selecione srcds.exe na janela de propriedades do servidor.",
+      "ServerBeingCreated": "O servidor agora será criado. Aguarde até que o instalador termine e selecione srcds.exe na janela de propriedades do servidor.",
+      "ServerBeingCreatedTF2C": "O TF2 Classic será baixado, extraído e instalado, juntamente com os arquivos do servidor base. Aguarde até que o instalador termine e selecione srcds.exe na janela de propriedades do servidor.",
       "DownloadingUpdateTool": "Clique OK para fazer o download {0}. Após a conclusão do download, extraia o exe do arquivo zip e coloque o diretório apropriado, depois volte a esta tela.",
       "NoUpdateToolSet": "Uma ferramenta de atualização não foi configurada no {0} de seus servidores. Por favor, defina a ferramenta de atualização na guia Automação das propriedades do servidor.",
       "ShuttingDownProper": "Desligando",
@@ -663,6 +673,7 @@
       "FillInDiscordNotification": "Preencha o webhook do Discord ou desmarque a caixa de seleção 'Ativar Notificações do Discord'.",
       "GameRequiresLoginToUpdate": "Este jogo requer um login para ser atualizado. Por favor, defina o login Steam em Ferramentas->Opções ou atualização falhará.",
       "InstallMetamodSourcemodBeforePlugin": "Você deve instalar o Metamod + SourceMod antes de instalar o plugin seDirector.",
+      "MMSSMayNotBeCompatibleTF2C": "Metamod e SourceMod podem não ser compatíveis com TF2 Classic e podem fazer com que ele trave ao iniciar.",
       "ProcessPriority": {
         "Realtime": "Em tempo real",
         "High": "Alto",
@@ -712,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Tarefa acionada por atualização concluída",
       "TaskTriggeredByStarting": "Tarefa acionada ao iniciar",
       "TaskTriggeredByStopping": "Tarefa acionada pela parada",
-      "TaskTriggeredByMapChange": "Tarefa acionada por alteração de mapa"
+      "TaskTriggeredByMapChange": "Tarefa acionada por alteração de mapa",
+      "TF2CUpdateNotSupported": "A atualização do TF2 Classic ainda não é suportada."
     },
     "FileProperties": {
       "Logs_FileProperties": {
