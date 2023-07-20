@@ -723,7 +723,8 @@
       "TaskTriggeredByUpdateComplete": "Задача, запущенная обновлением, завершена",
       "TaskTriggeredByStarting": "Задача при запуске сервера",
       "TaskTriggeredByStopping": "Задачи при остановке сервера",
-      "TaskTriggeredByMapChange": "Задача при смене карты"
+      "TaskTriggeredByMapChange": "Задача при смене карты",
+      "TF2CUpdateNotSupported": "Обновление TF2 Classic пока не поддерживается."
     },
     "FileProperties": {
       "Logs_FileProperties": {
