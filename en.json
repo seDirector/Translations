@@ -723,7 +723,8 @@
         "TaskTriggeredByUpdateComplete": "Task triggered by update complete",
         "TaskTriggeredByStarting": "Task triggered by starting",
         "TaskTriggeredByStopping": "Task triggered by stopping",
-        "TaskTriggeredByMapChange": "Task triggered by map change"
+        "TaskTriggeredByMapChange": "Task triggered by map change",
+        "TF2CUpdateNotSupported": "TF2 Classic update not yet supported."
       },
       "FileProperties": {
         "Logs_FileProperties": {
