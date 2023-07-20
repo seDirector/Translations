@@ -123,6 +123,7 @@
         "Properties_Game": "게임",
         "Properties_IPAddress": "IP 주소(선택 사항)",
         "Properties_PortNumber": "포트 번호",
+        "Properties_Check": "확인하다",
         "Properties_ExecuteCFG": "CFG 실행",
         "ExecuteCFGOServerCFGOptional": "(선택사항, server.cfg가 자동으로 실행됨)",
         "Properties_Map": "맵",
@@ -307,8 +308,11 @@
         "SteamLoginDesc": "선택 항목. 일부 게임이나 고급 작업을 수행하는 경우에만 필요합니다.",
         "Username": "사용자 이름",
         "Password": "비밀번호",
+        "API": "API",
         "APIKey": "API Key",
+        "APIPort": "API 포트",
         "GenerateAPIKey": "API Key 생성",
+        "DefaultPort": "기본 포트",
         "PleaseFillRequiredFields": "필수 항목을 작성하십시오.",
         "APIKeyMoreInfo": "<style>body{margin:0;padding:0;font-family:Tahoma,Geneva,sans-serif;font-size:13px}</style><h2>API 정보</h2><p>있는 경우 <b>Pro</b> 계정이 있으면 seDirector API를 활용할 수 있습니다.<br><br><b>참고</b><br>각 요청에 api 키를 추가해야 합니다. ?apikey=APIKEY_GOES_HERE<br><br><table><thead><tr style=background-color:#d3d3d3><th>설명<th>URI<tbody><tr><td>서버 정보 나열<td>http://localhost:10447/api/servers<tr><td>서버 시작<td>http://localhost:10447/api/servers/start/<serverNumber><tr><td>서버 중지<td>http://localhost:10447/api/servers/stop/<serverNumber><tr><td>서버 다시 시작<td>http://localhost:10447/api/servers/restart/<serverNumber><tr><td>서버 업데이트<td >http://localhost:10447/api/servers/update/<serverNumber><tr><td>모든 서버 시작<td>http://localhost:10447/api/servers/start/all<tr><td >모든 서버 중지<td>http://localhost:10447/api/servers/stop/all</table><br><h3>예제</h3><b>서버 2 시작</b><br> http://localhost:10447/api/servers/start/2?apikey=abc123<br><br><b>업데이트 서버 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br><h3>원격 액세스</h3>\"localhost\"를 \"127.0.0.1\"로 바꾸거나 원격 접속 시 공인 IP 주소로 대체할 수 있습니다.<br><br>인터넷을 통해 원격으로 API에 접속하려면 해킹/DDoS 시도를 피하기 위해 다음 항목만 허용하는 것이 좋습니다. 포트 10447에 액세스하기 위한 특정 IP 주소. \"범위\" 및 \"원격 IP 주소\"에서 방화벽 규칙을 만들 때 Windows 방화벽으로 이를 조정할 수 있습니다.",
         "SaveSettings": "설정 저장"
@@ -347,7 +351,9 @@
       "DownloadLatestedTf2c": "최신 TF2 Classic 게임 파일을 다운로드하시겠습니까? TF2 Classic 게임 파일(5-6GB)은 500Mbps 연결 시 약 10분, 250Mbps 연결 시 20분, 100Mbps 연결 시 40분이 소요됩니다.{LB}{LB}다운로드 는 이 경로에 저장됩니다: {0 }",
       "ErrorWhenDownloadingTf2c": "TF2 Classic 압축 파일을 다운로드 중 오류가 발생했습니다.",
       "SelectTf2cFolderCopyExtractedZip": "복사할 TF2 Classic 폴더를 선택합니다(압축 파일에서 추출).",
-      "Tf2cNotDetectedCopyAnyway": "TF2 Classic은 이 폴더에서 감지되지 않습니다. 아니요를 클릭하고 최신 버전을 다운로드하는 것이 좋습니다.{LB}{LB}그래도 이 폴더에서 복사하시겠습니까?"
+      "Tf2cNotDetectedCopyAnyway": "TF2 Classic은 이 폴더에서 감지되지 않습니다. 아니요를 클릭하고 최신 버전을 다운로드하는 것이 좋습니다.{LB}{LB}그래도 이 폴더에서 복사하시겠습니까?",
+      "TF2CFolderInvalid": "tf2classic 폴더가 유효하지 않습니다. 폴더를 삭제하고 다운로드를 다시 실행하십시오.",
+      "TF2CDownloaderDoesNotExist": "TF2 클래식 다운로더가 존재하지 않습니다. 도움말 > 버그 보고로 이동하여 버그를 보고하십시오."
     },
     "FTP": {
       "CouldNotConnectServer": "서버에 연결할 수 없습니다. 서버, 포트, 사용자 이름, 암호 및 연결 유형을 확인하십시오.",
@@ -384,7 +390,9 @@
       "ErrorTryingDownload": "{0} 다운로드를 시도하는 동안 오류가 발생했습니다. 인터넷 연결 문제?",
       "SelectDirMostCommonUsed": "seDirector에서 가장 일반적으로 사용하는 디렉토리를 선택하십시오.",
       "UnsureCreateDir": "불안정한가요? C:\\ 경로에 Steam이라는 디렉터리를 만들고 선택합니다.",
-      "DefaultDirToBrowse": "'기본 디렉터리' 설정은 파일이나 폴더를 검색할 때 자동으로 지정된 디렉터리를 열도록 seDirector에 지시합니다. 그렇게 하면 매번 Computer->C Drive->Steam->etc로 이동할 필요가 없습니다. 그러면 자동으로 설정한 디렉토리가 열립니다."
+      "DefaultDirToBrowse": "'기본 디렉터리' 설정은 파일이나 폴더를 검색할 때 자동으로 지정된 디렉터리를 열도록 seDirector에 지시합니다. 그렇게 하면 매번 Computer->C Drive->Steam->etc로 이동할 필요가 없습니다. 그러면 자동으로 설정한 디렉토리가 열립니다.",
+      "SedWillReloadLang": "이제 seDirector는 {0} 언어를 사용하여 다시 로드합니다. 서버는 계속 실행됩니다.",
+      "SedWillReloadPort": "이제 seDirector가 API 포트 {0}을(를) 사용하여 다시 로드합니다. 서버는 계속 실행됩니다."
     },
     "Progress": {
       "CancelCurrentDownload": "현재 다운로드를 취소하시겠습니까?",
@@ -399,7 +407,8 @@
       "CouldNotDetectSteamInf": "게임 디렉토리에서 steam.inf를 감지할 수 없습니다. 속성을 열고 srcds.exe를 다시 선택하십시오. 문제가 지속되면 속성 및 업데이트에서 -validate 업데이트 옵션을 켠 다음 다시 끕니다.",
       "CouldNotLocateSteamInf": "게임 디렉토리에서 steam.inf를 찾을 수 없습니다.",
       "ThisServerFailedToStartSuccessfully": "이 서버는 성공적으로 시작하지 못했습니다.",
-      "ErrorLoadingServersXML": "Servers.xml 데이터 파일을 로드하는 동안 오류가 발생했습니다. 이것은 seDirector의 버그로 인해 발생할 수 있습니다. Servers.xml이 비어 있으면 파일을 삭제하고 백업에서 복원하거나 수동으로 서버를 다시 seDirector에 추가하십시오. support@sedirector.net으로 이메일을 보내 이 일이 발생하기 직전에 seDirector에서 무엇을 하고 있었는지 알려주십시오. 비어 있지 않은 경우 이메일에 Servers.xml을 첨부하십시오."
+      "ErrorLoadingServersXML": "Servers.xml 데이터 파일을 로드하는 동안 오류가 발생했습니다. 이것은 seDirector의 버그로 인해 발생할 수 있습니다. Servers.xml이 비어 있으면 파일을 삭제하고 백업에서 복원하거나 수동으로 서버를 다시 seDirector에 추가하십시오. support@sedirector.net으로 이메일을 보내 이 일이 발생하기 직전에 seDirector에서 무엇을 하고 있었는지 알려주십시오. 비어 있지 않은 경우 이메일에 Servers.xml을 첨부하십시오.",
+      "TF2CUpdateNotSupportedYet": "TF2C 업데이트는 아직 지원되지 않습니다. 지금은 게임 디렉토리에서 업데이트 옵션으로 TF2C 다운로더를 실행할 수 있습니다."
     },
     "SupportRequest": {
       "PleaseEnterEmail": "유효한 이메일 주소를 입력하세요.",
@@ -559,6 +568,7 @@
       "UpdateToolMissing": "{0}이(가) 없습니다. 도구->옵션으로 이동하여 {0}의 위치를 설정하십시오.",
       "UpdateToolNotSelected": "{0}에 대한 업데이트 도구가 선택되지 않았습니다. 업데이트 도구를 선택하려면 서버 속성의 자동화 탭으로 이동하십시오.",
       "ServerBeingCreated": "지금 서버를 만드는 중입니다. 업데이트/설치 프로그램이 완료될 때까지 기다린 다음 서버 속성 창에서 srcds.exe를 선택하십시오.",
+      "ServerBeingCreatedTF2C": "TF2 클래식은 기본 서버 파일과 함께 다운로드, 추출 및 설치됩니다. 설치 프로그램이 완료될 때까지 기다린 다음 서버 속성 창에서 srcds.exe를 선택하십시오.",
       "DownloadingUpdateTool": "확인을 클릭하여 {0}을(를) 다운로드합니다. 다운로드가 완료되면 zip 파일에서 exe를 추출하고 적절한 디렉토리를 배치한 다음 이 화면으로 돌아옵니다.",
       "NoUpdateToolSet": "서버의 {0}에 업데이트 도구가 설정되지 않았습니다. 서버 속성의 자동화 탭에서 업데이트 도구를 설정하십시오.",
       "ShuttingDownProper": "종료",
@@ -663,6 +673,7 @@
       "FillInDiscordNotification": "Discord 웹훅을 작성하거나 'Discord 알림 활성화' 확인란의 선택을 취소하세요.",
       "GameRequiresLoginToUpdate": "이 게임을 업데이트하려면 로그인이 필요합니다. 도구->옵션에서 Steam 로그인을 설정하세요. 그렇지 않으면 업데이트가 실패합니다.",
       "InstallMetamodSourcemodBeforePlugin": "seDirector 플러그인을 설치하기 전에 Metamod + SourceMod를 설치해야 합니다.",
+      "MMSSMayNotBeCompatibleTF2C": "Metamod 및 SourceMod는 TF2 Classic과 호환되지 않을 수 있으며 시작 시 충돌이 발생할 수 있습니다.",
       "ProcessPriority": {
         "Realtime": "실시간",
         "High": "상",
