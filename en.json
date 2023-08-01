@@ -550,6 +550,8 @@
         "DetectedRestartRequest": "Detected restart request",
         "ServerStoppedForUpdating": "Server stopped for updating",
         "ServerStoppedForPendingRestart": "Server stopped for pending restart",
+        "PendingRestartTimeout": "Greater than {0} seconds has passed since restart request, forcing server restart",
+        "PendingUpdateTimeout": "Greater than {0} seconds has passed since update request, forcing update",
         "UpdateComplete": "Update complete",
         "AreYouSureTerminate": "Are you sure you want to terminate all instances of {0}.exe?",
         "AllInstancesOf": "All instances of {0}.exe have been terminated if they existed.",
