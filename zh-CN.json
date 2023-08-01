@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "检测到重启请求",
       "ServerStoppedForUpdating": "服务器停止更新",
       "ServerStoppedForPendingRestart": "服务器已停止等待重新启动",
+      "PendingRestartTimeout": "自重启请求以来已经过去了{0}秒以上，强制服务器重启",
+      "PendingUpdateTimeout": "自更新请求以来已经过去了{0}秒以上，强制更新",
       "UpdateComplete": "更新完成",
       "AreYouSureTerminate": "您确定要终止 {0}.exe 的所有实例吗？",
       "AllInstancesOf": "{0}.exe 的所有实例（如果存在）都已终止。",
