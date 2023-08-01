@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "Pedido de reinício detectado",
       "ServerStoppedForUpdating": "Servidor parado para atualização",
       "ServerStoppedForPendingRestart": "Servidor parado para reinício pendente",
+      "PendingRestartTimeout": "Mais de {0} segundos se passaram desde o pedido de reinicialização, forçando a reinicialização do servidor",
+      "PendingUpdateTimeout": "Mais de {0} segundos se passaram desde o pedido de atualização, forçando a atualização",
       "UpdateComplete": "Atualização completa",
       "AreYouSureTerminate": "Você tem certeza de que quer encerrar todas as instâncias do {0}.exe?",
       "AllInstancesOf": "Todas as instâncias do {0}.exe foram encerradas, se é que existiam.",
