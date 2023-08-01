@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "Demande de redémarrage détectée",
       "ServerStoppedForUpdating": "Serveur arrêté pour mise à jour",
       "ServerStoppedForPendingRestart": "Serveur arrêté pour redémarrage en attente",
+      "PendingRestartTimeout": "Plus de {0} secondes se sont écoulées depuis la demande de redémarrage, forçant le redémarrage du serveur",
+      "PendingUpdateTimeout": "Plus de {0} secondes se sont écoulées depuis la demande de mise à jour, forçant la mise à jour",
       "UpdateComplete": "Mise à jour terminée",
       "AreYouSureTerminate": "Voulez-vous vraiment arrêter toutes les instances de {0}.exe ?",
       "AllInstancesOf": "Toutes les instances de {0}.exe ont été arrêtées si elles existaient.",
