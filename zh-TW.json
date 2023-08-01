@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "Detected restart request",
       "ServerStoppedForUpdating": "Server stopped for updating",
       "ServerStoppedForPendingRestart": "Server stopped for pending restart",
+      "PendingRestartTimeout": "自重新啟動請求以來已超過{0}秒，強制伺服器重新啟動",
+      "PendingUpdateTimeout": "自更新請求以來已超過{0}秒，強制更新",
       "UpdateComplete": "更新完成",
       "AreYouSureTerminate": "Are you sure you want to terminate all instances of {0}.exe?",
       "AllInstancesOf": "All instances of {0}.exe have been terminated if they existed.",
