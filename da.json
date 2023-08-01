@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "Anmodning om genstart blev fundet",
       "ServerStoppedForUpdating": "Serveren stoppede for opdatering",
       "ServerStoppedForPendingRestart": "Server stoppet for afventende genstart",
+      "PendingRestartTimeout": "Mere end {0} sekunder er gået siden genstartanmodningen, tvinger servergenstart",
+      "PendingUpdateTimeout": "Mere end {0} sekunder er gået siden opdateringsanmodningen, tvinger opdatering",
       "UpdateComplete": "Opdatering fuldført",
       "AreYouSureTerminate": "Er du sikker på, at du vil afslutte alle forekomster af {0} .exe?",
       "AllInstancesOf": "Alle forekomster af {0} .exe er blevet afsluttet, hvis de eksisterede.",
