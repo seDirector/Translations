@@ -550,6 +550,8 @@
       "DetectedRestartRequest": "Đã phát hiện yêu cầu khởi động lại",
       "ServerStoppedForUpdating": "Máy chủ ngừng cập nhật",
       "ServerStoppedForPendingRestart": "Máy chủ đã dừng để chờ khởi động lại",
+      "PendingRestartTimeout": "Đã hơn {0} giây kể từ khi yêu cầu khởi động lại, buộc phải khởi động lại máy chủ",
+      "PendingUpdateTimeout": "Đã hơn {0} giây kể từ khi yêu cầu cập nhật, buộc phải cập nhật",
       "UpdateComplete": "Cập nhật thành công",
       "AreYouSureTerminate": "Bạn có chắc chắn muốn chấm dứt tất cả các phiên bản của {0} .exe không?",
       "AllInstancesOf": "Tất cả các bản sao của {0} .exe đã bị chấm dứt nếu chúng tồn tại.",
