@@ -128,6 +128,7 @@
         "ExecuteCFGOServerCFGOptional": "(opcional, server.cfg é executado automaticamente)",
         "Properties_Map": "Mapa",
         "Properties_NumberOfPlayers": "Número de Jogadores",
+        "Properties_NumberOfPlayersDefaultCheckbox": "Padrão ou usar do arquivo cfg",
         "Properties_Secure": "Seguro",
         "Properties_PlayerPassword": "Player Password",
         "Properties_RconPassword": "RCON Password",
