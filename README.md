@@ -61,4 +61,4 @@ Some of the HTML strings can be daunting. You can use a tool like <a target="_bl
 
 # Contributing
 
-Translations, Beta Testing, and Code Contributions qualify for a Contributor license, recognition in-app, but must remain active. For details please see the [Contributing](seDirector/App/blob/master/CONTRIBUTING.md) page.
+Translations, Beta Testing, and Code Contributions qualify for a Contributor license, recognition in-app, but must remain active. For details please see the [Contributing](/seDirector/App/blob/master/CONTRIBUTING.md) page.
