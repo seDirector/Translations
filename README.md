@@ -57,7 +57,7 @@ Some of the HTML strings can be daunting. You can use a tool like <a target="_bl
 6.  `{LB}` means line break - please keep existing line breaks and double line breaks.
 7.  For strings related to the API, please keep the URLs the same. For example, `/update/4` should be kept `/update/4` and NOT translated.
 
-# Contributor's Benefits & License
+# Contributor Benefits & License
 
 -   All contributors who provide a significant amount of data to seDirector will be granted a complimentary Contributor license, which has the same features as the Pro license. This means you will have access to all features of [seDirector](https://github.com/seDirector/App/wiki/Pro-Edition).
 -   Applicable contributors include those who translate seDirector, provide data or in-depth research for seDirector, or contribute to the codebase. The contributions must be significant enough to warrant a license. Generally that means 1+ hours of time.
