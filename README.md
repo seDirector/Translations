@@ -35,21 +35,21 @@ If you can read/write in any of these languages OR if you have another language 
 
 # Getting Started
 
-1. Join the #translations channel on Discord by messaging a mod or emailing support [at] sedirector [dot] net. This will enable you to chat with other translators, ask questions, and receive beta versions to test your translations.
-2.  [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
-3.  Type the translation on the right side of the page and click **Submit**.
-4.  When you are ready to submit the translation for review:
+1. Join the **#translations** channel on Discord by messaging a mod or emailing support [at] sedirector [dot] net. This will enable you to chat with other translators, ask questions, and receive beta versions to test your translations.
+2. [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
+3. Type the translation on the right side of the page and click **Submit**.
+4. When you are ready to submit the translation for review:
     1. Click **Create Review Request** at the top.
     2. Type a comment (optional) and click **Submit**.
     3. Click **Send Pull Request**, give it a title, and click **Submit Pull Request**.
-5.  Once a translation file has enough of the main translations done, it will be merged into seDirector.
-6.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
+5. Once a translation file has enough of the main translations done, it will be merged into seDirector.
+6. Updates to language files on the repo will continue to be updated in seDirector in future versions.
 
 Some of the HTML strings can be daunting. You can use a tool like <a target="_blank" href="https://www.sceditor.com/">SCEditor</a> to visualize the HTML and make it easier to edit. Just click the "view source" button and paste the English HTML string into it, then click it again to see the HTML version. After editing, click the "view source" button again and copy the HTML back into GitLocalize. Please make sure the HTML tags still match what the English string shows. Thank you!
 
 # Rules to Follow
 
-1.  Do not translate if you don't read and write the language.
+1.  Please only translate if you read and write the language fluently.
 2.  If you see HTML tags, please do **not** change/remove the HTML tags, just replace words/phrases as needed.
 3.  Keep the case the same - if it's capitalized, capitalize the translation, if there is a period, use a period in the translation, if it has a comma, use a comma, etc.
 4.  There may be duplicate translations - please keep them.
@@ -58,16 +58,11 @@ Some of the HTML strings can be daunting. You can use a tool like <a target="_bl
 7.  For strings related to the API, please keep the URLs the same. For example, `/update/4` should be kept `/update/4` and NOT translated.
 
 # Contributor's Benefits & License
-- All contributors who provide a significant amount of data to seDirector will be granted a complimentary Contributor license, which has the same features as the Pro license. This means you will have access to all features of [seDirector](https://github.com/seDirector/App/wiki/Pro-Edition).
-- Applicable contributors include those who translate seDirector, provide data or in-depth research for seDirector, or contribute to the codebase. The contributions must be significant enough to warrant a license. Generally that means 1+ hours of time.
-- Your username will be mentioned in seDirector, on the `Help > About` screen under the `Contributors` section.
-- When you contribute to seDirector, you grant a license to seDirector to use your contribution in any way it chooses, including modifying and redistributing it under the seDirector project license.
-- You also grant seDirector a license to use your GitHub username for the purpose of giving you credit for your contribution (optional if requested).
-- Contributors *must* remain active and participating with seDirector, on Discord and on GitHub. If no contributions have been made in over 3 months, even though the mods have requested translations or other assistance, your account may revert back to the free license.
-- This is in order to ensure that the project remains active and contributors are participating. seDirector reserves the right to revoke contributor licenses at any time for any reason. If you have any questions, please ask on Discord.
 
-# Questions / Social
-
-Join the **#translations** channel on [Discord](https://sedirector.net/discord) by requesting access from one of the mods or emailing support [at] sedirector [dot] net.
-
-Let us know your username and you'll be added to the list above.
+-   All contributors who provide a significant amount of data to seDirector will be granted a complimentary Contributor license, which has the same features as the Pro license. This means you will have access to all features of [seDirector](https://github.com/seDirector/App/wiki/Pro-Edition).
+-   Applicable contributors include those who translate seDirector, provide data or in-depth research for seDirector, or contribute to the codebase. The contributions must be significant enough to warrant a license. Generally that means 1+ hours of time.
+-   Your username will be mentioned in seDirector, on the `Help > About` screen under the `Contributors` section.
+-   When you contribute to seDirector, you grant a license to seDirector to use your contribution in any way it chooses, including modifying and redistributing it under the seDirector project license.
+-   You also grant seDirector a license to use your GitHub username for the purpose of giving you credit for your contribution (optional if requested).
+-   Contributors _must_ remain active and participating with seDirector, on Discord and on GitHub. If no contributions have been made in over 3 months, even though the mods have requested translations or other assistance, your account may revert back to the free license.
+-   This is in order to ensure that the project remains active and contributors are participating. seDirector reserves the right to revoke contributor licenses at any time for any reason. If you have any questions, please ask on Discord.
