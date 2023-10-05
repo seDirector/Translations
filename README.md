@@ -42,7 +42,10 @@ If you can read/write in any of these languages OR if you have another language 
     3. Click **Send Pull Request**, give it a title, and click **Submit Pull Request**.
 4.  Once a translation file has enough of the main translations done, it will be merged into seDirector.
 5.  Updates to language files on the repo will continue to be updated in seDirector in future versions.
-6.  Once merged into seDirector, your username will be mentioned in seDirector as a contributor AND you'll receive a free contributor license.
+6.  Once merged into seDirector:
+    1.  Your username will be mentioned in seDirector as a contributor.
+    2.  You'll receive a free contributor license.
+    3.  **Note**: you ***must*** remain an active translator in order to continue receiving access to the contributor license. If you have not made any contributions in over 2 months, your license will be revoked and downgraded to a free license, unless you have paid for a Pro license.
 7.  To request a beta version of seDirector so you know what it looks like with the translation, please do so in the translations channel on Discord.
 
 Some of the HTML strings can be daunting. You can use a tool like <a target="_blank" href="https://www.sceditor.com/">SCEditor</a> to visualize the HTML and make it easier to edit. Just click the "view source" button and paste the English HTML string into it, then click it again to see the HTML version. After editing, click the "view source" button again and copy the HTML back into GitLocalize. Please make sure the HTML tags still match what the English string shows. Thank you!
@@ -58,6 +61,6 @@ Some of the HTML strings can be daunting. You can use a tool like <a target="_bl
 
 # 5. Questions / Social
 
-Join the **#translations** channel on [Discord](https://sedirector.net/discord) by requesting access from one of the mods.
+Join the **#translations** channel on [Discord](https://sedirector.net/discord) by requesting access from one of the mods or emailing support [at] sedirector [dot] net.
 
 Let us know your username and you'll be added to the list above.
