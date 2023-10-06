@@ -37,8 +37,8 @@ Many of the strings can be translated automatically, but we do need help with th
 
 # Getting Started
 
-1. Join the **#translations** channel on Discord by messaging a mod or emailing support [at] sedirector [dot] net. This will enable you to chat with other translators, ask questions, and receive beta versions to test your translations.
-2. [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above. If you don't see your language above click **Add Language** on GitLocalize.
+1. Join the **#translations** channel on Discord by messaging a mod on our [Discord](https://sedirector.net/discord) server. This will enable you to chat with other translators, ask questions, and receive beta versions to test your translations. As we work on different features, there might be times when we're not set up to introduce *new* languages.
+2. [Visit the GitLocalize project](https://gitlocalize.com/repo/6994) or click any of the languages above.
 3. Type the translation on the right side of the page and click **Submit**.
 4. When you are ready to submit the translation for review:
     1. Click **Create Review Request** at the top.
