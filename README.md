@@ -12,10 +12,9 @@
 
 # Language Status
 
-**Current Update:** As of October 10, 2023, we are looking for help for the **Active Languages**. If you're interested in adding a *new* language, reach out to us on [Discord](https://sedirector.net/discord), and we'll place it in the **Pending Languages** queue. Right now, our primary focus is on feature enhancements and bug fixes. We'll revisit the pending languages down the line, make contact when we're set to proceed, and announce any updates.
+**Current Update:** As of October 10, 2023, we are looking for help for the **Active Languages**. If you're interested in adding a _new_ language, reach out to us on [Discord](https://sedirector.net/discord), and we'll place it in the **Pending Languages** queue. Right now, our primary focus is on feature enhancements and bug fixes. We'll revisit the pending languages down the line, make contact when we're set to proceed, and announce any updates.
 
 If you can read/write in any of these languages OR if you have another language you'd like to contribute, we'd love your help translating seDirector.
-
 
 <!-- **Note**: the GitLocalize page *may* show **Translated 100%** but that is because of the **automatic machine translation**. The table below reflects the current status of language translation. -->
 
@@ -41,8 +40,9 @@ Many of the strings can be translated automatically, but we do need help with th
 The languages are on a waitlist to be considered for translation.
 
 | Language | Locale | Contributors |
-|Turkish|Turkey|Metafaz|
-|Swedish|Sweden|幸運心|
+| -------- | ------ | ------------ |
+| Turkish  | Turkey | Metafaz      |
+| Swedish  | Sweden | 幸運心       |
 
 # Getting Started
 
