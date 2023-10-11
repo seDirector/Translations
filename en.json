@@ -543,6 +543,7 @@
         "SteamUsernamePasswordChanged": "The Steam username or password has changed. Please enter the Steam Guard code (sent to your e-mail) on the following window if asked. Do Not close out of the next window, let it close automatically. If you mess up, just press backspace to correct.{LB}{LB}If you need the code to be sent again, press Ctrl-C one time and let it close automatically, set your username to something else, Save, then change it back to the correct value, Save.",
         "CannotUseRootDirectoryOfDrive": "You cannot use the root directory of a drive.",
         "PleaseSelectSrcdsInGameDirectory": "Please select srcds.exe/cs2.exe/dota2.exe in the game's directory.",
+        "SteamClientRequiredForGame": "Steam client is missing on your system. This game needs the Steam client to successfully launch its server. Starting the server without Steam will result in a failure. If you've installed Steam in a custom directory, you can disregard this message.{LB}{LB}To download the Steam client, visit SteamPowered.com.",
         "ErrorStartingServer": "Error starting server",
         "MaxStartAttemptsReached": "Cannot start after {0} attempts. User required.",
         "MaxCrashesOccurred": "Server crashed {0} times in a row. User required.",
