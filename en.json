@@ -684,7 +684,6 @@
         "GameRequiresLoginToUpdate": "This game requires a login to update it. Please set the Steam login in Tools->Options or updating will fail.",
         "InstallMetamodSourcemodBeforePlugin": "You must install Metamod + SourceMod before installing the seDirector plugin.",
         "MMSSMayNotBeCompatibleTF2C": "Metamod and SourceMod may not be compatible with TF2 Classic and could cause it to crash upon starting.",
-        "MMSSNotCompatibleYetCS2": "Metamod and SourceMod are not yet compatible with Counter-Strike 2.",
         "ProcessPriority": {
           "Realtime": "Realtime",
           "High": "High",
