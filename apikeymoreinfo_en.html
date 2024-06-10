@@ -1,0 +1,67 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 13px
+    }
+</style>
+<h2>API Info</h2>
+<p>
+    If you have a <b>Pro</b> account, you can utilize the seDirector API.<br><br><b>Note</b><br>You MUST append the api key to each request: ?apikey=APIKEY_GOES_HERE<br><br>
+    <table>
+        <thead>
+            <tr style="background-color:#d3d3d3">
+                <th>Description</th>
+                <th>URI</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>List servers info</td>
+                <td>http://localhost:10447/api/servers</td>
+            </tr>
+            <tr>
+                <td>Start server</td>
+                <td>http://localhost:10447/api/servers/start/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Stop server</td>
+                <td>http://localhost:10447/api/servers/stop/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Restart server</td>
+                <td>http://localhost:10447/api/servers/restart/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Restart (with in-game notification)</td>
+                <td>http://localhost:10447/api/servers/restartnotify/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Update server</td>
+                <td>http://localhost:10447/api/servers/update/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Update (with in-game notification)</td>
+                <td>http://localhost:10447/api/servers/updatenotify/&lt;serverNumber&gt;</td>
+            </tr>
+            <tr>
+                <td>Start All Servers</td>
+                <td>http://localhost:10447/api/servers/start/all</td>
+            </tr>
+            <tr>
+                <td>Stop All Servers</td>
+                <td>http://localhost:10447/api/servers/stop/all</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Examples</h3>
+
+    <b>Start server 2</b><br>http://localhost:10447/api/servers/start/2?apikey=abc123<br><br>
+    <b>Update server 4</b><br>http://localhost:10447/api/servers/update/4?apikey=abc123<br><br>
+    <h3>Remote Access</h3>
+    You can replace "localhost" with "127.0.0.1" or when accessing remotely, your public IP address.<br><br>
+
+    If you want to access your API remotely over the Internet, to avoid hacking/DDoS attempts, we recommend allowing only specific IP addresses to access port 10447.
+    You can adjust this with Windows Firewall when creating a firewall rule under "Scope" and "Remote IP address".

@@ -1,0 +1,71 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 13px;
+    }
+
+    .code-style {
+        font-family: monospace;
+        background-color: #f6f8fa;
+        color: #24292e;
+        padding: 2px 4px;
+        border-radius: 3px;
+        font-size: 13px;
+        border: 1px solid #d1d5da;
+    }
+</style>
+<h3>Most Games: Metamod:Source, Metamod:Source 2, SourceMod, CounterStrikeSharp</h3>
+
+<p>
+    seDirector supports installing, upgrading, downgrading, reinstalling, and removing addons. seDirector is smart when changing the addons;
+    it will only install the files necessary to change the versions - it will not remove your config files or plugins.
+</p>
+
+<p>
+    If an addon is upgraded, downgraded, or reinstalled, a backup will be made prior to taking any action.
+    Look under the <code class="code-style">addons\\[Backups]</code> directory for the backups created by seDirector.
+</p>
+
+<p>
+    <b>MAKE SURE to test your server</b> after making addon changes.<br>
+    To verify <b>Metamod</b> is working, type 'meta version' in console.<br>
+    To verify <b>SourceMod</b> is working, type 'sm version' in console.<br>
+    To verify <b>CounterStrikeSharp</b> is working, type 'meta list' in console and look for 'CounterStrikeSharp'.<br>
+</p>
+<p>
+    If you receive an error message after an update has been installed/changed, make sure you're using the latest version.
+    Older versions may not work properly and cause your server to crash or plugins to malfunction.
+</p>
+
+<p>
+    <b>SourceMod</b> depends on <b>Metamod:Source</b> to work. Make sure to use a version of <b>SourceMod</b> compatible with your version of <b>Metamod:Source</b>.
+    After installing <b>Metamod:Source</b>, the metamod.vdf file is automatically generated specific to your game server.
+</p>
+
+<p>
+    <b>CounterStrikeSharp</b> depends on <b>Metamod:Source 2</b> to work. Make sure to use a version of <b>CounterStrikeSharp</b> compatible with your version of <b>Metamod:Source 2</b>.
+    After installing or removing <b>Metamod:Source 2</b> or <b>CounterStrikeSharp</b>, the gameinfo.gi file is automatically adjusted.
+</p>
+
+<h3>Garry's Mod: ULib, ULX, Wiremod</h3>
+
+<p>
+    seDirector supports installing and removing ULib, ULX, and Wiremod. Upgrading/downgrading is not supported.
+    Most of the update-related features are handled by the scripts themselves, so there probably won't be much of a need to upgrade or downgrade anyway.
+</p>
+
+<p>
+    <b>MAKE SURE to test your server</b> after making addon changes.
+</p>
+
+<p>
+    If you already have ULib, ULX, or Wiremod installed and you want seDirector to detect it,
+    rename <code class="code-style">\\addons\\ULib-oldname</code> to <code class="code-style">\\addons\\ULib</code>, rename <code class="code-style">\\addons\\ULX-oldname</code> to
+    <code class="code-style">\\addons\\ULX</code>, rename <code class="code-style">\\addons\\Wiremod-oldname</code> to <code class="code-style">\\addons\\Wiremod</code>.
+</p>
+
+<p>
+    <b>ULX</b> depends on <b>ULib</b> to work. Make sure to use a version of <b>ULX</b> compatible with your version of <b>ULib</b>.
+</p>
